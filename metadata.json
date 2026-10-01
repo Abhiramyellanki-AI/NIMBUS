@@ -1,0 +1,6 @@
+{
+  "name": "Campus Energy Triage System",
+  "description": "Context-aware campus energy anomaly triage and facilities MLOps platform distinguishing actionable waste, authorized operational loads, and telemetry faults.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
