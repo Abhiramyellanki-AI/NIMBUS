@@ -35,7 +35,7 @@ export default function Navbar() {
     { href: '/anomalies', label: 'Anomaly Queue' },
     { href: '/buildings/Building_A_Lecture', label: 'Facilities' },
     { href: '/feedback', label: 'Feedback Ledger' },
-
+    { href: '/mlops', label: 'MLOps Pipeline' },
     { href: '/settings', label: 'Settings' },
   ];
 

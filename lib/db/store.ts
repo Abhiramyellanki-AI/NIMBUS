@@ -57,6 +57,8 @@ export function getDatabase(): DatabaseState {
       recall: 1.0,
       f1: 1.0,
       confusion_matrix: { true_positive: 0, false_positive: 0, true_negative: 0, false_negative: 0 },
+      feedback_count: 0,
+      feedback_agreement_rate: 1.0,
       drift_status: 'NOMINAL'
     }
   };
@@ -191,7 +193,7 @@ export function recordHumanDecision(
   };
 
   db.human_feedback.unshift(feedback);
-  db.model_health.feedback_count += 1;
+  db.model_health.feedback_count = (db.model_health.feedback_count || 0) + 1;
 
   // Recalculate human feedback agreement rate
   const total = db.human_feedback.length;
