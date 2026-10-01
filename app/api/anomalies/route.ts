@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getDatabase } from '@/lib/db/store';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(req: NextRequest) {
   try {
     const db = getDatabase();
@@ -42,7 +44,7 @@ export async function GET(req: NextRequest) {
       list = list.filter(
         (item) =>
           item.id.toLowerCase().includes(searchParam) ||
-          item.building_name.toLowerCase().includes(searchParam) ||
+          (item.building_name || '').toLowerCase().includes(searchParam) ||
           item.triage?.reason?.toLowerCase().includes(searchParam)
       );
     }

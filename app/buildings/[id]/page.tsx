@@ -59,14 +59,16 @@ export default function BuildingDetailPage({
   const [data, setData] = useState<BuildingDetailResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [campusBuildings, setCampusBuildings] = useState<{id: string, name: string}[]>([]);
 
-  const campusBuildings = [
-    { id: 'Lecture_A', name: 'Lecture A' },
-    { id: 'Lecture_B', name: 'Lecture B' },
-    { id: 'Lab_A', name: 'Lab A' },
-    { id: 'Lab_B', name: 'Lab B' },
-    { id: 'Equipment_Block', name: 'Substation 4' },
-  ];
+  useEffect(() => {
+    fetch('/api/buildings')
+      .then(res => res.json())
+      .then(json => {
+        setCampusBuildings(json.buildings || []);
+      })
+      .catch(console.error);
+  }, []);
 
   useEffect(() => {
     fetch(`/api/buildings/${buildingId}`)

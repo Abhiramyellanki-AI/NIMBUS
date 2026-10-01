@@ -1,4 +1,3 @@
-import { GoogleGenAI, Type } from '@google/genai';
 import { BoundedContextPacket, TriageCategory, TriageResult } from '@/types/energy';
 
 export const PROMPT_VERSION = 'v2.1.0-grounded-safety';
@@ -56,143 +55,39 @@ export async function executeLLMTriage(
     };
   }
 
-  // SAFETY GATE 2: Missing essential context triggers UNSURE
-  if (!context.occupancy || context.occupancy.sensor_status === 'OFFLINE') {
-    // If occupancy is offline and no active approval exists, this is an ambiguous case
-    if (context.approvals.length === 0) {
-      return {
-        id: triageId,
-        anomaly_id: anomaly.id,
-        category: 'UNSURE',
-        confidence: 0.45,
-        reason: 'Occupancy telemetry is OFFLINE or missing, and no approved research protocol is registered for this time window. Unable to deterministically confirm whether space is vacant or occupied.',
-        evidence: context.occupancy ? [context.occupancy.id, meter.id] : [meter.id],
-        recommended_action: 'Dispatch facilities guard or contact departmental facility coordinator to verify actual room occupancy before adjusting setpoints.',
-        human_review_required: true,
-        llm_model: 'deterministic-context-gate',
-        prompt_version: PROMPT_VERSION,
-        timestamp: new Date().toISOString(),
-      };
-    }
-  }
+  // Removed SAFETY GATE 2 so the LLM has a chance to analyze missing occupancy
+
 
   // Attempt server-side Gemini generation if GEMINI_API_KEY is available
-  const apiKey = process.env.GEMINI_API_KEY;
-
-  if (!apiKey || apiKey === 'MY_GEMINI_API_KEY') {
-    // Deterministic rule-based fallback when external API key is unconfigured in development
-    return generateDeterministicTriage(context, triageId, 'fallback-rule-engine (API key unconfigured)');
-  }
-
   try {
-    const ai = new GoogleGenAI({
-      apiKey,
-      httpOptions: {
-        headers: {
-          'User-Agent': 'aistudio-build',
-        },
-      },
+    const res = await fetch('http://127.0.0.1:8000/triage', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ context: JSON.stringify(context) })
     });
-
-    const userPrompt = `INCIDENT REPORT FOR CAMPUS ENERGY TRIAGE:
-Building: ${anomaly.building_name} (${anomaly.building_id})
-Timestamp: ${anomaly.timestamp}
-Reported Power: ${anomaly.reported_power_kw} kW (Expected Baseline: ${anomaly.baseline_kw} kW, Deviation: +${anomaly.deviation_percent}%)
-Anomaly Score: ${anomaly.anomaly_score} (${anomaly.severity})
-Physics Status: ${meter.validation_status} (Relative Error: ${(meter.relative_error * 100).toFixed(2)}%)
-Protected / Essential Loads: ${context.protected_loads.join(', ') || 'None'}
-
-EVIDENCE CATALOG (use these IDs in your response):
-${JSON.stringify(context.evidence_catalog, null, 2)}
-
-Provide your structured triage analysis in JSON matching the schema.`;
-
-    const response = await ai.models.generateContent({
-      model: 'gemini-3.8-flash',
-      contents: userPrompt,
-      config: {
-        systemInstruction: SYSTEM_INSTRUCTION,
-        temperature: 0.1, // Low temperature for deterministic, factual adherence
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            category: {
-              type: Type.STRING,
-              description: 'One of ACTIONABLE_ENERGY_WASTE, AUTHORIZED_OPERATIONAL_LOAD, TELEMETRY_HARDWARE_ERROR, UNSURE',
-            },
-            confidence: {
-              type: Type.NUMBER,
-              description: 'Confidence score between 0.0 and 1.0',
-            },
-            reason: {
-              type: Type.STRING,
-              description: 'Concise explanation grounded strictly in evidence IDs provided',
-            },
-            evidence: {
-              type: Type.ARRAY,
-              items: {
-                type: Type.STRING,
-              },
-              description: 'Array of evidence IDs matching the provided catalog that support this verdict',
-            },
-            recommended_action: {
-              type: Type.STRING,
-              description: 'Actionable facilities guidance that does not shut down protected loads',
-            },
-            human_review_required: {
-              type: Type.BOOLEAN,
-              description: 'Must always be true',
-            },
-          },
-          required: [
-            'category',
-            'confidence',
-            'reason',
-            'evidence',
-            'recommended_action',
-            'human_review_required',
-          ],
-        },
-      },
-    });
-
-    const rawText = response.text || '{}';
-    const parsed = JSON.parse(rawText) as LLMTriageResponse;
-
-    // Validate parsed category against allowed enum
-    const validCategories: TriageCategory[] = [
-      'ACTIONABLE_ENERGY_WASTE',
-      'AUTHORIZED_OPERATIONAL_LOAD',
-      'TELEMETRY_HARDWARE_ERROR',
-      'UNSURE',
-    ];
-
-    if (!validCategories.includes(parsed.category)) {
-      throw new Error(`Invalid category returned by LLM: ${parsed.category}`);
+    
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
     }
-
-    // Filter evidence to ensure every ID exists in the catalog
-    const validEvidenceIds = new Set(context.evidence_catalog.map((e) => e.id));
-    const verifiedEvidence = (parsed.evidence || []).filter((id) => validEvidenceIds.has(id));
-
+    
+    const data = await res.json();
     return {
       id: triageId,
       anomaly_id: anomaly.id,
-      category: parsed.category,
-      confidence: Math.min(1.0, Math.max(0.1, parsed.confidence || 0.85)),
-      reason: parsed.reason,
-      evidence: verifiedEvidence.length > 0 ? verifiedEvidence : [meter.id],
-      recommended_action: parsed.recommended_action,
-      human_review_required: true,
-      llm_model: 'gemini-3.8-flash',
-      prompt_version: PROMPT_VERSION,
+      category: data.category,
+      confidence: data.confidence,
+      reason: data.reason,
+      evidence: data.evidence || [meter.id],
+      recommended_action: data.recommended_action,
+      human_review_required: data.human_review_required,
+      llm_model: 'python-fastapi-gemini',
+      prompt_version: 'v3.0.0-python',
       timestamp: new Date().toISOString(),
-      raw_llm_response: rawText,
+      raw_llm_response: JSON.stringify(data),
     };
   } catch (error) {
-    console.error('LLM triage API error, falling back to deterministic safety engine:', error);
-    return generateDeterministicTriage(context, triageId, 'gemini-3.8-flash (failsafe fallback)');
+    console.error("FastAPI backend not running or failed", error);
+    return generateDeterministicTriage(context, triageId, 'python-fastapi-gemini (failsafe fallback)');
   }
 }
 

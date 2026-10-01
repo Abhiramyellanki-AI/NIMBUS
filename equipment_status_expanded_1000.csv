@@ -1,0 +1,1001 @@
+approval_id,building_id,room_number,equipment_type,start_time,end_time,approved_by,department,status,est_power_draw_kw,purpose
+APP-2026-089,Building_B_Lab,Lab-204,Cryogenic Thermal Centrifuge & Mass Spec,2026-06-08 18:00:00,2026-06-14 08:00:00,Dr. Aris Thorne (Lab Supervisor),Department of Chemical Engineering,APPROVED,12.5 - 18.0 kW,Continuous 7-day thermal stability testing on nanomaterials
+APP-2026-012,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-06-01 00:00:00,2026-06-30 23:59:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW continuous,Essential server cooling backup infrastructure
+OPS-2026-40471,Building_E_Lecture,Hall-302,Lecture Hall HVAC Controller,2026-09-28 13:00:00,2026-09-28 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-17166,Building_E_Lecture,Hall-301,Lighting Control System,2026-11-08 00:00:00,2026-11-09 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-25517,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-12-19 18:00:00,2026-12-20 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,9.0 kW,Scheduled building cooling
+OPS-2026-98084,Building_C_Admin,Server-B02,Network Room HVAC,2026-11-28 13:00:00,2026-11-28 19:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Building climate control
+OPS-2026-26092,Building_A_Lecture,Hall-104,HVAC Chiller Unit,2026-11-18 17:00:00,2026-11-19 07:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-44131,Building_D_Lab,Lab-304,3D Printer,2026-09-19 17:00:00,2026-09-20 05:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,2.0 kW,Prototype fabrication
+OPS-2026-70744,Building_D_Lab,Lab-303,Robotics Workcell,2026-11-16 10:00:00,2026-11-16 12:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,8.5 kW,Approved robotics experiment
+OPS-2026-72436,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-09-15 07:00:00,2026-09-15 09:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,14.0 kW,Building climate control
+OPS-2026-48586,Building_C_Admin,Server-B02,Network Room HVAC,2026-11-11 18:00:00,2026-11-12 04:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,8.0 kW,Building climate control
+OPS-2026-84294,Building_C_Lecture,Hall-204,Lighting Control System,2026-06-11 00:00:00,2026-06-18 00:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-61799,Building_E_Lecture,Hall-305,Air Handling Unit,2026-11-19 00:00:00,2026-11-22 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Scheduled building cooling
+OPS-2026-58798,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-07-09 18:00:00,2026-07-10 04:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled building cooling
+OPS-2026-70680,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-10-23 00:00:00,2026-10-30 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-14523,Building_E_Lecture,Hall-303,Air Handling Unit,2026-06-06 22:00:00,2026-06-07 06:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-34657,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-06-04 00:00:00,2026-06-05 00:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Critical infrastructure cooling
+OPS-2026-70097,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-06-10 00:00:00,2026-06-12 00:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Building climate control
+OPS-2026-26104,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-08-16 20:00:00,2026-08-17 10:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-34492,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-11-25 19:00:00,2026-11-26 07:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Building climate control
+OPS-2026-13670,Building_B_Lab,Lab-204,Mass Spectrometer,2026-07-24 13:00:00,2026-07-24 19:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,5.5 kW,Scientific measurement
+OPS-2026-40662,Building_C_Lecture,Hall-204,Building Management Controller,2026-08-27 07:00:00,2026-08-27 11:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building management
+OPS-2026-85186,Building_D_Lab,Lab-301,Machine Learning Server,2026-08-16 00:00:00,2026-08-18 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,11.0 kW,Essential computing infrastructure
+OPS-2026-92878,Building_D_Lab,Lab-304,Robotics Workcell,2026-08-17 19:00:00,2026-08-18 07:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,2.0 kW,Approved robotics experiment
+OPS-2026-10302,Building_D_Lab,Lab-303,Environmental Chamber,2026-08-06 08:00:00,2026-08-06 12:00:00,Pending Facility Review,Computer Science,PENDING_REVIEW,6.0 kW,Materials/environmental testing
+OPS-2026-95407,Building_E_Lecture,Hall-302,Lighting Control System,2026-11-30 13:00:00,2026-11-30 19:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,3.0 kW,Scheduled area illumination
+OPS-2026-62207,Building_C_Lecture,Hall-203,Lighting Control System,2026-10-12 06:00:00,2026-10-12 08:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Scheduled area illumination
+OPS-2026-70990,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-08-24 10:00:00,2026-08-24 14:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,18.0 kW,Research sample preservation
+OPS-2026-47655,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-08-05 06:00:00,2026-08-05 14:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-12891,Building_D_Lab,Lab-303,Lab HVAC,2026-06-28 20:00:00,2026-06-29 10:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,2.0 kW,Building climate control
+OPS-2026-71010,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-12-12 19:00:00,2026-12-13 09:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Critical infrastructure cooling
+OPS-2026-31613,Building_D_Lab,Lab-303,Lab HVAC,2026-11-05 09:00:00,2026-11-05 15:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,8.5 kW,Building climate control
+OPS-2026-64362,Building_A_Lecture,Hall-101,Ventilation Fan,2026-09-21 17:00:00,2026-09-22 03:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-29691,Building_B_Lab,Lab-201,Mass Spectrometer,2026-06-04 22:00:00,2026-06-05 10:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,12.5 kW,Scientific measurement
+OPS-2026-15685,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-10-17 00:00:00,2026-10-19 00:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-16491,Building_D_Lab,Lab-304,Environmental Chamber,2026-07-01 06:00:00,2026-07-01 09:00:00,Facilities Scheduling System,Robotics,SCHEDULED,8.5 kW,Materials/environmental testing
+OPS-2026-63998,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-12-11 18:00:00,2026-12-12 08:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-63991,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-06-04 07:00:00,2026-06-04 09:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Laboratory safety exhaust
+OPS-2026-32319,Building_A_Lecture,Hall-102,Lecture Hall HVAC Controller,2026-06-02 08:00:00,2026-06-02 16:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,7.5 kW,Building climate control
+OPS-2026-41436,Building_D_Lab,Lab-302,Lab HVAC,2026-09-21 00:00:00,2026-09-22 00:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,11.0 kW,Building climate control
+OPS-2026-73263,Building_E_Lecture,Hall-301,Lighting Control System,2026-11-18 00:00:00,2026-11-21 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-19984,Building_A_Lecture,Hall-105,Lecture Hall HVAC Controller,2026-06-12 09:00:00,2026-06-12 11:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-93663,Building_C_Lecture,Hall-202,HVAC AHU,2026-09-02 21:00:00,2026-09-03 11:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building climate control
+OPS-2026-84858,Building_C_Lecture,Hall-202,Building Management Controller,2026-12-12 00:00:00,2026-12-14 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Building management
+OPS-2026-65849,Building_A_Lecture,Hall-102,Ventilation Fan,2026-12-14 13:00:00,2026-12-14 17:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-75309,Building_A_Lecture,Hall-100,Lecture Hall HVAC Controller,2026-12-13 18:00:00,2026-12-14 02:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Building climate control
+OPS-2026-17417,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-11-21 00:00:00,2026-11-28 00:00:00,Pending Facility Review,Campus IT,PENDING_REVIEW,10.0 kW,Scheduled campus equipment operation
+OPS-2026-89169,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-08-23 07:00:00,2026-08-23 13:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-15632,Building_C_Admin,Server-B02,Network Room HVAC,2026-10-04 00:00:00,2026-10-07 00:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Building climate control
+OPS-2026-95067,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-11-27 17:00:00,2026-11-28 05:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-53508,Building_B_Lab,Lab-203,Mass Spectrometer,2026-08-15 09:00:00,2026-08-15 13:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,1.5 kW,Scientific measurement
+OPS-2026-47173,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-06-08 09:00:00,2026-06-08 11:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,8.0 kW,Scheduled campus equipment operation
+OPS-2026-71413,Building_C_Admin,Server-B02,Network Room HVAC,2026-11-18 13:00:00,2026-11-18 17:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-35780,Building_B_Lab,Lab-203,Fume Hood Exhaust Fan,2026-12-25 06:00:00,2026-12-25 08:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,3.5 kW,Laboratory safety exhaust
+OPS-2026-41765,Building_B_Lab,Lab-203,Thermal Chamber,2026-09-11 07:00:00,2026-09-11 15:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,12.5 kW,Controlled laboratory experiment
+OPS-2026-67881,Building_B_Lab,Lab-204,Centrifuge,2026-07-23 00:00:00,2026-07-26 00:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,18.0 kW,Laboratory experiment
+OPS-2026-92532,Building_D_Lab,Lab-301,3D Printer,2026-10-01 06:00:00,2026-10-01 12:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,4.5 kW,Prototype fabrication
+OPS-2026-62544,Building_D_Lab,Lab-301,Robotics Workcell,2026-11-25 00:00:00,2026-12-02 00:00:00,Robotics Lab Supervisor,Robotics,APPROVED,8.5 kW,Approved robotics experiment
+OPS-2026-72468,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-10-31 18:00:00,2026-11-01 08:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-40269,Building_A_Lecture,Hall-101,Ventilation Fan,2026-08-29 00:00:00,2026-09-05 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-77786,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-05-29 22:00:00,2026-05-30 08:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,12.5 kW,Laboratory safety exhaust
+OPS-2026-23158,Building_C_Lecture,Hall-203,Ventilation Fan,2026-11-15 09:00:00,2026-11-15 13:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Air exchange and laboratory safety
+OPS-2026-58054,Building_E_Lecture,Hall-301,Lighting Control System,2026-12-10 09:00:00,2026-12-10 13:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,7.5 kW,Scheduled area illumination
+OPS-2026-82555,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-07-10 07:00:00,2026-07-10 11:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Building climate control
+OPS-2026-97847,Building_D_Lab,Lab-303,Environmental Chamber,2026-07-31 08:00:00,2026-07-31 16:00:00,Maintenance Coordinator,Computer Science,MAINTENANCE,2.0 kW,Materials/environmental testing
+OPS-2026-45011,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-10-12 21:00:00,2026-10-13 07:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,5.5 kW,Laboratory safety exhaust
+OPS-2026-10617,Building_B_Lab,Lab-205,Mass Spectrometer,2026-09-29 00:00:00,2026-09-30 00:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Scientific measurement
+OPS-2026-23820,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-09-03 10:00:00,2026-09-03 12:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Critical infrastructure cooling
+OPS-2026-90382,Building_A_Lecture,Hall-103,Ventilation Fan,2026-05-31 00:00:00,2026-06-02 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-67180,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-12-06 13:00:00,2026-12-06 15:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-95473,Building_D_Lab,Lab-304,Environmental Chamber,2026-07-28 08:00:00,2026-07-28 16:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Materials/environmental testing
+OPS-2026-67050,Building_C_Lecture,Hall-202,HVAC AHU,2026-11-02 00:00:00,2026-11-03 00:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,5.0 kW,Building climate control
+OPS-2026-57997,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-07-09 19:00:00,2026-07-10 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-63752,Building_A_Lecture,Hall-102,Lighting Control System,2026-10-05 00:00:00,2026-10-07 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-22574,Building_B_Lab,Lab-204,Mass Spectrometer,2026-06-01 17:00:00,2026-06-02 05:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Scientific measurement
+OPS-2026-94049,Building_C_Lecture,Hall-203,Ventilation Fan,2026-12-03 21:00:00,2026-12-04 05:00:00,Facilities Scheduling System,Facilities,SCHEDULED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-51999,Building_E_Lecture,Hall-303,Lighting Control System,2026-10-23 00:00:00,2026-10-26 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-59283,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-09-25 13:00:00,2026-09-25 17:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-34645,Building_A_Lecture,Hall-104,Ventilation Fan,2026-06-20 10:00:00,2026-06-20 16:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,7.5 kW,Air exchange and laboratory safety
+OPS-2026-71110,Building_E_Lecture,Hall-304,HVAC Chiller Unit,2026-08-13 00:00:00,2026-08-15 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-19934,Building_E_Lecture,Hall-305,Lighting Control System,2026-08-15 10:00:00,2026-08-15 12:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-43187,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-12-23 07:00:00,2026-12-23 11:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-57982,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-11-11 00:00:00,2026-11-14 00:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,8.0 kW,Critical infrastructure cooling
+OPS-2026-62751,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-07-01 10:00:00,2026-07-01 12:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,3.0 kW,Building climate control
+OPS-2026-56008,Building_E_Lecture,Hall-302,Lighting Control System,2026-11-24 13:00:00,2026-11-24 17:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,5.0 kW,Scheduled area illumination
+OPS-2026-40089,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-08-26 10:00:00,2026-08-26 18:00:00,Pending Facility Review,Electrical Engineering,PENDING_REVIEW,9.0 kW,Scheduled building cooling
+OPS-2026-25849,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-10-01 22:00:00,2026-10-02 06:00:00,Pending Facility Review,Campus IT,PENDING_REVIEW,12.0 kW,Building climate control
+OPS-2026-91051,Building_C_Admin,Server-B01,Network Room HVAC,2026-08-26 00:00:00,2026-08-28 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,10.0 kW,Building climate control
+OPS-2026-31140,Building_D_Lab,Lab-302,Environmental Chamber,2026-07-07 22:00:00,2026-07-08 10:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Materials/environmental testing
+OPS-2026-44200,Building_B_Lab,Lab-205,Centrifuge,2026-06-06 10:00:00,2026-06-06 16:00:00,Facilities Operations Manager,Facilities,APPROVED,5.5 kW,Laboratory experiment
+OPS-2026-85566,Building_B_Lab,Lab-201,Thermal Chamber,2026-06-15 00:00:00,2026-06-16 00:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,5.5 kW,Controlled laboratory experiment
+OPS-2026-56150,Building_B_Lab,Lab-205,Laboratory HVAC,2026-07-16 10:00:00,2026-07-16 12:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Building climate control
+OPS-2026-36686,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-11-25 00:00:00,2026-11-26 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-41574,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-12-04 00:00:00,2026-12-06 00:00:00,Pending Facility Review,Campus IT,PENDING_REVIEW,10.0 kW,Critical infrastructure cooling
+OPS-2026-83041,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-11-29 13:00:00,2026-11-29 19:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-37153,Building_A_Lecture,Hall-104,HVAC Chiller Unit,2026-06-29 20:00:00,2026-06-30 08:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-14572,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-06-21 08:00:00,2026-06-21 16:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,18.0 kW,Laboratory safety exhaust
+OPS-2026-70336,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-12-14 00:00:00,2026-12-16 00:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-65352,Building_B_Lab,Lab-205,Laboratory HVAC,2026-09-30 00:00:00,2026-10-02 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.5 kW,Building climate control
+OPS-2026-58608,Building_E_Lecture,Hall-304,HVAC Chiller Unit,2026-11-22 07:00:00,2026-11-22 10:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-74738,Building_C_Lecture,Hall-204,HVAC AHU,2026-11-18 00:00:00,2026-11-20 00:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,9.0 kW,Building climate control
+OPS-2026-87229,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-07-31 09:00:00,2026-07-31 13:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-12223,Building_D_Lab,Lab-301,Machine Learning Server,2026-11-30 08:00:00,2026-11-30 11:00:00,Pending Facility Review,Materials Engineering,PENDING_REVIEW,4.5 kW,Essential computing infrastructure
+OPS-2026-85732,Building_B_Lab,Lab-201,Centrifuge,2026-09-23 06:00:00,2026-09-23 09:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,8.0 kW,Laboratory experiment
+OPS-2026-49764,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-09-18 06:00:00,2026-09-18 08:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-85718,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-05-31 19:00:00,2026-06-01 07:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,5.0 kW,Building climate control
+OPS-2026-90055,Building_C_Lecture,Hall-202,HVAC AHU,2026-11-09 13:00:00,2026-11-09 19:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building climate control
+OPS-2026-82536,Building_D_Lab,Lab-303,Lab HVAC,2026-07-26 06:00:00,2026-07-26 10:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,2.0 kW,Building climate control
+OPS-2026-94171,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-10-01 00:00:00,2026-10-08 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,8.0 kW,Critical infrastructure cooling
+OPS-2026-51352,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-06-29 20:00:00,2026-06-30 10:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-71795,Building_B_Lab,Lab-205,Centrifuge,2026-07-08 10:00:00,2026-07-08 16:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,5.5 kW,Laboratory experiment
+OPS-2026-47989,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-10-22 17:00:00,2026-10-23 05:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Scheduled building cooling
+OPS-2026-70851,Building_D_Lab,Lab-301,Environmental Chamber,2026-12-13 06:00:00,2026-12-13 10:00:00,Robotics Lab Supervisor,Robotics,APPROVED,2.0 kW,Materials/environmental testing
+OPS-2026-45740,Building_C_Lecture,Hall-204,HVAC AHU,2026-11-03 10:00:00,2026-11-03 14:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,7.0 kW,Building climate control
+OPS-2026-33090,Building_B_Lab,Lab-203,Thermal Chamber,2026-06-10 00:00:00,2026-06-13 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.5 kW,Controlled laboratory experiment
+OPS-2026-16725,Building_B_Lab,Lab-205,Cryogenic Freezer,2026-06-22 00:00:00,2026-06-23 00:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,8.0 kW,Research sample preservation
+OPS-2026-51353,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-05-28 08:00:00,2026-05-28 11:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-46337,Building_D_Lab,Lab-303,Environmental Chamber,2026-09-16 07:00:00,2026-09-16 09:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,2.0 kW,Materials/environmental testing
+OPS-2026-48778,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-09-03 10:00:00,2026-09-03 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-14237,Building_B_Lab,Lab-201,Thermal Chamber,2026-12-20 13:00:00,2026-12-20 15:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,18.0 kW,Controlled laboratory experiment
+OPS-2026-65123,Building_A_Lecture,Hall-100,Lighting Control System,2026-10-30 19:00:00,2026-10-31 09:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,4.0 kW,Scheduled area illumination
+OPS-2026-39123,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-06-30 10:00:00,2026-06-30 12:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-41293,Building_D_Lab,Lab-304,Lab HVAC,2026-07-14 00:00:00,2026-07-21 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,2.0 kW,Building climate control
+OPS-2026-16318,Building_B_Lab,Lab-204,Laboratory HVAC,2026-09-17 09:00:00,2026-09-17 11:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,1.5 kW,Building climate control
+OPS-2026-61519,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-05-30 20:00:00,2026-05-31 08:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,8.0 kW,Research sample preservation
+OPS-2026-62955,Building_B_Lab,Lab-204,Mass Spectrometer,2026-09-12 07:00:00,2026-09-12 13:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,1.5 kW,Scientific measurement
+OPS-2026-53120,Building_B_Lab,Lab-203,Fume Hood Exhaust Fan,2026-10-27 06:00:00,2026-10-27 14:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,8.0 kW,Laboratory safety exhaust
+OPS-2026-65385,Building_D_Lab,Lab-304,Robotics Workcell,2026-12-18 06:00:00,2026-12-18 12:00:00,Robotics Lab Supervisor,Robotics,APPROVED,11.0 kW,Approved robotics experiment
+OPS-2026-77066,Building_D_Lab,Lab-301,Machine Learning Server,2026-08-15 00:00:00,2026-08-16 00:00:00,Maintenance Coordinator,Computer Science,MAINTENANCE,8.5 kW,Essential computing infrastructure
+OPS-2026-90531,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-09-15 18:00:00,2026-09-16 06:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-32405,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-12-29 21:00:00,2026-12-30 11:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,1.5 kW,Laboratory safety exhaust
+OPS-2026-53843,Building_A_Lecture,Hall-101,Ventilation Fan,2026-06-18 00:00:00,2026-06-25 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-78177,Building_C_Lecture,Hall-203,Building Management Controller,2026-05-29 09:00:00,2026-05-29 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Building management
+OPS-2026-22236,Building_D_Lab,Lab-303,Lab HVAC,2026-08-14 20:00:00,2026-08-15 04:00:00,Robotics Lab Supervisor,Robotics,APPROVED,2.0 kW,Building climate control
+OPS-2026-50557,Building_D_Lab,Lab-303,Environmental Chamber,2026-09-20 10:00:00,2026-09-20 18:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,2.0 kW,Materials/environmental testing
+OPS-2026-11121,Building_B_Lab,Lab-203,Fume Hood Exhaust Fan,2026-12-05 10:00:00,2026-12-05 12:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Laboratory safety exhaust
+OPS-2026-95071,Building_E_Lecture,Hall-305,Lecture Hall HVAC Controller,2026-07-11 22:00:00,2026-07-12 10:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-46479,Building_E_Lecture,Hall-305,Lighting Control System,2026-10-28 17:00:00,2026-10-29 07:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-59012,Building_E_Lecture,Hall-303,Air Handling Unit,2026-11-02 13:00:00,2026-11-02 19:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-12590,Building_E_Lecture,Hall-302,Lighting Control System,2026-10-10 22:00:00,2026-10-11 12:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,10.0 kW,Scheduled area illumination
+OPS-2026-21227,Building_C_Lecture,Hall-203,Lighting Control System,2026-11-08 08:00:00,2026-11-08 11:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled area illumination
+OPS-2026-39265,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-09-21 00:00:00,2026-09-23 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-24696,Building_D_Lab,Lab-301,Environmental Chamber,2026-11-28 00:00:00,2026-11-29 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Materials/environmental testing
+OPS-2026-23251,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-11-29 07:00:00,2026-11-29 13:00:00,Pending Facility Review,Campus IT,PENDING_REVIEW,10.0 kW,Building climate control
+OPS-2026-28593,Building_A_Lecture,Hall-104,Lighting Control System,2026-10-02 18:00:00,2026-10-03 04:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,14.0 kW,Scheduled area illumination
+OPS-2026-51253,Building_D_Lab,Lab-302,Lab HVAC,2026-10-25 17:00:00,2026-10-26 07:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Building climate control
+OPS-2026-47091,Building_E_Lecture,Hall-305,Lighting Control System,2026-09-16 00:00:00,2026-09-17 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Scheduled area illumination
+OPS-2026-84233,Building_D_Lab,Lab-301,Machine Learning Server,2026-08-30 13:00:00,2026-08-30 19:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,11.0 kW,Essential computing infrastructure
+OPS-2026-75946,Building_D_Lab,Lab-303,Environmental Chamber,2026-10-24 09:00:00,2026-10-24 13:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,8.5 kW,Materials/environmental testing
+OPS-2026-49066,Building_C_Lecture,Hall-203,Building Management Controller,2026-11-15 08:00:00,2026-11-15 12:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Building management
+OPS-2026-20208,Building_C_Lecture,Hall-202,Ventilation Fan,2026-07-25 09:00:00,2026-07-25 15:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,5.0 kW,Air exchange and laboratory safety
+OPS-2026-84825,Building_B_Lab,Lab-203,Fume Hood Exhaust Fan,2026-12-20 06:00:00,2026-12-20 09:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Laboratory safety exhaust
+OPS-2026-56003,Building_E_Lecture,Hall-305,Air Handling Unit,2026-11-03 00:00:00,2026-11-04 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Scheduled building cooling
+OPS-2026-65114,Building_D_Lab,Lab-304,3D Printer,2026-09-20 18:00:00,2026-09-21 04:00:00,Facilities Scheduling System,Robotics,SCHEDULED,6.0 kW,Prototype fabrication
+OPS-2026-49743,Building_E_Lecture,Hall-302,Lecture Hall HVAC Controller,2026-11-20 17:00:00,2026-11-21 07:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-16608,Building_A_Lecture,Hall-104,Lighting Control System,2026-09-30 19:00:00,2026-10-01 07:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-15261,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-12-31 00:00:00,2027-01-01 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-36099,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-12-20 07:00:00,2026-12-20 13:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-60507,Building_D_Lab,Lab-303,3D Printer,2026-07-07 09:00:00,2026-07-07 13:00:00,Maintenance Coordinator,Materials Engineering,MAINTENANCE,8.5 kW,Prototype fabrication
+OPS-2026-31552,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-10-02 09:00:00,2026-10-02 13:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,10.0 kW,Building climate control
+OPS-2026-56251,Building_E_Lecture,Hall-305,Air Handling Unit,2026-09-06 13:00:00,2026-09-06 16:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-55074,Building_D_Lab,Lab-302,Machine Learning Server,2026-10-19 10:00:00,2026-10-19 12:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Essential computing infrastructure
+OPS-2026-61821,Building_E_Lecture,Hall-305,Air Handling Unit,2026-06-15 08:00:00,2026-06-15 10:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-30695,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-10-03 10:00:00,2026-10-03 14:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,9.0 kW,Scheduled building cooling
+OPS-2026-14519,Building_A_Lecture,Hall-100,Air Handling Unit,2026-12-13 22:00:00,2026-12-14 10:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Scheduled building cooling
+OPS-2026-35990,Building_D_Lab,Lab-303,Environmental Chamber,2026-08-21 13:00:00,2026-08-21 21:00:00,Robotics Lab Supervisor,Robotics,APPROVED,6.0 kW,Materials/environmental testing
+OPS-2026-68806,Building_E_Lecture,Hall-305,Lighting Control System,2026-12-19 20:00:00,2026-12-20 04:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-85239,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-10-08 21:00:00,2026-10-09 05:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-16936,Building_B_Lab,Lab-203,Fume Hood Exhaust Fan,2026-11-10 17:00:00,2026-11-11 01:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,12.5 kW,Laboratory safety exhaust
+OPS-2026-59078,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-08-03 13:00:00,2026-08-03 21:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Critical infrastructure cooling
+OPS-2026-54182,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-09-29 18:00:00,2026-09-30 02:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-36094,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-08-28 09:00:00,2026-08-28 17:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Critical infrastructure cooling
+OPS-2026-38677,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-07-05 17:00:00,2026-07-06 03:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Building climate control
+OPS-2026-23536,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-10-12 08:00:00,2026-10-12 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-42074,Building_C_Lecture,Hall-202,Ventilation Fan,2026-12-27 10:00:00,2026-12-27 16:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-99162,Building_A_Lecture,Hall-101,Lighting Control System,2026-08-28 21:00:00,2026-08-29 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-19863,Building_D_Lab,Lab-301,Lab HVAC,2026-09-01 10:00:00,2026-09-01 14:00:00,Pending Facility Review,Robotics,PENDING_REVIEW,8.5 kW,Building climate control
+OPS-2026-99119,Building_B_Lab,Lab-205,Fume Hood Exhaust Fan,2026-06-09 18:00:00,2026-06-10 04:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,3.5 kW,Laboratory safety exhaust
+OPS-2026-18874,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-11-05 20:00:00,2026-11-06 04:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-71914,Building_E_Lecture,Hall-305,Lighting Control System,2026-10-15 06:00:00,2026-10-15 14:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,10.0 kW,Scheduled area illumination
+OPS-2026-85523,Building_D_Lab,Lab-303,3D Printer,2026-07-17 13:00:00,2026-07-17 21:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,2.0 kW,Prototype fabrication
+OPS-2026-63460,Building_A_Lecture,Hall-103,Lecture Hall HVAC Controller,2026-08-04 08:00:00,2026-08-04 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Building climate control
+OPS-2026-66070,Building_C_Lecture,Hall-204,Building Management Controller,2026-06-23 10:00:00,2026-06-23 16:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building management
+OPS-2026-42358,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-06-25 00:00:00,2026-06-26 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Scheduled building cooling
+OPS-2026-45544,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-10-31 08:00:00,2026-10-31 14:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-21688,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-07-14 19:00:00,2026-07-15 03:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-68399,Building_B_Lab,Lab-204,Centrifuge,2026-06-05 07:00:00,2026-06-05 10:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,18.0 kW,Laboratory experiment
+OPS-2026-63343,Building_C_Lecture,Hall-204,Building Management Controller,2026-12-26 07:00:00,2026-12-26 11:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Building management
+OPS-2026-73889,Building_E_Lecture,Hall-303,Air Handling Unit,2026-06-07 06:00:00,2026-06-07 10:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Scheduled building cooling
+OPS-2026-10818,Building_B_Lab,Lab-205,Laboratory HVAC,2026-11-19 06:00:00,2026-11-19 08:00:00,Facilities Operations Manager,Facilities,APPROVED,5.5 kW,Building climate control
+OPS-2026-85096,Building_B_Lab,Lab-201,Thermal Chamber,2026-10-24 09:00:00,2026-10-24 17:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,1.5 kW,Controlled laboratory experiment
+OPS-2026-42418,Building_D_Lab,Lab-301,Robotics Workcell,2026-06-30 00:00:00,2026-07-01 00:00:00,Facilities Scheduling System,Robotics,SCHEDULED,4.5 kW,Approved robotics experiment
+OPS-2026-65741,Building_D_Lab,Lab-301,Environmental Chamber,2026-07-18 10:00:00,2026-07-18 16:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,11.0 kW,Materials/environmental testing
+OPS-2026-94132,Building_C_Lecture,Hall-202,Building Management Controller,2026-10-03 22:00:00,2026-10-04 06:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building management
+OPS-2026-21409,Building_A_Lecture,Hall-100,Ventilation Fan,2026-10-24 20:00:00,2026-10-25 04:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-25009,Building_D_Lab,Lab-304,Machine Learning Server,2026-07-28 06:00:00,2026-07-28 14:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,11.0 kW,Essential computing infrastructure
+OPS-2026-13376,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-12-16 13:00:00,2026-12-16 15:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-55081,Building_A_Lecture,Hall-103,Lecture Hall HVAC Controller,2026-12-20 00:00:00,2026-12-23 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-88036,Building_B_Lab,Lab-205,Mass Spectrometer,2026-08-15 13:00:00,2026-08-15 15:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Scientific measurement
+OPS-2026-33399,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-06-01 00:00:00,2026-06-03 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-99464,Building_E_Lecture,Hall-301,Lighting Control System,2026-07-31 09:00:00,2026-07-31 13:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,7.5 kW,Scheduled area illumination
+OPS-2026-70066,Building_B_Lab,Lab-205,Cryogenic Freezer,2026-10-30 00:00:00,2026-10-31 00:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,3.5 kW,Research sample preservation
+OPS-2026-79795,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-08-12 00:00:00,2026-08-15 00:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,18.0 kW,Laboratory safety exhaust
+OPS-2026-23110,Building_D_Lab,Lab-303,Robotics Workcell,2026-05-29 13:00:00,2026-05-29 16:00:00,Facilities Scheduling System,Robotics,SCHEDULED,2.0 kW,Approved robotics experiment
+OPS-2026-77671,Building_A_Lecture,Hall-102,HVAC Chiller Unit,2026-07-23 07:00:00,2026-07-23 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Building climate control
+OPS-2026-70463,Building_A_Lecture,Hall-100,Lighting Control System,2026-06-02 07:00:00,2026-06-02 09:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-50680,Building_B_Lab,Lab-203,Laboratory HVAC,2026-06-09 18:00:00,2026-06-10 06:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,8.0 kW,Building climate control
+OPS-2026-92232,Building_A_Lecture,Hall-101,Lighting Control System,2026-12-08 08:00:00,2026-12-08 11:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Scheduled area illumination
+OPS-2026-50369,Building_C_Lecture,Hall-204,Lighting Control System,2026-08-19 08:00:00,2026-08-19 11:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-68499,Building_D_Lab,Lab-303,Environmental Chamber,2026-05-26 17:00:00,2026-05-27 03:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Materials/environmental testing
+OPS-2026-25256,Building_B_Lab,Lab-204,Centrifuge,2026-12-04 00:00:00,2026-12-05 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.5 kW,Laboratory experiment
+OPS-2026-10884,Building_A_Lecture,Hall-100,Lighting Control System,2026-06-13 06:00:00,2026-06-13 14:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-63779,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-09-20 09:00:00,2026-09-20 12:00:00,Facilities Operations Manager,Facilities,APPROVED,1.5 kW,Research sample preservation
+OPS-2026-96408,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-08-30 00:00:00,2026-08-31 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-90952,Building_A_Lecture,Hall-101,Ventilation Fan,2026-07-16 07:00:00,2026-07-16 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-30777,Building_B_Lab,Lab-205,Fume Hood Exhaust Fan,2026-07-21 00:00:00,2026-07-23 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.5 kW,Laboratory safety exhaust
+OPS-2026-92720,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-09-07 00:00:00,2026-09-08 00:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,18.0 kW,Laboratory safety exhaust
+OPS-2026-59745,Building_C_Lecture,Hall-201,Building Management Controller,2026-11-07 08:00:00,2026-11-07 11:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Building management
+OPS-2026-19866,Building_B_Lab,Lab-201,Thermal Chamber,2026-09-13 06:00:00,2026-09-13 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,1.5 kW,Controlled laboratory experiment
+OPS-2026-10068,Building_A_Lecture,Hall-105,Ventilation Fan,2026-06-12 00:00:00,2026-06-15 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-83995,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-12-08 21:00:00,2026-12-09 09:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-71496,Building_D_Lab,Lab-301,Lab HVAC,2026-12-01 13:00:00,2026-12-01 15:00:00,Robotics Lab Supervisor,Robotics,APPROVED,11.0 kW,Building climate control
+OPS-2026-33268,Building_C_Admin,Server-B02,Network Room HVAC,2026-06-03 06:00:00,2026-06-03 08:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Building climate control
+OPS-2026-45337,Building_D_Lab,Lab-301,Lab HVAC,2026-07-28 18:00:00,2026-07-29 06:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,4.5 kW,Building climate control
+OPS-2026-23835,Building_C_Lecture,Hall-201,HVAC AHU,2026-07-17 00:00:00,2026-07-20 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building climate control
+OPS-2026-40492,Building_D_Lab,Lab-303,Environmental Chamber,2026-10-14 10:00:00,2026-10-14 14:00:00,Robotics Lab Supervisor,Robotics,APPROVED,6.0 kW,Materials/environmental testing
+OPS-2026-48503,Building_C_Lecture,Hall-204,HVAC AHU,2026-10-25 06:00:00,2026-10-25 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-40889,Building_E_Lecture,Hall-305,Air Handling Unit,2026-12-04 00:00:00,2026-12-05 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-58158,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-08-22 19:00:00,2026-08-23 07:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-83852,Building_E_Lecture,Hall-304,Lighting Control System,2026-08-05 13:00:00,2026-08-05 17:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-39285,Building_B_Lab,Lab-204,Cryogenic Freezer,2026-07-13 08:00:00,2026-07-13 16:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Research sample preservation
+OPS-2026-67151,Building_C_Lecture,Hall-202,HVAC AHU,2026-09-19 10:00:00,2026-09-19 13:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Building climate control
+OPS-2026-99306,Building_E_Lecture,Hall-301,Lighting Control System,2026-07-14 08:00:00,2026-07-14 10:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-33358,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-09-11 09:00:00,2026-09-11 11:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Critical infrastructure cooling
+OPS-2026-11979,Building_C_Lecture,Hall-202,Building Management Controller,2026-09-18 10:00:00,2026-09-18 14:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Building management
+OPS-2026-11087,Building_A_Lecture,Hall-100,Air Handling Unit,2026-07-04 10:00:00,2026-07-04 14:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,14.0 kW,Scheduled building cooling
+OPS-2026-47069,Building_E_Lecture,Hall-305,Air Handling Unit,2026-12-21 00:00:00,2026-12-24 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Scheduled building cooling
+OPS-2026-51915,Building_C_Admin,Server-B02,Network Room HVAC,2026-07-02 08:00:00,2026-07-02 14:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Building climate control
+OPS-2026-97698,Building_A_Lecture,Hall-103,Ventilation Fan,2026-12-07 07:00:00,2026-12-07 13:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-61878,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-06-08 17:00:00,2026-06-09 01:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,18.0 kW,Research sample preservation
+OPS-2026-32780,Building_D_Lab,Lab-302,Environmental Chamber,2026-11-07 08:00:00,2026-11-07 12:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,11.0 kW,Materials/environmental testing
+OPS-2026-23829,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-10-29 13:00:00,2026-10-29 21:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-95048,Building_A_Lecture,Hall-104,Lighting Control System,2026-08-13 20:00:00,2026-08-14 08:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,4.0 kW,Scheduled area illumination
+OPS-2026-36221,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-08-04 20:00:00,2026-08-05 06:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-23904,Building_C_Lecture,Hall-204,Lighting Control System,2026-08-09 09:00:00,2026-08-09 11:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Scheduled area illumination
+OPS-2026-98335,Building_A_Lecture,Hall-102,HVAC Chiller Unit,2026-08-07 08:00:00,2026-08-07 14:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-64731,Building_A_Lecture,Hall-103,Ventilation Fan,2026-12-11 00:00:00,2026-12-13 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Air exchange and laboratory safety
+OPS-2026-76657,Building_A_Lecture,Hall-105,Lighting Control System,2026-09-20 07:00:00,2026-09-20 15:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Scheduled area illumination
+OPS-2026-56409,Building_D_Lab,Lab-304,Environmental Chamber,2026-06-01 21:00:00,2026-06-02 11:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,11.0 kW,Materials/environmental testing
+OPS-2026-22031,Building_D_Lab,Lab-302,3D Printer,2026-11-25 19:00:00,2026-11-26 07:00:00,Robotics Lab Supervisor,Robotics,APPROVED,2.0 kW,Prototype fabrication
+OPS-2026-96274,Building_B_Lab,Lab-203,Thermal Chamber,2026-09-07 06:00:00,2026-09-07 08:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,8.0 kW,Controlled laboratory experiment
+OPS-2026-61779,Building_B_Lab,Lab-203,Fume Hood Exhaust Fan,2026-11-13 06:00:00,2026-11-13 08:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,5.5 kW,Laboratory safety exhaust
+OPS-2026-13273,Building_B_Lab,Lab-202,Centrifuge,2026-08-07 10:00:00,2026-08-07 13:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Laboratory experiment
+OPS-2026-71964,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-07-11 09:00:00,2026-07-11 13:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,12.5 kW,Research sample preservation
+OPS-2026-39923,Building_D_Lab,Lab-304,Machine Learning Server,2026-08-28 00:00:00,2026-08-30 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Essential computing infrastructure
+OPS-2026-19080,Building_D_Lab,Lab-302,Environmental Chamber,2026-10-06 07:00:00,2026-10-06 09:00:00,Pending Facility Review,Robotics,PENDING_REVIEW,11.0 kW,Materials/environmental testing
+OPS-2026-79828,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-09-11 20:00:00,2026-09-12 08:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,12.0 kW,Critical infrastructure cooling
+OPS-2026-48509,Building_C_Admin,Server-B02,Network Room HVAC,2026-08-26 00:00:00,2026-09-02 00:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Building climate control
+OPS-2026-59915,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-07-28 08:00:00,2026-07-28 11:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-86692,Building_C_Lecture,Hall-201,Ventilation Fan,2026-10-10 21:00:00,2026-10-11 11:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,5.0 kW,Air exchange and laboratory safety
+OPS-2026-26298,Building_A_Lecture,Hall-100,Ventilation Fan,2026-10-10 00:00:00,2026-10-11 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-77821,Building_B_Lab,Lab-203,Mass Spectrometer,2026-07-09 00:00:00,2026-07-12 00:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,1.5 kW,Scientific measurement
+OPS-2026-69227,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-09-11 17:00:00,2026-09-12 05:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-70277,Building_A_Lecture,Hall-100,Air Handling Unit,2026-10-12 17:00:00,2026-10-13 01:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled building cooling
+OPS-2026-71560,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-12-02 06:00:00,2026-12-02 09:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-42180,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-09-04 17:00:00,2026-09-05 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-78005,Building_B_Lab,Lab-203,Thermal Chamber,2026-07-11 07:00:00,2026-07-11 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.5 kW,Controlled laboratory experiment
+OPS-2026-48403,Building_D_Lab,Lab-303,Machine Learning Server,2026-08-18 20:00:00,2026-08-19 06:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,11.0 kW,Essential computing infrastructure
+OPS-2026-28537,Building_A_Lecture,Hall-103,Ventilation Fan,2026-10-12 07:00:00,2026-10-12 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Air exchange and laboratory safety
+OPS-2026-29766,Building_C_Lecture,Hall-202,Building Management Controller,2026-12-11 08:00:00,2026-12-11 10:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Building management
+OPS-2026-33289,Building_D_Lab,Lab-302,3D Printer,2026-08-19 00:00:00,2026-08-26 00:00:00,Facilities Scheduling System,Robotics,SCHEDULED,2.0 kW,Prototype fabrication
+OPS-2026-75284,Building_A_Lecture,Hall-102,Air Handling Unit,2026-05-26 00:00:00,2026-06-02 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.5 kW,Scheduled building cooling
+OPS-2026-19463,Building_B_Lab,Lab-203,Thermal Chamber,2026-08-09 09:00:00,2026-08-09 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,1.5 kW,Controlled laboratory experiment
+OPS-2026-26546,Building_C_Lecture,Hall-201,Ventilation Fan,2026-07-13 20:00:00,2026-07-14 06:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-80918,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-07-20 13:00:00,2026-07-20 15:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,5.5 kW,Laboratory safety exhaust
+OPS-2026-82782,Building_E_Lecture,Hall-303,Lighting Control System,2026-11-12 00:00:00,2026-11-14 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-27874,Building_E_Lecture,Hall-301,Air Handling Unit,2026-05-26 00:00:00,2026-05-27 00:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-53528,Building_D_Lab,Lab-301,Lab HVAC,2026-10-25 06:00:00,2026-10-25 12:00:00,Pending Facility Review,Computer Science,PENDING_REVIEW,8.5 kW,Building climate control
+OPS-2026-39423,Building_E_Lecture,Hall-301,Lighting Control System,2026-09-20 20:00:00,2026-09-21 10:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Scheduled area illumination
+OPS-2026-78141,Building_B_Lab,Lab-204,Cryogenic Freezer,2026-09-20 09:00:00,2026-09-20 13:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,18.0 kW,Research sample preservation
+OPS-2026-80931,Building_E_Lecture,Hall-304,Lighting Control System,2026-07-06 07:00:00,2026-07-06 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-30113,Building_A_Lecture,Hall-102,Lighting Control System,2026-12-27 13:00:00,2026-12-27 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,4.0 kW,Scheduled area illumination
+OPS-2026-77175,Building_A_Lecture,Hall-105,Lighting Control System,2026-12-23 09:00:00,2026-12-23 13:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,2.5 kW,Scheduled area illumination
+OPS-2026-57565,Building_C_Lecture,Hall-201,Lighting Control System,2026-09-10 00:00:00,2026-09-13 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled area illumination
+OPS-2026-60965,Building_A_Lecture,Hall-105,Lecture Hall HVAC Controller,2026-08-07 00:00:00,2026-08-10 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Building climate control
+OPS-2026-43552,Building_B_Lab,Lab-203,Thermal Chamber,2026-09-13 00:00:00,2026-09-15 00:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,5.5 kW,Controlled laboratory experiment
+OPS-2026-81475,Building_C_Lecture,Hall-204,Building Management Controller,2026-07-08 19:00:00,2026-07-09 09:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Building management
+OPS-2026-90127,Building_A_Lecture,Hall-105,Ventilation Fan,2026-07-10 22:00:00,2026-07-11 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Air exchange and laboratory safety
+OPS-2026-45448,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-12-17 07:00:00,2026-12-17 13:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-94361,Building_A_Lecture,Hall-100,HVAC Chiller Unit,2026-10-22 13:00:00,2026-10-22 21:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Building climate control
+OPS-2026-43918,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-05-26 06:00:00,2026-05-26 12:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-70804,Building_A_Lecture,Hall-103,Lighting Control System,2026-07-16 00:00:00,2026-07-18 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-70633,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-08-21 22:00:00,2026-08-22 10:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-20281,Building_C_Lecture,Hall-201,Ventilation Fan,2026-10-06 13:00:00,2026-10-06 16:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,7.0 kW,Air exchange and laboratory safety
+OPS-2026-86571,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-12-03 13:00:00,2026-12-03 16:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,10.0 kW,Critical infrastructure cooling
+OPS-2026-57222,Building_C_Lecture,Hall-201,Lighting Control System,2026-08-06 07:00:00,2026-08-06 11:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-37416,Building_C_Admin,Server-B01,Network Room HVAC,2026-07-05 17:00:00,2026-07-06 01:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Building climate control
+OPS-2026-21344,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-11-01 06:00:00,2026-11-01 08:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-26349,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-11-05 00:00:00,2026-11-07 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.5 kW,Research sample preservation
+OPS-2026-91164,Building_C_Lecture,Hall-202,Ventilation Fan,2026-09-03 00:00:00,2026-09-06 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-26295,Building_A_Lecture,Hall-104,Ventilation Fan,2026-07-01 20:00:00,2026-07-02 04:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-86140,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-08-31 08:00:00,2026-08-31 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Critical infrastructure cooling
+OPS-2026-30924,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-12-29 00:00:00,2027-01-05 00:00:00,Facilities Operations Manager,Facilities,APPROVED,3.5 kW,Laboratory safety exhaust
+OPS-2026-89239,Building_C_Lecture,Hall-202,Ventilation Fan,2026-06-21 00:00:00,2026-06-24 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Air exchange and laboratory safety
+OPS-2026-51131,Building_D_Lab,Lab-301,Robotics Workcell,2026-09-20 07:00:00,2026-09-20 09:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,8.5 kW,Approved robotics experiment
+OPS-2026-88092,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-06-24 21:00:00,2026-06-25 09:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-51691,Building_C_Lecture,Hall-204,Lighting Control System,2026-11-28 00:00:00,2026-12-05 00:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Scheduled area illumination
+OPS-2026-94121,Building_D_Lab,Lab-304,Machine Learning Server,2026-07-14 10:00:00,2026-07-14 16:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,11.0 kW,Essential computing infrastructure
+OPS-2026-21175,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-12-04 09:00:00,2026-12-04 11:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building climate control
+OPS-2026-84051,Building_A_Lecture,Hall-105,Air Handling Unit,2026-07-17 20:00:00,2026-07-18 10:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,4.0 kW,Scheduled building cooling
+OPS-2026-62632,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-10-16 00:00:00,2026-10-19 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-76953,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-08-04 13:00:00,2026-08-04 17:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-23313,Building_D_Lab,Lab-302,Machine Learning Server,2026-09-15 20:00:00,2026-09-16 10:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Essential computing infrastructure
+OPS-2026-52135,Building_A_Lecture,Hall-104,Ventilation Fan,2026-10-14 00:00:00,2026-10-16 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-32559,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-06-02 17:00:00,2026-06-03 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-76633,Building_E_Lecture,Hall-301,Air Handling Unit,2026-05-29 00:00:00,2026-06-01 00:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Scheduled building cooling
+OPS-2026-42009,Building_D_Lab,Lab-304,Lab HVAC,2026-08-28 09:00:00,2026-08-28 13:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,6.0 kW,Building climate control
+OPS-2026-56575,Building_C_Lecture,Hall-202,Building Management Controller,2026-07-15 09:00:00,2026-07-15 15:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building management
+OPS-2026-41658,Building_E_Lecture,Hall-303,Lighting Control System,2026-05-31 10:00:00,2026-05-31 13:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,5.0 kW,Scheduled area illumination
+OPS-2026-63622,Building_B_Lab,Lab-202,Laboratory HVAC,2026-09-20 13:00:00,2026-09-20 15:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.5 kW,Building climate control
+OPS-2026-81854,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-08-18 13:00:00,2026-08-18 17:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-51321,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-07-04 09:00:00,2026-07-04 17:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-11326,Building_C_Lecture,Hall-201,Building Management Controller,2026-06-22 00:00:00,2026-06-24 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building management
+OPS-2026-69169,Building_E_Lecture,Hall-302,Lecture Hall HVAC Controller,2026-07-10 07:00:00,2026-07-10 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-90008,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-05-26 10:00:00,2026-05-26 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Critical infrastructure cooling
+OPS-2026-73523,Building_C_Lecture,Hall-202,Ventilation Fan,2026-10-14 13:00:00,2026-10-14 15:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Air exchange and laboratory safety
+OPS-2026-29125,Building_D_Lab,Lab-302,Robotics Workcell,2026-10-05 13:00:00,2026-10-05 16:00:00,Robotics Lab Supervisor,Robotics,APPROVED,8.5 kW,Approved robotics experiment
+OPS-2026-38214,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-09-06 10:00:00,2026-09-06 16:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-99841,Building_B_Lab,Lab-204,Mass Spectrometer,2026-09-19 17:00:00,2026-09-20 01:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,8.0 kW,Scientific measurement
+OPS-2026-95165,Building_E_Lecture,Hall-302,Air Handling Unit,2026-11-21 21:00:00,2026-11-22 09:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-29207,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-11-29 09:00:00,2026-11-29 15:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.0 kW,Scheduled building cooling
+OPS-2026-20617,Building_D_Lab,Lab-303,3D Printer,2026-07-02 07:00:00,2026-07-02 13:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,4.5 kW,Prototype fabrication
+OPS-2026-87612,Building_C_Lecture,Hall-203,Lighting Control System,2026-05-28 08:00:00,2026-05-28 16:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-71541,Building_D_Lab,Lab-302,Machine Learning Server,2026-11-20 09:00:00,2026-11-20 15:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,6.0 kW,Essential computing infrastructure
+OPS-2026-53847,Building_B_Lab,Lab-202,Laboratory HVAC,2026-08-05 07:00:00,2026-08-05 15:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,18.0 kW,Building climate control
+OPS-2026-55624,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-11-04 13:00:00,2026-11-04 19:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,3.5 kW,Laboratory safety exhaust
+OPS-2026-59740,Building_C_Lecture,Hall-203,Ventilation Fan,2026-12-11 00:00:00,2026-12-12 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Air exchange and laboratory safety
+OPS-2026-58344,Building_E_Lecture,Hall-303,Lighting Control System,2026-08-25 13:00:00,2026-08-25 15:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Scheduled area illumination
+OPS-2026-57991,Building_C_Lecture,Hall-204,HVAC AHU,2026-08-30 18:00:00,2026-08-31 06:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-60469,Building_D_Lab,Lab-302,Lab HVAC,2026-11-10 21:00:00,2026-11-11 09:00:00,Pending Facility Review,Computer Science,PENDING_REVIEW,2.0 kW,Building climate control
+OPS-2026-74898,Building_C_Lecture,Hall-203,HVAC AHU,2026-07-22 22:00:00,2026-07-23 10:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Building climate control
+OPS-2026-61028,Building_E_Lecture,Hall-301,Lighting Control System,2026-10-17 13:00:00,2026-10-17 21:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,5.0 kW,Scheduled area illumination
+OPS-2026-37294,Building_C_Lecture,Hall-201,Lighting Control System,2026-10-29 10:00:00,2026-10-29 13:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-83024,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-12-03 00:00:00,2026-12-04 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-31474,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-09-14 00:00:00,2026-09-15 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-81044,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-07-26 08:00:00,2026-07-26 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-51187,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-09-20 13:00:00,2026-09-20 21:00:00,IT Infrastructure Lead,Campus IT,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-58922,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-11-29 07:00:00,2026-11-29 10:00:00,Maintenance Coordinator,Chemical Engineering,MAINTENANCE,18.0 kW,Laboratory safety exhaust
+OPS-2026-26847,Building_E_Lecture,Hall-305,Lighting Control System,2026-08-11 10:00:00,2026-08-11 18:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-10280,Building_B_Lab,Lab-203,Mass Spectrometer,2026-07-10 19:00:00,2026-07-11 07:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,12.5 kW,Scientific measurement
+OPS-2026-18781,Building_C_Lecture,Hall-202,Ventilation Fan,2026-09-11 00:00:00,2026-09-18 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Air exchange and laboratory safety
+OPS-2026-89709,Building_C_Lecture,Hall-201,HVAC AHU,2026-09-27 22:00:00,2026-09-28 06:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Building climate control
+OPS-2026-50968,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-09-30 08:00:00,2026-09-30 10:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-78591,Building_D_Lab,Lab-302,3D Printer,2026-06-19 10:00:00,2026-06-19 18:00:00,Facilities Scheduling System,Robotics,SCHEDULED,11.0 kW,Prototype fabrication
+OPS-2026-56187,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-12-11 06:00:00,2026-12-11 14:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-88464,Building_C_Admin,Server-B02,Network Room HVAC,2026-10-14 22:00:00,2026-10-15 08:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Building climate control
+OPS-2026-58661,Building_B_Lab,Lab-205,Mass Spectrometer,2026-07-15 22:00:00,2026-07-16 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,1.5 kW,Scientific measurement
+OPS-2026-61525,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-09-01 00:00:00,2026-09-08 00:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,8.0 kW,Laboratory safety exhaust
+OPS-2026-83552,Building_A_Lecture,Hall-103,Ventilation Fan,2026-06-17 00:00:00,2026-06-24 00:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-30963,Building_A_Lecture,Hall-103,Air Handling Unit,2026-08-02 20:00:00,2026-08-03 06:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-51045,Building_C_Lecture,Hall-202,Lighting Control System,2026-12-14 09:00:00,2026-12-14 13:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-22251,Building_E_Lecture,Hall-302,Lighting Control System,2026-07-03 06:00:00,2026-07-03 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-41232,Building_D_Lab,Lab-302,Machine Learning Server,2026-11-01 07:00:00,2026-11-01 13:00:00,Robotics Lab Supervisor,Robotics,APPROVED,8.5 kW,Essential computing infrastructure
+OPS-2026-95340,Building_B_Lab,Lab-201,Centrifuge,2026-06-15 00:00:00,2026-06-18 00:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,18.0 kW,Laboratory experiment
+OPS-2026-83638,Building_A_Lecture,Hall-104,Ventilation Fan,2026-06-06 09:00:00,2026-06-06 11:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-60703,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-08-09 00:00:00,2026-08-16 00:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-37904,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-12-18 00:00:00,2026-12-20 00:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Building climate control
+OPS-2026-61466,Building_D_Lab,Lab-302,3D Printer,2026-06-27 07:00:00,2026-06-27 11:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,6.0 kW,Prototype fabrication
+OPS-2026-46059,Building_D_Lab,Lab-302,3D Printer,2026-12-21 13:00:00,2026-12-21 21:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,6.0 kW,Prototype fabrication
+OPS-2026-35969,Building_E_Lecture,Hall-304,Lighting Control System,2026-10-06 21:00:00,2026-10-07 05:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Scheduled area illumination
+OPS-2026-86459,Building_A_Lecture,Hall-105,Lecture Hall HVAC Controller,2026-08-18 08:00:00,2026-08-18 14:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,14.0 kW,Building climate control
+OPS-2026-42544,Building_C_Admin,Server-B01,Network Room HVAC,2026-08-13 22:00:00,2026-08-14 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-33723,Building_D_Lab,Lab-302,3D Printer,2026-09-09 00:00:00,2026-09-11 00:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,8.5 kW,Prototype fabrication
+OPS-2026-79929,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-12-29 10:00:00,2026-12-29 13:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,5.0 kW,Building climate control
+OPS-2026-14078,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-07-09 13:00:00,2026-07-09 21:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-13048,Building_D_Lab,Lab-303,Environmental Chamber,2026-10-12 07:00:00,2026-10-12 15:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,4.5 kW,Materials/environmental testing
+OPS-2026-74022,Building_E_Lecture,Hall-303,Lighting Control System,2026-12-07 00:00:00,2026-12-09 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,7.5 kW,Scheduled area illumination
+OPS-2026-27578,Building_C_Lecture,Hall-204,HVAC AHU,2026-06-01 20:00:00,2026-06-02 04:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-17872,Building_B_Lab,Lab-205,Centrifuge,2026-07-22 00:00:00,2026-07-23 00:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,5.5 kW,Laboratory experiment
+OPS-2026-97748,Building_E_Lecture,Hall-302,Air Handling Unit,2026-12-04 21:00:00,2026-12-05 09:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-83237,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-10-22 17:00:00,2026-10-23 05:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-83819,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-08-01 06:00:00,2026-08-01 09:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-36394,Building_B_Lab,Lab-201,Thermal Chamber,2026-09-27 13:00:00,2026-09-27 16:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,18.0 kW,Controlled laboratory experiment
+OPS-2026-92681,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-08-10 10:00:00,2026-08-10 13:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,18.0 kW,Laboratory safety exhaust
+OPS-2026-54801,Building_C_Lecture,Hall-201,Building Management Controller,2026-07-26 09:00:00,2026-07-26 12:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,9.0 kW,Building management
+OPS-2026-44854,Building_E_Lecture,Hall-304,Air Handling Unit,2026-06-15 17:00:00,2026-06-16 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-21188,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-09-03 00:00:00,2026-09-10 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-43922,Building_C_Lecture,Hall-201,Lighting Control System,2026-10-07 00:00:00,2026-10-09 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-16987,Building_B_Lab,Lab-204,Mass Spectrometer,2026-12-01 07:00:00,2026-12-01 13:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,1.5 kW,Scientific measurement
+OPS-2026-61086,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-11-13 08:00:00,2026-11-13 11:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,5.5 kW,Research sample preservation
+OPS-2026-33629,Building_C_Lecture,Hall-204,HVAC AHU,2026-11-27 00:00:00,2026-11-30 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,5.0 kW,Building climate control
+OPS-2026-98885,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-08-10 13:00:00,2026-08-10 17:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Building climate control
+OPS-2026-41283,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-06-16 07:00:00,2026-06-16 13:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,5.0 kW,Building climate control
+OPS-2026-54995,Building_C_Lecture,Hall-204,HVAC AHU,2026-12-04 09:00:00,2026-12-04 15:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Building climate control
+OPS-2026-93212,Building_B_Lab,Lab-205,Centrifuge,2026-09-23 22:00:00,2026-09-24 06:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Laboratory experiment
+OPS-2026-42178,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-07-24 10:00:00,2026-07-24 16:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-48555,Building_C_Lecture,Hall-203,HVAC AHU,2026-06-10 19:00:00,2026-06-11 03:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Building climate control
+OPS-2026-42090,Building_D_Lab,Lab-304,3D Printer,2026-12-16 09:00:00,2026-12-16 11:00:00,Facilities Scheduling System,Robotics,SCHEDULED,6.0 kW,Prototype fabrication
+OPS-2026-49923,Building_C_Lecture,Hall-203,Building Management Controller,2026-12-15 18:00:00,2026-12-16 04:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Building management
+OPS-2026-28886,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-07-14 10:00:00,2026-07-14 12:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-82672,Building_C_Lecture,Hall-204,Building Management Controller,2026-09-10 10:00:00,2026-09-10 12:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,3.0 kW,Building management
+OPS-2026-32346,Building_D_Lab,Lab-302,Lab HVAC,2026-10-04 06:00:00,2026-10-04 08:00:00,Robotics Lab Supervisor,Robotics,APPROVED,11.0 kW,Building climate control
+OPS-2026-10681,Building_D_Lab,Lab-303,3D Printer,2026-11-24 17:00:00,2026-11-25 03:00:00,Pending Facility Review,Robotics,PENDING_REVIEW,4.5 kW,Prototype fabrication
+OPS-2026-14152,Building_C_Lecture,Hall-202,Building Management Controller,2026-07-17 19:00:00,2026-07-18 03:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,9.0 kW,Building management
+OPS-2026-95510,Building_D_Lab,Lab-304,Lab HVAC,2026-09-08 00:00:00,2026-09-10 00:00:00,Facilities Scheduling System,Robotics,SCHEDULED,11.0 kW,Building climate control
+OPS-2026-56611,Building_E_Lecture,Hall-303,Air Handling Unit,2026-08-24 13:00:00,2026-08-24 15:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-91296,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-07-20 06:00:00,2026-07-20 09:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-74150,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-11-01 08:00:00,2026-11-01 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-81311,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-12-22 09:00:00,2026-12-22 17:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-70848,Building_A_Lecture,Hall-105,Ventilation Fan,2026-12-16 06:00:00,2026-12-16 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Air exchange and laboratory safety
+OPS-2026-32188,Building_A_Lecture,Hall-104,Lighting Control System,2026-07-06 06:00:00,2026-07-06 14:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-15572,Building_D_Lab,Lab-301,Machine Learning Server,2026-06-10 00:00:00,2026-06-13 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,11.0 kW,Essential computing infrastructure
+OPS-2026-62035,Building_D_Lab,Lab-304,Lab HVAC,2026-09-24 00:00:00,2026-09-26 00:00:00,Maintenance Coordinator,Robotics,MAINTENANCE,8.5 kW,Building climate control
+OPS-2026-83676,Building_C_Lecture,Hall-201,Lighting Control System,2026-07-12 07:00:00,2026-07-12 09:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,9.0 kW,Scheduled area illumination
+OPS-2026-73917,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-11-21 00:00:00,2026-11-28 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Critical infrastructure cooling
+OPS-2026-12646,Building_A_Lecture,Hall-105,Lighting Control System,2026-11-16 00:00:00,2026-11-19 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-81326,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-11-19 09:00:00,2026-11-19 13:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,3.0 kW,Scheduled building cooling
+OPS-2026-45258,Building_D_Lab,Lab-302,Machine Learning Server,2026-10-25 08:00:00,2026-10-25 14:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,8.5 kW,Essential computing infrastructure
+OPS-2026-23372,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-08-15 17:00:00,2026-08-16 07:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-56658,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-09-04 07:00:00,2026-09-04 09:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Building climate control
+OPS-2026-22035,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-12-18 08:00:00,2026-12-18 16:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-30162,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-07-18 06:00:00,2026-07-18 08:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,3.0 kW,Building climate control
+OPS-2026-84996,Building_D_Lab,Lab-302,Lab HVAC,2026-08-09 07:00:00,2026-08-09 09:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Building climate control
+OPS-2026-59362,Building_B_Lab,Lab-203,Centrifuge,2026-10-10 18:00:00,2026-10-11 08:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,8.0 kW,Laboratory experiment
+OPS-2026-81839,Building_A_Lecture,Hall-101,Ventilation Fan,2026-07-16 19:00:00,2026-07-17 09:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,14.0 kW,Air exchange and laboratory safety
+OPS-2026-53108,Building_D_Lab,Lab-302,Machine Learning Server,2026-11-17 22:00:00,2026-11-18 06:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,11.0 kW,Essential computing infrastructure
+OPS-2026-70887,Building_B_Lab,Lab-204,Laboratory HVAC,2026-11-08 17:00:00,2026-11-09 03:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,12.5 kW,Building climate control
+OPS-2026-97889,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-11-24 10:00:00,2026-11-24 16:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,8.0 kW,Critical infrastructure cooling
+OPS-2026-32409,Building_A_Lecture,Hall-102,Lighting Control System,2026-07-31 00:00:00,2026-08-03 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,2.5 kW,Scheduled area illumination
+OPS-2026-12763,Building_A_Lecture,Hall-104,Lighting Control System,2026-11-29 00:00:00,2026-12-01 00:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,10.0 kW,Scheduled area illumination
+OPS-2026-46609,Building_A_Lecture,Hall-100,Lighting Control System,2026-09-17 20:00:00,2026-09-18 08:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,4.0 kW,Scheduled area illumination
+OPS-2026-16328,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-12-21 07:00:00,2026-12-21 11:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,8.0 kW,Laboratory safety exhaust
+OPS-2026-54133,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-11-09 21:00:00,2026-11-10 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-18551,Building_B_Lab,Lab-204,Centrifuge,2026-12-28 00:00:00,2026-12-29 00:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,12.5 kW,Laboratory experiment
+OPS-2026-24213,Building_E_Lecture,Hall-304,Lighting Control System,2026-10-21 10:00:00,2026-10-21 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Scheduled area illumination
+OPS-2026-32142,Building_C_Lecture,Hall-201,HVAC AHU,2026-09-14 00:00:00,2026-09-16 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,9.0 kW,Building climate control
+OPS-2026-24975,Building_B_Lab,Lab-203,Thermal Chamber,2026-10-07 20:00:00,2026-10-08 04:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,12.5 kW,Controlled laboratory experiment
+OPS-2026-32156,Building_D_Lab,Lab-302,Lab HVAC,2026-08-29 07:00:00,2026-08-29 10:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Building climate control
+OPS-2026-98446,Building_D_Lab,Lab-304,Environmental Chamber,2026-11-14 17:00:00,2026-11-15 01:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,11.0 kW,Materials/environmental testing
+OPS-2026-25339,Building_A_Lecture,Hall-105,Ventilation Fan,2026-05-31 17:00:00,2026-06-01 03:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-17890,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-10-30 09:00:00,2026-10-30 11:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Critical infrastructure cooling
+OPS-2026-49524,Building_B_Lab,Lab-203,Laboratory HVAC,2026-11-08 13:00:00,2026-11-08 17:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Building climate control
+OPS-2026-81651,Building_D_Lab,Lab-303,Environmental Chamber,2026-06-26 10:00:00,2026-06-26 12:00:00,Facilities Scheduling System,Robotics,SCHEDULED,2.0 kW,Materials/environmental testing
+OPS-2026-28526,Building_A_Lecture,Hall-100,Air Handling Unit,2026-06-03 09:00:00,2026-06-03 13:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,4.0 kW,Scheduled building cooling
+OPS-2026-42934,Building_A_Lecture,Hall-102,Air Handling Unit,2026-10-15 17:00:00,2026-10-16 01:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-36242,Building_A_Lecture,Hall-101,Lighting Control System,2026-10-27 06:00:00,2026-10-27 09:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,2.5 kW,Scheduled area illumination
+OPS-2026-31613,Building_A_Lecture,Hall-103,Lecture Hall HVAC Controller,2026-11-16 07:00:00,2026-11-16 15:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-81731,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-09-13 00:00:00,2026-09-16 00:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Building climate control
+OPS-2026-73202,Building_E_Lecture,Hall-302,Lecture Hall HVAC Controller,2026-12-21 20:00:00,2026-12-22 04:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-51570,Building_A_Lecture,Hall-103,HVAC Chiller Unit,2026-11-08 00:00:00,2026-11-10 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-75339,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-09-30 09:00:00,2026-09-30 17:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-91870,Building_A_Lecture,Hall-100,Air Handling Unit,2026-10-08 20:00:00,2026-10-09 06:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,14.0 kW,Scheduled building cooling
+OPS-2026-31734,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-11-01 18:00:00,2026-11-02 02:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-74474,Building_E_Lecture,Hall-301,Air Handling Unit,2026-08-22 21:00:00,2026-08-23 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Scheduled building cooling
+OPS-2026-35234,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-10-11 19:00:00,2026-10-12 03:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Building climate control
+OPS-2026-36392,Building_A_Lecture,Hall-100,Lecture Hall HVAC Controller,2026-11-17 07:00:00,2026-11-17 11:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,4.0 kW,Building climate control
+OPS-2026-51278,Building_B_Lab,Lab-201,Centrifuge,2026-12-31 13:00:00,2026-12-31 15:00:00,Facilities Operations Manager,Facilities,APPROVED,1.5 kW,Laboratory experiment
+OPS-2026-37576,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-11-25 20:00:00,2026-11-26 04:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,5.5 kW,Laboratory safety exhaust
+OPS-2026-74644,Building_C_Lecture,Hall-204,Building Management Controller,2026-06-14 08:00:00,2026-06-14 11:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building management
+OPS-2026-61518,Building_C_Lecture,Hall-204,Building Management Controller,2026-11-06 09:00:00,2026-11-06 17:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Building management
+OPS-2026-74278,Building_C_Lecture,Hall-203,Ventilation Fan,2026-11-06 13:00:00,2026-11-06 21:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-42030,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-11-05 07:00:00,2026-11-05 09:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-73011,Building_D_Lab,Lab-301,Lab HVAC,2026-08-23 22:00:00,2026-08-24 06:00:00,Robotics Lab Supervisor,Robotics,APPROVED,11.0 kW,Building climate control
+OPS-2026-75467,Building_C_Lecture,Hall-201,HVAC AHU,2026-06-21 00:00:00,2026-06-24 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Building climate control
+OPS-2026-43518,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-08-07 08:00:00,2026-08-07 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,14.0 kW,Building climate control
+OPS-2026-86309,Building_E_Lecture,Hall-301,Lighting Control System,2026-06-30 07:00:00,2026-06-30 11:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.5 kW,Scheduled area illumination
+OPS-2026-70577,Building_B_Lab,Lab-204,Thermal Chamber,2026-08-26 13:00:00,2026-08-26 19:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.5 kW,Controlled laboratory experiment
+OPS-2026-48634,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-07-30 13:00:00,2026-07-30 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-80782,Building_B_Lab,Lab-201,Centrifuge,2026-06-07 21:00:00,2026-06-08 05:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,3.5 kW,Laboratory experiment
+OPS-2026-52065,Building_E_Lecture,Hall-305,Lecture Hall HVAC Controller,2026-12-23 09:00:00,2026-12-23 15:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building climate control
+OPS-2026-74503,Building_E_Lecture,Hall-302,Lighting Control System,2026-08-19 08:00:00,2026-08-19 16:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-46329,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-10-22 08:00:00,2026-10-22 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-43497,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-09-29 22:00:00,2026-09-30 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-27816,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-09-17 06:00:00,2026-09-17 08:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building climate control
+OPS-2026-59485,Building_D_Lab,Lab-303,3D Printer,2026-12-08 06:00:00,2026-12-08 08:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,4.5 kW,Prototype fabrication
+OPS-2026-72644,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-10-10 06:00:00,2026-10-10 10:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,9.0 kW,Scheduled building cooling
+OPS-2026-73397,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-09-05 09:00:00,2026-09-05 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-84427,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-10-09 09:00:00,2026-10-09 11:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,8.0 kW,Building climate control
+OPS-2026-33712,Building_C_Lecture,Hall-201,Ventilation Fan,2026-12-12 19:00:00,2026-12-13 09:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Air exchange and laboratory safety
+OPS-2026-53217,Building_A_Lecture,Hall-103,Air Handling Unit,2026-09-04 21:00:00,2026-09-05 09:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Scheduled building cooling
+OPS-2026-24060,Building_E_Lecture,Hall-303,Lighting Control System,2026-06-28 18:00:00,2026-06-29 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-61424,Building_B_Lab,Lab-204,Laboratory HVAC,2026-12-20 10:00:00,2026-12-20 18:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,5.5 kW,Building climate control
+OPS-2026-79723,Building_A_Lecture,Hall-101,Lighting Control System,2026-09-21 13:00:00,2026-09-21 19:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-97612,Building_C_Admin,Server-B01,Network Room HVAC,2026-06-29 06:00:00,2026-06-29 10:00:00,Pending Facility Review,Campus IT,PENDING_REVIEW,8.0 kW,Building climate control
+OPS-2026-39469,Building_B_Lab,Lab-204,Laboratory HVAC,2026-11-19 00:00:00,2026-11-26 00:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,12.5 kW,Building climate control
+OPS-2026-21625,Building_D_Lab,Lab-304,Lab HVAC,2026-07-31 13:00:00,2026-07-31 19:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,6.0 kW,Building climate control
+OPS-2026-73513,Building_A_Lecture,Hall-100,Lecture Hall HVAC Controller,2026-11-17 09:00:00,2026-11-17 12:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Building climate control
+OPS-2026-76469,Building_D_Lab,Lab-304,Machine Learning Server,2026-12-28 07:00:00,2026-12-28 10:00:00,Facilities Scheduling System,Robotics,SCHEDULED,11.0 kW,Essential computing infrastructure
+OPS-2026-63036,Building_B_Lab,Lab-204,Laboratory HVAC,2026-10-23 20:00:00,2026-10-24 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-88862,Building_E_Lecture,Hall-304,HVAC Chiller Unit,2026-05-31 10:00:00,2026-05-31 13:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-14707,Building_B_Lab,Lab-204,Centrifuge,2026-09-15 13:00:00,2026-09-15 17:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Laboratory experiment
+OPS-2026-32323,Building_B_Lab,Lab-202,Mass Spectrometer,2026-11-12 19:00:00,2026-11-13 09:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Scientific measurement
+OPS-2026-80878,Building_E_Lecture,Hall-301,Lighting Control System,2026-10-23 10:00:00,2026-10-23 18:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-75140,Building_E_Lecture,Hall-304,Lighting Control System,2026-08-06 13:00:00,2026-08-06 16:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,5.0 kW,Scheduled area illumination
+OPS-2026-23157,Building_C_Admin,Server-B01,Network Room HVAC,2026-09-18 08:00:00,2026-09-18 16:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Building climate control
+OPS-2026-80285,Building_E_Lecture,Hall-301,Lighting Control System,2026-12-11 08:00:00,2026-12-11 10:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-24684,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-07-23 10:00:00,2026-07-23 18:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-43620,Building_B_Lab,Lab-201,Fume Hood Exhaust Fan,2026-08-13 06:00:00,2026-08-13 09:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,3.5 kW,Laboratory safety exhaust
+OPS-2026-22773,Building_E_Lecture,Hall-302,Lighting Control System,2026-05-30 09:00:00,2026-05-30 12:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-83929,Building_D_Lab,Lab-301,3D Printer,2026-10-26 13:00:00,2026-10-26 15:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,2.0 kW,Prototype fabrication
+OPS-2026-89476,Building_A_Lecture,Hall-100,Lecture Hall HVAC Controller,2026-07-22 17:00:00,2026-07-23 07:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,10.0 kW,Building climate control
+OPS-2026-47662,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-12-19 13:00:00,2026-12-19 17:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-70993,Building_C_Lecture,Hall-204,Ventilation Fan,2026-12-13 07:00:00,2026-12-13 10:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-76272,Building_A_Lecture,Hall-104,Ventilation Fan,2026-10-26 13:00:00,2026-10-26 16:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,7.5 kW,Air exchange and laboratory safety
+OPS-2026-64801,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-06-01 10:00:00,2026-06-01 18:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,3.0 kW,Scheduled building cooling
+OPS-2026-96298,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-09-13 08:00:00,2026-09-13 11:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,5.0 kW,Scheduled building cooling
+OPS-2026-51387,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-09-30 20:00:00,2026-10-01 10:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-61848,Building_C_Lecture,Hall-201,Building Management Controller,2026-08-30 00:00:00,2026-08-31 00:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building management
+OPS-2026-60899,Building_B_Lab,Lab-204,Thermal Chamber,2026-12-27 00:00:00,2026-12-28 00:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,3.5 kW,Controlled laboratory experiment
+OPS-2026-60237,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-09-27 13:00:00,2026-09-27 19:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Building climate control
+OPS-2026-63601,Building_A_Lecture,Hall-102,Ventilation Fan,2026-12-13 00:00:00,2026-12-14 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Air exchange and laboratory safety
+OPS-2026-13579,Building_B_Lab,Lab-204,Cryogenic Freezer,2026-12-27 18:00:00,2026-12-28 04:00:00,Facilities Operations Manager,Facilities,APPROVED,5.5 kW,Research sample preservation
+OPS-2026-71689,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-08-26 13:00:00,2026-08-26 17:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-58868,Building_D_Lab,Lab-301,3D Printer,2026-07-13 18:00:00,2026-07-14 06:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,4.5 kW,Prototype fabrication
+OPS-2026-62621,Building_E_Lecture,Hall-302,Lighting Control System,2026-06-16 00:00:00,2026-06-18 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-62029,Building_C_Lecture,Hall-203,Ventilation Fan,2026-12-24 06:00:00,2026-12-24 10:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-74191,Building_A_Lecture,Hall-104,HVAC Chiller Unit,2026-07-17 06:00:00,2026-07-17 08:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-60327,Building_D_Lab,Lab-304,Lab HVAC,2026-06-18 19:00:00,2026-06-19 09:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,6.0 kW,Building climate control
+OPS-2026-35863,Building_C_Admin,Server-B01,Network Room HVAC,2026-12-08 10:00:00,2026-12-08 13:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,8.0 kW,Building climate control
+OPS-2026-66547,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-06-23 13:00:00,2026-06-23 21:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-14861,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-07-12 07:00:00,2026-07-12 13:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-22108,Building_B_Lab,Lab-204,Thermal Chamber,2026-07-15 06:00:00,2026-07-15 08:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,8.0 kW,Controlled laboratory experiment
+OPS-2026-85162,Building_C_Lecture,Hall-204,Building Management Controller,2026-09-22 10:00:00,2026-09-22 14:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building management
+OPS-2026-75808,Building_A_Lecture,Hall-100,Lecture Hall HVAC Controller,2026-08-28 06:00:00,2026-08-28 08:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-87489,Building_B_Lab,Lab-203,Mass Spectrometer,2026-06-01 13:00:00,2026-06-01 21:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Scientific measurement
+OPS-2026-79340,Building_C_Lecture,Hall-203,Lighting Control System,2026-06-24 21:00:00,2026-06-25 05:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,5.0 kW,Scheduled area illumination
+OPS-2026-84360,Building_A_Lecture,Hall-105,Air Handling Unit,2026-11-16 08:00:00,2026-11-16 10:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,14.0 kW,Scheduled building cooling
+OPS-2026-70059,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-09-10 21:00:00,2026-09-11 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-76445,Building_A_Lecture,Hall-101,Ventilation Fan,2026-11-24 18:00:00,2026-11-25 06:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,14.0 kW,Air exchange and laboratory safety
+OPS-2026-66233,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-08-17 20:00:00,2026-08-18 08:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-79191,Building_A_Lecture,Hall-102,Lighting Control System,2026-10-20 10:00:00,2026-10-20 18:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-58474,Building_C_Lecture,Hall-204,Ventilation Fan,2026-07-28 00:00:00,2026-07-29 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-30630,Building_C_Lecture,Hall-204,HVAC AHU,2026-09-15 19:00:00,2026-09-16 03:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-41527,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-12-23 22:00:00,2026-12-24 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,14.0 kW,Building climate control
+OPS-2026-22553,Building_B_Lab,Lab-202,Thermal Chamber,2026-06-09 20:00:00,2026-06-10 06:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,12.5 kW,Controlled laboratory experiment
+OPS-2026-31941,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-12-07 08:00:00,2026-12-07 11:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,3.0 kW,Building climate control
+OPS-2026-98406,Building_B_Lab,Lab-203,Thermal Chamber,2026-06-17 18:00:00,2026-06-18 02:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Controlled laboratory experiment
+OPS-2026-29208,Building_C_Lecture,Hall-203,HVAC AHU,2026-05-30 07:00:00,2026-05-30 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-98735,Building_E_Lecture,Hall-301,Air Handling Unit,2026-05-25 09:00:00,2026-05-25 15:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Scheduled building cooling
+OPS-2026-18410,Building_B_Lab,Lab-204,Laboratory HVAC,2026-09-15 13:00:00,2026-09-15 21:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,12.5 kW,Building climate control
+OPS-2026-73424,Building_D_Lab,Lab-302,Environmental Chamber,2026-07-27 00:00:00,2026-07-30 00:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,6.0 kW,Materials/environmental testing
+OPS-2026-16592,Building_C_Lecture,Hall-202,Lighting Control System,2026-10-24 10:00:00,2026-10-24 16:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled area illumination
+OPS-2026-28433,Building_D_Lab,Lab-303,Environmental Chamber,2026-08-27 18:00:00,2026-08-28 06:00:00,Robotics Lab Supervisor,Robotics,APPROVED,8.5 kW,Materials/environmental testing
+OPS-2026-85939,Building_C_Lecture,Hall-202,HVAC AHU,2026-06-19 19:00:00,2026-06-20 07:00:00,Pending Facility Review,Electrical Engineering,PENDING_REVIEW,9.0 kW,Building climate control
+OPS-2026-64181,Building_D_Lab,Lab-301,3D Printer,2026-07-24 13:00:00,2026-07-24 16:00:00,Maintenance Coordinator,Computer Science,MAINTENANCE,8.5 kW,Prototype fabrication
+OPS-2026-92624,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-09-18 17:00:00,2026-09-19 01:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-78241,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-07-22 08:00:00,2026-07-22 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-45505,Building_B_Lab,Lab-202,Mass Spectrometer,2026-08-15 19:00:00,2026-08-16 07:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Scientific measurement
+OPS-2026-99237,Building_D_Lab,Lab-303,Lab HVAC,2026-11-27 10:00:00,2026-11-27 14:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,6.0 kW,Building climate control
+OPS-2026-92195,Building_C_Lecture,Hall-201,Ventilation Fan,2026-09-13 06:00:00,2026-09-13 10:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-32775,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-08-12 09:00:00,2026-08-12 15:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,1.5 kW,Research sample preservation
+OPS-2026-52161,Building_D_Lab,Lab-301,Robotics Workcell,2026-07-26 13:00:00,2026-07-26 19:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,11.0 kW,Approved robotics experiment
+OPS-2026-50822,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-09-28 00:00:00,2026-09-29 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,14.0 kW,Building climate control
+OPS-2026-61658,Building_A_Lecture,Hall-102,HVAC Chiller Unit,2026-07-01 09:00:00,2026-07-01 12:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,2.5 kW,Building climate control
+OPS-2026-38688,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-09-22 00:00:00,2026-09-23 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-26969,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-06-21 07:00:00,2026-06-21 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Building climate control
+OPS-2026-19028,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-07-10 22:00:00,2026-07-11 06:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Building climate control
+OPS-2026-77364,Building_C_Lecture,Hall-202,Building Management Controller,2026-12-26 22:00:00,2026-12-27 12:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Building management
+OPS-2026-78891,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-08-15 00:00:00,2026-08-16 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-73767,Building_C_Lecture,Hall-202,HVAC AHU,2026-11-22 13:00:00,2026-11-22 21:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Building climate control
+OPS-2026-54220,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-09-27 22:00:00,2026-09-28 12:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,5.5 kW,Laboratory safety exhaust
+OPS-2026-69360,Building_A_Lecture,Hall-102,HVAC Chiller Unit,2026-08-26 07:00:00,2026-08-26 15:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-29391,Building_C_Lecture,Hall-203,HVAC AHU,2026-12-04 18:00:00,2026-12-05 02:00:00,Facilities Scheduling System,Facilities,SCHEDULED,9.0 kW,Building climate control
+OPS-2026-37729,Building_E_Lecture,Hall-304,Air Handling Unit,2026-12-06 13:00:00,2026-12-06 21:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,5.0 kW,Scheduled building cooling
+OPS-2026-59512,Building_B_Lab,Lab-203,Mass Spectrometer,2026-10-13 17:00:00,2026-10-14 03:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,1.5 kW,Scientific measurement
+OPS-2026-82651,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-08-11 21:00:00,2026-08-12 07:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Building climate control
+OPS-2026-57992,Building_B_Lab,Lab-205,Centrifuge,2026-06-09 08:00:00,2026-06-09 14:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Laboratory experiment
+OPS-2026-35364,Building_D_Lab,Lab-304,Lab HVAC,2026-10-19 07:00:00,2026-10-19 15:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Building climate control
+OPS-2026-17019,Building_C_Admin,Server-B02,Network Room HVAC,2026-09-21 08:00:00,2026-09-21 16:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Building climate control
+OPS-2026-73232,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-09-10 18:00:00,2026-09-11 06:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,5.5 kW,Laboratory safety exhaust
+OPS-2026-52194,Building_C_Lecture,Hall-202,Lighting Control System,2026-05-28 08:00:00,2026-05-28 10:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Scheduled area illumination
+OPS-2026-76777,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-05-31 00:00:00,2026-06-02 00:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,9.0 kW,Scheduled building cooling
+OPS-2026-39394,Building_C_Lecture,Hall-203,Ventilation Fan,2026-06-02 08:00:00,2026-06-02 11:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-88077,Building_A_Lecture,Hall-105,Ventilation Fan,2026-09-05 13:00:00,2026-09-05 16:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,7.5 kW,Air exchange and laboratory safety
+OPS-2026-62224,Building_B_Lab,Lab-205,Cryogenic Freezer,2026-06-14 00:00:00,2026-06-15 00:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,18.0 kW,Research sample preservation
+OPS-2026-99538,Building_D_Lab,Lab-301,Environmental Chamber,2026-10-23 17:00:00,2026-10-24 01:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,4.5 kW,Materials/environmental testing
+OPS-2026-88500,Building_C_Admin,Server-B01,Network Room HVAC,2026-09-05 00:00:00,2026-09-06 00:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-61577,Building_A_Lecture,Hall-100,Ventilation Fan,2026-07-14 22:00:00,2026-07-15 12:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-54204,Building_D_Lab,Lab-302,Environmental Chamber,2026-09-25 07:00:00,2026-09-25 09:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,8.5 kW,Materials/environmental testing
+OPS-2026-14307,Building_B_Lab,Lab-203,Laboratory HVAC,2026-11-16 13:00:00,2026-11-16 21:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,12.5 kW,Building climate control
+OPS-2026-59532,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-06-08 00:00:00,2026-06-11 00:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building climate control
+OPS-2026-46053,Building_D_Lab,Lab-303,Lab HVAC,2026-07-21 08:00:00,2026-07-21 11:00:00,Maintenance Coordinator,Materials Engineering,MAINTENANCE,6.0 kW,Building climate control
+OPS-2026-28679,Building_E_Lecture,Hall-301,Lighting Control System,2026-12-03 00:00:00,2026-12-05 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-47044,Building_A_Lecture,Hall-101,Air Handling Unit,2026-05-26 00:00:00,2026-05-27 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-67239,Building_E_Lecture,Hall-304,Lighting Control System,2026-12-19 09:00:00,2026-12-19 15:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-45548,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-11-06 06:00:00,2026-11-06 14:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-72239,Building_B_Lab,Lab-203,Laboratory HVAC,2026-10-13 21:00:00,2026-10-14 05:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,1.5 kW,Building climate control
+OPS-2026-91600,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-07-29 09:00:00,2026-07-29 17:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Scheduled building cooling
+OPS-2026-67050,Building_C_Lecture,Hall-204,Lighting Control System,2026-10-01 09:00:00,2026-10-01 12:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Scheduled area illumination
+OPS-2026-96138,Building_C_Admin,Server-B01,Network Room HVAC,2026-08-20 00:00:00,2026-08-23 00:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Building climate control
+OPS-2026-81252,Building_E_Lecture,Hall-301,Lighting Control System,2026-07-28 00:00:00,2026-07-30 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Scheduled area illumination
+OPS-2026-70860,Building_C_Lecture,Hall-201,HVAC AHU,2026-05-26 06:00:00,2026-05-26 10:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,7.0 kW,Building climate control
+OPS-2026-48961,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-09-20 00:00:00,2026-09-21 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-36841,Building_D_Lab,Lab-303,3D Printer,2026-09-17 00:00:00,2026-09-24 00:00:00,Facilities Scheduling System,Robotics,SCHEDULED,8.5 kW,Prototype fabrication
+OPS-2026-74883,Building_B_Lab,Lab-202,Mass Spectrometer,2026-07-03 07:00:00,2026-07-03 13:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,3.5 kW,Scientific measurement
+OPS-2026-55396,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-11-03 08:00:00,2026-11-03 10:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,9.0 kW,Scheduled building cooling
+OPS-2026-49135,Building_B_Lab,Lab-203,Centrifuge,2026-10-31 22:00:00,2026-11-01 12:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,8.0 kW,Laboratory experiment
+OPS-2026-63227,Building_A_Lecture,Hall-100,Lighting Control System,2026-11-11 10:00:00,2026-11-11 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-23892,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-06-15 22:00:00,2026-06-16 06:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,8.0 kW,Critical infrastructure cooling
+OPS-2026-35171,Building_C_Lecture,Hall-203,Lighting Control System,2026-10-28 20:00:00,2026-10-29 04:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled area illumination
+OPS-2026-50154,Building_B_Lab,Lab-204,Centrifuge,2026-12-11 18:00:00,2026-12-12 06:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Laboratory experiment
+OPS-2026-39755,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-08-09 21:00:00,2026-08-10 09:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-61841,Building_D_Lab,Lab-303,Environmental Chamber,2026-06-08 07:00:00,2026-06-08 13:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,11.0 kW,Materials/environmental testing
+OPS-2026-21267,Building_E_Lecture,Hall-301,Air Handling Unit,2026-12-29 07:00:00,2026-12-29 09:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled building cooling
+OPS-2026-53725,Building_A_Lecture,Hall-102,Lighting Control System,2026-11-05 21:00:00,2026-11-06 07:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-25840,Building_D_Lab,Lab-304,Environmental Chamber,2026-11-27 07:00:00,2026-11-27 11:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,4.5 kW,Materials/environmental testing
+OPS-2026-50752,Building_D_Lab,Lab-303,3D Printer,2026-12-30 09:00:00,2026-12-30 11:00:00,Facilities Scheduling System,Robotics,SCHEDULED,6.0 kW,Prototype fabrication
+OPS-2026-36003,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-05-31 00:00:00,2026-06-03 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-70401,Building_C_Lecture,Hall-201,HVAC AHU,2026-11-13 09:00:00,2026-11-13 15:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building climate control
+OPS-2026-24426,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-11-02 19:00:00,2026-11-03 09:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-80984,Building_A_Lecture,Hall-103,Ventilation Fan,2026-07-15 21:00:00,2026-07-16 11:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-73812,Building_E_Lecture,Hall-305,Air Handling Unit,2026-05-28 09:00:00,2026-05-28 17:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-91132,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-06-10 07:00:00,2026-06-10 15:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-79707,Building_A_Lecture,Hall-104,Ventilation Fan,2026-11-08 00:00:00,2026-11-09 00:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-20234,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-07-16 06:00:00,2026-07-16 10:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-55644,Building_B_Lab,Lab-201,Cryogenic Freezer,2026-10-28 00:00:00,2026-10-29 00:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,3.5 kW,Research sample preservation
+OPS-2026-39165,Building_A_Lecture,Hall-105,Ventilation Fan,2026-06-20 08:00:00,2026-06-20 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Air exchange and laboratory safety
+OPS-2026-40694,Building_C_Admin,Server-B02,Network Room HVAC,2026-05-28 10:00:00,2026-05-28 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.0 kW,Building climate control
+OPS-2026-59449,Building_A_Lecture,Hall-103,Lighting Control System,2026-09-09 07:00:00,2026-09-09 13:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Scheduled area illumination
+OPS-2026-20227,Building_C_Lecture,Hall-201,HVAC AHU,2026-08-15 13:00:00,2026-08-15 15:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building climate control
+OPS-2026-91884,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-08-15 00:00:00,2026-08-16 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Scheduled campus equipment operation
+OPS-2026-53799,Building_E_Lecture,Hall-302,Lighting Control System,2026-12-05 13:00:00,2026-12-05 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-80397,Building_D_Lab,Lab-301,Robotics Workcell,2026-12-14 00:00:00,2026-12-21 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,6.0 kW,Approved robotics experiment
+OPS-2026-89441,Building_C_Lecture,Hall-202,Building Management Controller,2026-12-10 06:00:00,2026-12-10 12:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building management
+OPS-2026-58745,Building_E_Lecture,Hall-304,Lighting Control System,2026-06-21 10:00:00,2026-06-21 14:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,3.0 kW,Scheduled area illumination
+OPS-2026-10937,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-07-28 10:00:00,2026-07-28 16:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,18.0 kW,Research sample preservation
+OPS-2026-38526,Building_D_Lab,Lab-301,3D Printer,2026-07-24 13:00:00,2026-07-24 15:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,6.0 kW,Prototype fabrication
+OPS-2026-40901,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-10-13 13:00:00,2026-10-13 19:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-30639,Building_D_Lab,Lab-303,3D Printer,2026-11-20 09:00:00,2026-11-20 13:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,2.0 kW,Prototype fabrication
+OPS-2026-92970,Building_C_Admin,Server-B02,Network Room HVAC,2026-12-02 00:00:00,2026-12-09 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,8.0 kW,Building climate control
+OPS-2026-39087,Building_D_Lab,Lab-301,Robotics Workcell,2026-07-30 00:00:00,2026-08-02 00:00:00,Robotics Lab Supervisor,Robotics,APPROVED,4.5 kW,Approved robotics experiment
+OPS-2026-78150,Building_E_Lecture,Hall-304,Air Handling Unit,2026-09-04 06:00:00,2026-09-04 08:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-89583,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-10-06 06:00:00,2026-10-06 12:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-18306,Building_A_Lecture,Hall-101,Ventilation Fan,2026-08-23 20:00:00,2026-08-24 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-94457,Building_D_Lab,Lab-301,3D Printer,2026-08-03 09:00:00,2026-08-03 12:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,2.0 kW,Prototype fabrication
+OPS-2026-47475,Building_B_Lab,Lab-204,Laboratory HVAC,2026-09-03 13:00:00,2026-09-03 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.5 kW,Building climate control
+OPS-2026-27914,Building_D_Lab,Lab-301,Robotics Workcell,2026-12-07 21:00:00,2026-12-08 07:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,11.0 kW,Approved robotics experiment
+OPS-2026-57842,Building_A_Lecture,Hall-101,Ventilation Fan,2026-07-28 00:00:00,2026-07-31 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-60383,Building_B_Lab,Lab-205,Cryogenic Freezer,2026-11-02 22:00:00,2026-11-03 12:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,8.0 kW,Research sample preservation
+OPS-2026-31972,Building_C_Lecture,Hall-201,HVAC AHU,2026-11-21 00:00:00,2026-11-22 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-84189,Building_D_Lab,Lab-304,Environmental Chamber,2026-10-09 08:00:00,2026-10-09 10:00:00,Facilities Scheduling System,Robotics,SCHEDULED,6.0 kW,Materials/environmental testing
+OPS-2026-71139,Building_E_Lecture,Hall-302,Air Handling Unit,2026-07-15 13:00:00,2026-07-15 19:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.5 kW,Scheduled building cooling
+OPS-2026-24593,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-06-19 07:00:00,2026-06-19 10:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-89679,Building_B_Lab,Lab-203,Thermal Chamber,2026-10-18 06:00:00,2026-10-18 12:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Controlled laboratory experiment
+OPS-2026-59119,Building_C_Lecture,Hall-201,Lighting Control System,2026-08-18 18:00:00,2026-08-19 04:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-19720,Building_D_Lab,Lab-301,Robotics Workcell,2026-12-20 00:00:00,2026-12-27 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,2.0 kW,Approved robotics experiment
+OPS-2026-36082,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-12-26 20:00:00,2026-12-27 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Critical infrastructure cooling
+OPS-2026-57280,Building_A_Lecture,Hall-104,Ventilation Fan,2026-06-16 08:00:00,2026-06-16 11:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-14821,Building_A_Lecture,Hall-105,Lecture Hall HVAC Controller,2026-06-20 17:00:00,2026-06-21 01:00:00,Facilities Scheduling System,Facilities,SCHEDULED,14.0 kW,Building climate control
+OPS-2026-66020,Building_D_Lab,Lab-302,Lab HVAC,2026-08-20 00:00:00,2026-08-21 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Building climate control
+OPS-2026-89472,Building_B_Lab,Lab-201,Centrifuge,2026-12-20 09:00:00,2026-12-20 12:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,3.5 kW,Laboratory experiment
+OPS-2026-89073,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-11-15 21:00:00,2026-11-16 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.0 kW,Scheduled building cooling
+OPS-2026-65773,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-06-12 18:00:00,2026-06-13 04:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-18552,Building_A_Lecture,Hall-104,HVAC Chiller Unit,2026-07-10 07:00:00,2026-07-10 13:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.5 kW,Building climate control
+OPS-2026-46489,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-12-20 21:00:00,2026-12-21 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-29688,Building_C_Lecture,Hall-201,Building Management Controller,2026-10-26 21:00:00,2026-10-27 05:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building management
+OPS-2026-57325,Building_D_Lab,Lab-303,Lab HVAC,2026-09-29 00:00:00,2026-10-06 00:00:00,Robotics Lab Supervisor,Robotics,APPROVED,8.5 kW,Building climate control
+OPS-2026-44034,Building_B_Lab,Lab-204,Centrifuge,2026-12-31 00:00:00,2027-01-07 00:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,12.5 kW,Laboratory experiment
+OPS-2026-37702,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-10-09 07:00:00,2026-10-09 15:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,8.0 kW,Laboratory safety exhaust
+OPS-2026-16197,Building_E_Lecture,Hall-303,Air Handling Unit,2026-12-29 06:00:00,2026-12-29 14:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-35156,Building_C_Lecture,Hall-204,HVAC AHU,2026-11-01 06:00:00,2026-11-01 10:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building climate control
+OPS-2026-18415,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-09-04 07:00:00,2026-09-04 10:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,12.0 kW,Scheduled campus equipment operation
+OPS-2026-98706,Building_C_Lecture,Hall-204,Lighting Control System,2026-10-30 00:00:00,2026-11-06 00:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,7.0 kW,Scheduled area illumination
+OPS-2026-59705,Building_B_Lab,Lab-203,Thermal Chamber,2026-10-21 18:00:00,2026-10-22 02:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,18.0 kW,Controlled laboratory experiment
+OPS-2026-82601,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-09-01 09:00:00,2026-09-01 11:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-52914,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-11-03 08:00:00,2026-11-03 14:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-43730,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-07-24 06:00:00,2026-07-24 12:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-62830,Building_E_Lecture,Hall-302,Lecture Hall HVAC Controller,2026-10-29 00:00:00,2026-11-01 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-78859,Building_C_Admin,Server-B02,Network Room HVAC,2026-09-20 09:00:00,2026-09-20 17:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.0 kW,Building climate control
+OPS-2026-56664,Building_C_Lecture,Hall-201,Ventilation Fan,2026-12-31 00:00:00,2027-01-01 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-32791,Building_D_Lab,Lab-303,Lab HVAC,2026-06-07 18:00:00,2026-06-08 06:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Building climate control
+OPS-2026-88291,Building_A_Lecture,Hall-100,Air Handling Unit,2026-09-14 22:00:00,2026-09-15 10:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Scheduled building cooling
+OPS-2026-15387,Building_A_Lecture,Hall-103,Lighting Control System,2026-07-17 00:00:00,2026-07-24 00:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-32097,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-08-13 18:00:00,2026-08-14 06:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-24067,Building_C_Lecture,Hall-203,Building Management Controller,2026-12-16 00:00:00,2026-12-23 00:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,3.0 kW,Building management
+OPS-2026-91733,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-06-04 00:00:00,2026-06-07 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Building climate control
+OPS-2026-23611,Building_C_Lecture,Hall-204,Ventilation Fan,2026-07-01 21:00:00,2026-07-02 11:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,9.0 kW,Air exchange and laboratory safety
+OPS-2026-98995,Building_E_Lecture,Hall-305,Lighting Control System,2026-08-16 13:00:00,2026-08-16 16:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,5.0 kW,Scheduled area illumination
+OPS-2026-34901,Building_B_Lab,Lab-202,Mass Spectrometer,2026-07-29 09:00:00,2026-07-29 15:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,1.5 kW,Scientific measurement
+OPS-2026-72065,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-07-24 06:00:00,2026-07-24 10:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-55288,Building_A_Lecture,Hall-103,Lighting Control System,2026-05-31 19:00:00,2026-06-01 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,14.0 kW,Scheduled area illumination
+OPS-2026-66430,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-10-31 22:00:00,2026-11-01 06:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-77910,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-06-01 13:00:00,2026-06-01 17:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.0 kW,Scheduled building cooling
+OPS-2026-22726,Building_B_Lab,Lab-203,Laboratory HVAC,2026-08-10 10:00:00,2026-08-10 14:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,3.5 kW,Building climate control
+OPS-2026-23353,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-11-09 07:00:00,2026-11-09 15:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-40600,Building_B_Lab,Lab-201,Mass Spectrometer,2026-10-14 20:00:00,2026-10-15 08:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,5.5 kW,Scientific measurement
+OPS-2026-95479,Building_C_Lecture,Hall-203,Building Management Controller,2026-07-06 00:00:00,2026-07-13 00:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,7.0 kW,Building management
+OPS-2026-92630,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-08-25 09:00:00,2026-08-25 15:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,12.0 kW,Critical infrastructure cooling
+OPS-2026-44746,Building_C_Lecture,Hall-202,Ventilation Fan,2026-11-07 22:00:00,2026-11-08 06:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-99883,Building_E_Lecture,Hall-302,Lighting Control System,2026-12-26 19:00:00,2026-12-27 05:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-98769,Building_E_Lecture,Hall-304,Lighting Control System,2026-12-09 07:00:00,2026-12-09 11:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-23991,Building_D_Lab,Lab-303,3D Printer,2026-08-13 00:00:00,2026-08-14 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,6.0 kW,Prototype fabrication
+OPS-2026-25213,Building_B_Lab,Lab-202,Mass Spectrometer,2026-09-16 19:00:00,2026-09-17 05:00:00,Facilities Operations Manager,Facilities,APPROVED,12.5 kW,Scientific measurement
+OPS-2026-77784,Building_B_Lab,Lab-203,Mass Spectrometer,2026-08-23 08:00:00,2026-08-23 10:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,8.0 kW,Scientific measurement
+OPS-2026-31608,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-07-16 09:00:00,2026-07-16 11:00:00,Facilities Operations Manager,Facilities,APPROVED,3.5 kW,Research sample preservation
+OPS-2026-81148,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-08-25 06:00:00,2026-08-25 12:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Critical infrastructure cooling
+OPS-2026-91811,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-10-27 09:00:00,2026-10-27 17:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-75292,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-08-13 07:00:00,2026-08-13 10:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-33381,Building_C_Lecture,Hall-204,Lighting Control System,2026-06-22 09:00:00,2026-06-22 13:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-55695,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-10-16 20:00:00,2026-10-17 06:00:00,Facilities Operations Manager,Facilities,APPROVED,12.5 kW,Research sample preservation
+OPS-2026-25813,Building_D_Lab,Lab-301,3D Printer,2026-12-15 00:00:00,2026-12-18 00:00:00,Maintenance Coordinator,Computer Science,MAINTENANCE,8.5 kW,Prototype fabrication
+OPS-2026-33000,Building_E_Lecture,Hall-302,Lighting Control System,2026-08-02 08:00:00,2026-08-02 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-59300,Building_A_Lecture,Hall-102,Ventilation Fan,2026-09-22 10:00:00,2026-09-22 16:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-23249,Building_E_Lecture,Hall-305,Air Handling Unit,2026-06-27 08:00:00,2026-06-27 10:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-44429,Building_A_Lecture,Hall-104,Ventilation Fan,2026-11-20 21:00:00,2026-11-21 07:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Air exchange and laboratory safety
+OPS-2026-74175,Building_C_Lecture,Hall-204,Building Management Controller,2026-09-28 00:00:00,2026-09-29 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.0 kW,Building management
+OPS-2026-64688,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-08-18 19:00:00,2026-08-19 05:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,10.0 kW,Scheduled campus equipment operation
+OPS-2026-13718,Building_A_Lecture,Hall-102,Lecture Hall HVAC Controller,2026-12-16 07:00:00,2026-12-16 09:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Building climate control
+OPS-2026-70054,Building_E_Lecture,Hall-304,Air Handling Unit,2026-11-14 10:00:00,2026-11-14 14:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,5.0 kW,Scheduled building cooling
+OPS-2026-70080,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-05-25 20:00:00,2026-05-26 04:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-31135,Building_A_Lecture,Hall-102,HVAC Chiller Unit,2026-08-02 06:00:00,2026-08-02 09:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,7.5 kW,Building climate control
+OPS-2026-86175,Building_A_Lecture,Hall-103,Lighting Control System,2026-10-23 10:00:00,2026-10-23 18:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-98489,Building_A_Lecture,Hall-102,HVAC Chiller Unit,2026-10-26 13:00:00,2026-10-26 19:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,4.0 kW,Building climate control
+OPS-2026-95952,Building_C_Admin,Server-B01,Network Room HVAC,2026-08-10 07:00:00,2026-08-10 09:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,12.0 kW,Building climate control
+OPS-2026-10211,Building_C_Lecture,Hall-201,Lighting Control System,2026-07-13 00:00:00,2026-07-20 00:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled area illumination
+OPS-2026-26711,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-09-07 22:00:00,2026-09-08 08:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-66508,Building_A_Lecture,Hall-105,Ventilation Fan,2026-06-01 00:00:00,2026-06-02 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-95260,Building_A_Lecture,Hall-101,Lighting Control System,2026-06-24 00:00:00,2026-06-26 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-93684,Building_B_Lab,Lab-201,Cryogenic Freezer,2026-11-11 18:00:00,2026-11-12 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.5 kW,Research sample preservation
+OPS-2026-73724,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-10-23 10:00:00,2026-10-23 14:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,7.0 kW,Scheduled building cooling
+OPS-2026-15577,Building_A_Lecture,Hall-100,Air Handling Unit,2026-09-06 07:00:00,2026-09-06 11:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-95975,Building_D_Lab,Lab-303,Machine Learning Server,2026-07-13 13:00:00,2026-07-13 19:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,2.0 kW,Essential computing infrastructure
+OPS-2026-17734,Building_A_Lecture,Hall-103,HVAC Chiller Unit,2026-06-30 00:00:00,2026-07-03 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Building climate control
+OPS-2026-23386,Building_E_Lecture,Hall-302,Lighting Control System,2026-10-24 17:00:00,2026-10-25 01:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-49682,Building_D_Lab,Lab-302,Environmental Chamber,2026-08-06 07:00:00,2026-08-06 13:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Materials/environmental testing
+OPS-2026-98077,Building_B_Lab,Lab-203,Thermal Chamber,2026-09-10 07:00:00,2026-09-10 09:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,18.0 kW,Controlled laboratory experiment
+OPS-2026-40051,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-08-07 21:00:00,2026-08-08 05:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-22823,Building_B_Lab,Lab-203,Mass Spectrometer,2026-07-30 07:00:00,2026-07-30 10:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,18.0 kW,Scientific measurement
+OPS-2026-32716,Building_E_Lecture,Hall-301,Air Handling Unit,2026-12-30 20:00:00,2026-12-31 04:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,5.0 kW,Scheduled building cooling
+OPS-2026-97316,Building_A_Lecture,Hall-101,Lecture Hall HVAC Controller,2026-07-23 06:00:00,2026-07-23 08:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Building climate control
+OPS-2026-61347,Building_E_Lecture,Hall-302,Air Handling Unit,2026-08-09 21:00:00,2026-08-10 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-56303,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-11-15 09:00:00,2026-11-15 11:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Building climate control
+OPS-2026-89703,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-06-29 06:00:00,2026-06-29 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,4.0 kW,Building climate control
+OPS-2026-82961,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-08-20 13:00:00,2026-08-20 15:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-18195,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-11-23 21:00:00,2026-11-24 11:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,1.5 kW,Research sample preservation
+OPS-2026-51860,Building_A_Lecture,Hall-102,Ventilation Fan,2026-12-01 10:00:00,2026-12-01 14:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,2.5 kW,Air exchange and laboratory safety
+OPS-2026-59974,Building_C_Lecture,Hall-202,Ventilation Fan,2026-09-27 08:00:00,2026-09-27 16:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-71518,Building_E_Lecture,Hall-303,Lighting Control System,2026-10-26 00:00:00,2026-11-02 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-39154,Building_E_Lecture,Hall-302,Air Handling Unit,2026-09-10 22:00:00,2026-09-11 06:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,7.5 kW,Scheduled building cooling
+OPS-2026-70957,Building_B_Lab,Lab-205,Centrifuge,2026-11-17 18:00:00,2026-11-18 04:00:00,Facilities Operations Manager,Facilities,APPROVED,12.5 kW,Laboratory experiment
+OPS-2026-47062,Building_C_Lecture,Hall-201,Lighting Control System,2026-11-13 17:00:00,2026-11-14 05:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled area illumination
+OPS-2026-29949,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-07-26 10:00:00,2026-07-26 13:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Building climate control
+OPS-2026-18301,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-08-10 10:00:00,2026-08-10 14:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Critical infrastructure cooling
+OPS-2026-95872,Building_C_Lecture,Hall-202,HVAC AHU,2026-06-15 10:00:00,2026-06-15 12:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,3.0 kW,Building climate control
+OPS-2026-14998,Building_C_Lecture,Hall-203,HVAC AHU,2026-07-29 06:00:00,2026-07-29 09:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,5.0 kW,Building climate control
+OPS-2026-92545,Building_B_Lab,Lab-201,Centrifuge,2026-11-18 19:00:00,2026-11-19 07:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,12.5 kW,Laboratory experiment
+OPS-2026-77181,Building_E_Lecture,Hall-302,Air Handling Unit,2026-08-05 13:00:00,2026-08-05 15:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-42751,Building_A_Lecture,Hall-104,Ventilation Fan,2026-12-15 00:00:00,2026-12-17 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,4.0 kW,Air exchange and laboratory safety
+OPS-2026-10463,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-06-11 00:00:00,2026-06-12 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-55531,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-07-31 00:00:00,2026-08-07 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,2.5 kW,Building climate control
+OPS-2026-72631,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-07-02 08:00:00,2026-07-02 16:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-87136,Building_D_Lab,Lab-301,3D Printer,2026-08-06 17:00:00,2026-08-07 05:00:00,Facilities Scheduling System,Robotics,SCHEDULED,8.5 kW,Prototype fabrication
+OPS-2026-58136,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-08-19 13:00:00,2026-08-19 19:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-27536,Building_A_Lecture,Hall-100,Air Handling Unit,2026-11-27 08:00:00,2026-11-27 16:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,14.0 kW,Scheduled building cooling
+OPS-2026-45899,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-11-09 07:00:00,2026-11-09 11:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.0 kW,Critical infrastructure cooling
+OPS-2026-23367,Building_D_Lab,Lab-303,Lab HVAC,2026-12-16 07:00:00,2026-12-16 15:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,2.0 kW,Building climate control
+OPS-2026-51517,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-12-11 13:00:00,2026-12-11 17:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,8.0 kW,Scheduled campus equipment operation
+OPS-2026-76440,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-05-30 20:00:00,2026-05-31 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.0 kW,Building climate control
+OPS-2026-76434,Building_C_Lecture,Hall-203,Building Management Controller,2026-10-16 09:00:00,2026-10-16 15:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building management
+OPS-2026-20701,Building_E_Lecture,Hall-305,Air Handling Unit,2026-10-18 13:00:00,2026-10-18 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-92304,Building_C_Admin,Server-B01,Network Room HVAC,2026-12-18 18:00:00,2026-12-19 08:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-83510,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-08-27 10:00:00,2026-08-27 16:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Critical infrastructure cooling
+OPS-2026-33810,Building_C_Lecture,Hall-202,Lighting Control System,2026-11-13 07:00:00,2026-11-13 15:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-91050,Building_C_Lecture,Hall-204,HVAC AHU,2026-09-03 06:00:00,2026-09-03 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Building climate control
+OPS-2026-61080,Building_A_Lecture,Hall-103,HVAC Chiller Unit,2026-08-13 07:00:00,2026-08-13 11:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,7.5 kW,Building climate control
+OPS-2026-55763,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-07-25 10:00:00,2026-07-25 14:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-82648,Building_C_Lecture,Hall-201,Lighting Control System,2026-09-27 06:00:00,2026-09-27 12:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,7.0 kW,Scheduled area illumination
+OPS-2026-26792,Building_E_Lecture,Hall-302,Air Handling Unit,2026-12-14 17:00:00,2026-12-15 03:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-24016,Building_C_Lecture,Hall-202,Ventilation Fan,2026-06-25 13:00:00,2026-06-25 15:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,3.0 kW,Air exchange and laboratory safety
+OPS-2026-79921,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-05-30 10:00:00,2026-05-30 18:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-59175,Building_C_Lecture,Hall-202,Ventilation Fan,2026-05-26 00:00:00,2026-06-02 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-83818,Building_B_Lab,Lab-204,Centrifuge,2026-08-24 22:00:00,2026-08-25 08:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,1.5 kW,Laboratory experiment
+OPS-2026-17102,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-08-28 13:00:00,2026-08-28 17:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,8.0 kW,Critical infrastructure cooling
+OPS-2026-36448,Building_E_Lecture,Hall-304,Lighting Control System,2026-06-25 19:00:00,2026-06-26 03:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-85990,Building_D_Lab,Lab-303,Robotics Workcell,2026-11-23 21:00:00,2026-11-24 11:00:00,Robotics Lab Supervisor,Robotics,APPROVED,11.0 kW,Approved robotics experiment
+OPS-2026-22350,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-11-23 09:00:00,2026-11-23 17:00:00,Facilities Operations Manager,Facilities,APPROVED,8.0 kW,Building climate control
+OPS-2026-90906,Building_B_Lab,Lab-202,Mass Spectrometer,2026-06-28 00:00:00,2026-07-05 00:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,1.5 kW,Scientific measurement
+OPS-2026-75439,Building_B_Lab,Lab-205,Mass Spectrometer,2026-12-09 20:00:00,2026-12-10 04:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,5.5 kW,Scientific measurement
+OPS-2026-96638,Building_A_Lecture,Hall-103,Lighting Control System,2026-08-07 07:00:00,2026-08-07 11:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Scheduled area illumination
+OPS-2026-47059,Building_D_Lab,Lab-302,Robotics Workcell,2026-06-25 00:00:00,2026-06-27 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,11.0 kW,Approved robotics experiment
+OPS-2026-36586,Building_C_Lecture,Hall-203,Ventilation Fan,2026-07-16 08:00:00,2026-07-16 10:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-92302,Building_D_Lab,Lab-302,Environmental Chamber,2026-12-11 13:00:00,2026-12-11 16:00:00,Maintenance Coordinator,Robotics,MAINTENANCE,11.0 kW,Materials/environmental testing
+OPS-2026-92677,Building_B_Lab,Lab-201,Cryogenic Freezer,2026-07-16 18:00:00,2026-07-17 04:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,1.5 kW,Research sample preservation
+OPS-2026-76787,Building_A_Lecture,Hall-103,Lighting Control System,2026-10-05 10:00:00,2026-10-05 13:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-52462,Building_B_Lab,Lab-202,Mass Spectrometer,2026-11-14 10:00:00,2026-11-14 16:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,1.5 kW,Scientific measurement
+OPS-2026-12832,Building_E_Lecture,Hall-305,Air Handling Unit,2026-12-16 22:00:00,2026-12-17 06:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-73309,Building_B_Lab,Lab-205,Centrifuge,2026-07-06 10:00:00,2026-07-06 12:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,1.5 kW,Laboratory experiment
+OPS-2026-19832,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-12-15 21:00:00,2026-12-16 07:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,3.5 kW,Laboratory safety exhaust
+OPS-2026-67310,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-09-27 07:00:00,2026-09-27 10:00:00,IT Infrastructure Lead,Campus IT,APPROVED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-68359,Building_E_Lecture,Hall-301,Lighting Control System,2026-09-04 18:00:00,2026-09-05 04:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Scheduled area illumination
+OPS-2026-19788,Building_D_Lab,Lab-304,Machine Learning Server,2026-06-10 00:00:00,2026-06-13 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,11.0 kW,Essential computing infrastructure
+OPS-2026-35656,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-11-14 17:00:00,2026-11-15 03:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,8.0 kW,Building climate control
+OPS-2026-49125,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-08-12 07:00:00,2026-08-12 09:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building climate control
+OPS-2026-94787,Building_B_Lab,Lab-204,Thermal Chamber,2026-12-03 13:00:00,2026-12-03 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,1.5 kW,Controlled laboratory experiment
+OPS-2026-76799,Building_D_Lab,Lab-304,Lab HVAC,2026-05-29 20:00:00,2026-05-30 06:00:00,Pending Facility Review,Materials Engineering,PENDING_REVIEW,6.0 kW,Building climate control
+OPS-2026-42086,Building_D_Lab,Lab-301,3D Printer,2026-08-06 00:00:00,2026-08-08 00:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,4.5 kW,Prototype fabrication
+OPS-2026-30737,Building_D_Lab,Lab-303,Environmental Chamber,2026-07-03 19:00:00,2026-07-04 07:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Materials/environmental testing
+OPS-2026-98580,Building_D_Lab,Lab-303,Lab HVAC,2026-09-22 09:00:00,2026-09-22 12:00:00,Robotics Lab Supervisor,Robotics,APPROVED,6.0 kW,Building climate control
+OPS-2026-55487,Building_A_Lecture,Hall-105,Lighting Control System,2026-12-05 13:00:00,2026-12-05 15:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Scheduled area illumination
+OPS-2026-68786,Building_D_Lab,Lab-303,Robotics Workcell,2026-09-25 00:00:00,2026-09-26 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Approved robotics experiment
+OPS-2026-51998,Building_C_Lecture,Hall-203,HVAC AHU,2026-11-20 18:00:00,2026-11-21 04:00:00,Facilities Scheduling System,Facilities,SCHEDULED,9.0 kW,Building climate control
+OPS-2026-99156,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-10-16 09:00:00,2026-10-16 11:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Critical infrastructure cooling
+OPS-2026-86283,Building_D_Lab,Lab-304,Machine Learning Server,2026-10-04 07:00:00,2026-10-04 11:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,2.0 kW,Essential computing infrastructure
+OPS-2026-26927,Building_C_Admin,Server-B01,UPS Cooling Fan,2026-10-04 00:00:00,2026-10-11 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-96821,Building_A_Lecture,Hall-100,HVAC Chiller Unit,2026-10-28 09:00:00,2026-10-28 15:00:00,Facilities Scheduling System,Facilities,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-67527,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-09-04 06:00:00,2026-09-04 12:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Building climate control
+OPS-2026-11242,Building_A_Lecture,Hall-100,Lighting Control System,2026-05-28 00:00:00,2026-05-29 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Scheduled area illumination
+OPS-2026-35232,Building_C_Admin,Server-B02,Central Data Center Cooling Unit,2026-10-20 06:00:00,2026-10-20 12:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Scheduled campus equipment operation
+OPS-2026-16643,Building_C_Admin,Server-B01,Network Room HVAC,2026-10-24 00:00:00,2026-10-27 00:00:00,IT Infrastructure Lead,Campus IT,APPROVED,10.0 kW,Building climate control
+OPS-2026-61278,Building_C_Lecture,Hall-204,Building Management Controller,2026-10-15 21:00:00,2026-10-16 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,3.0 kW,Building management
+OPS-2026-43765,Building_C_Lecture,Hall-203,Lighting Control System,2026-06-28 00:00:00,2026-06-30 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-69859,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-08-16 07:00:00,2026-08-16 09:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,8.0 kW,Laboratory safety exhaust
+OPS-2026-26984,Building_D_Lab,Lab-302,Lab HVAC,2026-08-24 09:00:00,2026-08-24 17:00:00,Facilities Scheduling System,Robotics,SCHEDULED,8.5 kW,Building climate control
+OPS-2026-17664,Building_E_Lecture,Hall-305,Lighting Control System,2026-05-31 00:00:00,2026-06-01 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Scheduled area illumination
+OPS-2026-44790,Building_E_Lecture,Hall-303,Lighting Control System,2026-09-03 17:00:00,2026-09-04 05:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-33960,Building_E_Lecture,Hall-304,Lighting Control System,2026-08-20 10:00:00,2026-08-20 13:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-31805,Building_B_Lab,Lab-201,Laboratory HVAC,2026-08-03 19:00:00,2026-08-04 09:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,5.5 kW,Building climate control
+OPS-2026-94377,Building_A_Lecture,Hall-102,Air Handling Unit,2026-09-11 06:00:00,2026-09-11 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled building cooling
+OPS-2026-99863,Building_A_Lecture,Hall-104,Air Handling Unit,2026-05-26 00:00:00,2026-06-02 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled building cooling
+OPS-2026-74515,Building_E_Lecture,Hall-305,Lecture Hall HVAC Controller,2026-09-09 08:00:00,2026-09-09 11:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,7.5 kW,Building climate control
+OPS-2026-88695,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-08-20 09:00:00,2026-08-20 11:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Scheduled campus equipment operation
+OPS-2026-88568,Building_C_Lecture,Hall-201,Lighting Control System,2026-12-10 22:00:00,2026-12-11 10:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.0 kW,Scheduled area illumination
+OPS-2026-32480,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-10-13 13:00:00,2026-10-13 21:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Critical infrastructure cooling
+OPS-2026-43424,Building_A_Lecture,Hall-101,Air Handling Unit,2026-11-15 21:00:00,2026-11-16 07:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Scheduled building cooling
+OPS-2026-45508,Building_C_Lecture,Hall-201,Building Management Controller,2026-11-02 13:00:00,2026-11-02 17:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,5.0 kW,Building management
+OPS-2026-73856,Building_C_Lecture,Hall-201,Lighting Control System,2026-08-02 10:00:00,2026-08-02 18:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-46401,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-11-21 13:00:00,2026-11-21 17:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-95925,Building_D_Lab,Lab-301,Robotics Workcell,2026-06-10 22:00:00,2026-06-11 12:00:00,Maintenance Coordinator,Robotics,MAINTENANCE,2.0 kW,Approved robotics experiment
+OPS-2026-31336,Building_C_Lecture,Hall-201,HVAC AHU,2026-11-12 13:00:00,2026-11-12 16:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Building climate control
+OPS-2026-68298,Building_E_Lecture,Hall-304,Lighting Control System,2026-11-20 13:00:00,2026-11-20 21:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Scheduled area illumination
+OPS-2026-37501,Building_E_Lecture,Hall-302,Air Handling Unit,2026-05-31 09:00:00,2026-05-31 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Scheduled building cooling
+OPS-2026-95335,Building_A_Lecture,Hall-102,Lighting Control System,2026-10-01 07:00:00,2026-10-01 15:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-96020,Building_C_Lecture,Hall-201,Lighting Control System,2026-12-16 20:00:00,2026-12-17 04:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled area illumination
+OPS-2026-53737,Building_A_Lecture,Hall-100,Lecture Hall HVAC Controller,2026-08-15 06:00:00,2026-08-15 08:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-14332,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-12-14 08:00:00,2026-12-14 14:00:00,Pending Facility Review,Chemical Engineering,PENDING_REVIEW,12.5 kW,Research sample preservation
+OPS-2026-30278,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-06-17 19:00:00,2026-06-18 07:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Building climate control
+OPS-2026-93065,Building_C_Admin,Plant-Room-01,UPS Cooling Fan,2026-06-19 22:00:00,2026-06-20 10:00:00,Maintenance Coordinator,Campus IT,MAINTENANCE,12.0 kW,Critical infrastructure cooling
+OPS-2026-71334,Building_C_Admin,Server-B01,Network Room HVAC,2026-11-23 00:00:00,2026-11-30 00:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-54311,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-09-05 20:00:00,2026-09-06 04:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-48420,Building_D_Lab,Lab-302,3D Printer,2026-10-13 10:00:00,2026-10-13 14:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,4.5 kW,Prototype fabrication
+OPS-2026-84592,Building_B_Lab,Lab-205,Mass Spectrometer,2026-09-27 21:00:00,2026-09-28 11:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.5 kW,Scientific measurement
+OPS-2026-79056,Building_D_Lab,Lab-304,Lab HVAC,2026-06-05 07:00:00,2026-06-05 15:00:00,Facilities Scheduling System,Robotics,SCHEDULED,11.0 kW,Building climate control
+OPS-2026-99678,Building_B_Lab,Lab-204,Thermal Chamber,2026-12-01 00:00:00,2026-12-03 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.5 kW,Controlled laboratory experiment
+OPS-2026-68240,Building_E_Lecture,Hall-302,Lighting Control System,2026-06-16 07:00:00,2026-06-16 10:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,5.0 kW,Scheduled area illumination
+OPS-2026-10516,Building_D_Lab,Lab-302,Robotics Workcell,2026-12-23 18:00:00,2026-12-24 02:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Approved robotics experiment
+OPS-2026-75969,Building_B_Lab,Lab-204,Mass Spectrometer,2026-09-16 10:00:00,2026-09-16 12:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,3.5 kW,Scientific measurement
+OPS-2026-46597,Building_B_Lab,Lab-204,Thermal Chamber,2026-10-05 10:00:00,2026-10-05 16:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,8.0 kW,Controlled laboratory experiment
+OPS-2026-48813,Building_A_Lecture,Hall-104,Ventilation Fan,2026-09-29 06:00:00,2026-09-29 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Air exchange and laboratory safety
+OPS-2026-35161,Building_A_Lecture,Hall-105,Lecture Hall HVAC Controller,2026-10-19 06:00:00,2026-10-19 09:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Building climate control
+OPS-2026-78548,Building_C_Admin,Server-B02,UPS Cooling Fan,2026-07-18 06:00:00,2026-07-18 08:00:00,IT Infrastructure Lead,Campus IT,APPROVED,8.0 kW,Critical infrastructure cooling
+OPS-2026-62587,Building_B_Lab,Lab-201,Thermal Chamber,2026-11-24 22:00:00,2026-11-25 06:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,1.5 kW,Controlled laboratory experiment
+OPS-2026-77696,Building_C_Lecture,Hall-202,HVAC AHU,2026-10-14 00:00:00,2026-10-15 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,9.0 kW,Building climate control
+OPS-2026-39806,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-12-18 13:00:00,2026-12-18 17:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,18.0 kW,Laboratory safety exhaust
+OPS-2026-39112,Building_C_Lecture,Hall-202,HVAC AHU,2026-07-29 00:00:00,2026-08-05 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Building climate control
+OPS-2026-25890,Building_C_Lecture,Hall-203,Ventilation Fan,2026-07-28 08:00:00,2026-07-28 10:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-65925,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-08-14 10:00:00,2026-08-14 16:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Scheduled building cooling
+OPS-2026-69683,Building_C_Lecture,Hall-204,HVAC AHU,2026-12-27 08:00:00,2026-12-27 12:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Building climate control
+OPS-2026-19101,Building_A_Lecture,Hall-101,Lighting Control System,2026-08-08 10:00:00,2026-08-08 13:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-69412,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-12-15 10:00:00,2026-12-15 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-63261,Building_D_Lab,Lab-302,Environmental Chamber,2026-06-28 00:00:00,2026-07-01 00:00:00,Facilities Scheduling System,Robotics,SCHEDULED,8.5 kW,Materials/environmental testing
+OPS-2026-96230,Building_C_Lecture,Hall-203,Ventilation Fan,2026-10-05 09:00:00,2026-10-05 15:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-28121,Building_D_Lab,Lab-302,Robotics Workcell,2026-06-14 13:00:00,2026-06-14 16:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Approved robotics experiment
+OPS-2026-95606,Building_D_Lab,Lab-303,3D Printer,2026-10-23 06:00:00,2026-10-23 10:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,6.0 kW,Prototype fabrication
+OPS-2026-15809,Building_C_Admin,Plant-Room-01,Network Room HVAC,2026-12-10 09:00:00,2026-12-10 13:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-26267,Building_D_Lab,Lab-303,Robotics Workcell,2026-10-26 00:00:00,2026-11-02 00:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,6.0 kW,Approved robotics experiment
+OPS-2026-89999,Building_A_Lecture,Hall-101,Air Handling Unit,2026-11-15 21:00:00,2026-11-16 09:00:00,Facilities Operations Manager,Facilities,APPROVED,2.5 kW,Scheduled building cooling
+OPS-2026-91502,Building_A_Lecture,Hall-104,Lighting Control System,2026-09-08 06:00:00,2026-09-08 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-47605,Building_C_Lecture,Hall-201,Air Conditioning Unit,2026-08-16 20:00:00,2026-08-17 06:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-74067,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-05-27 00:00:00,2026-05-29 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Building climate control
+OPS-2026-59784,Building_C_Lecture,Hall-204,Ventilation Fan,2026-10-28 00:00:00,2026-11-04 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-45089,Building_A_Lecture,Hall-103,Ventilation Fan,2026-10-12 00:00:00,2026-10-15 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,7.5 kW,Air exchange and laboratory safety
+OPS-2026-30496,Building_B_Lab,Lab-204,Centrifuge,2026-08-22 20:00:00,2026-08-23 06:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,3.5 kW,Laboratory experiment
+OPS-2026-68326,Building_C_Lecture,Hall-202,HVAC AHU,2026-10-31 07:00:00,2026-10-31 11:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-50250,Building_A_Lecture,Hall-104,Ventilation Fan,2026-09-05 17:00:00,2026-09-06 03:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Air exchange and laboratory safety
+OPS-2026-12684,Building_B_Lab,Lab-203,Centrifuge,2026-10-28 18:00:00,2026-10-29 02:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,12.5 kW,Laboratory experiment
+OPS-2026-50376,Building_B_Lab,Lab-204,Laboratory HVAC,2026-10-04 07:00:00,2026-10-04 11:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,5.5 kW,Building climate control
+OPS-2026-18171,Building_C_Admin,Server-B01,Network Room HVAC,2026-10-25 09:00:00,2026-10-25 17:00:00,IT Infrastructure Lead,Campus IT,APPROVED,10.0 kW,Building climate control
+OPS-2026-81104,Building_A_Lecture,Hall-101,Air Handling Unit,2026-09-03 00:00:00,2026-09-06 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,2.5 kW,Scheduled building cooling
+OPS-2026-89849,Building_E_Lecture,Hall-302,Air Handling Unit,2026-10-20 20:00:00,2026-10-21 08:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,10.0 kW,Scheduled building cooling
+OPS-2026-82795,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-12-07 13:00:00,2026-12-07 15:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,12.5 kW,Laboratory safety exhaust
+OPS-2026-94301,Building_E_Lecture,Hall-303,Lighting Control System,2026-09-04 00:00:00,2026-09-11 00:00:00,Maintenance Coordinator,Mechanical Engineering,MAINTENANCE,10.0 kW,Scheduled area illumination
+OPS-2026-89810,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-09-16 19:00:00,2026-09-17 09:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-44445,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-08-31 00:00:00,2026-09-01 00:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control
+OPS-2026-83834,Building_C_Lecture,Hall-202,HVAC AHU,2026-08-26 00:00:00,2026-09-02 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.0 kW,Building climate control
+OPS-2026-67833,Building_B_Lab,Lab-203,Cryogenic Freezer,2026-12-09 18:00:00,2026-12-10 08:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,8.0 kW,Research sample preservation
+OPS-2026-37608,Building_B_Lab,Lab-204,Centrifuge,2026-06-30 00:00:00,2026-07-07 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.5 kW,Laboratory experiment
+OPS-2026-27664,Building_E_Lecture,Hall-304,HVAC Chiller Unit,2026-12-19 21:00:00,2026-12-20 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Building climate control
+OPS-2026-28225,Building_B_Lab,Lab-205,Fume Hood Exhaust Fan,2026-10-10 10:00:00,2026-10-10 13:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,8.0 kW,Laboratory safety exhaust
+OPS-2026-37233,Building_C_Lecture,Hall-202,Building Management Controller,2026-06-29 22:00:00,2026-06-30 12:00:00,Pending Facility Review,Electrical Engineering,PENDING_REVIEW,9.0 kW,Building management
+OPS-2026-15508,Building_E_Lecture,Hall-302,Lighting Control System,2026-07-26 06:00:00,2026-07-26 10:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-69209,Building_B_Lab,Lab-205,Mass Spectrometer,2026-09-24 17:00:00,2026-09-25 07:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,5.5 kW,Scientific measurement
+OPS-2026-35424,Building_C_Admin,Plant-Room-01,Central Data Center Cooling Unit,2026-06-15 00:00:00,2026-06-17 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,10.0 kW,Scheduled campus equipment operation
+OPS-2026-22960,Building_B_Lab,Lab-201,Mass Spectrometer,2026-07-03 00:00:00,2026-07-04 00:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,12.5 kW,Scientific measurement
+OPS-2026-76469,Building_C_Lecture,Hall-203,Ventilation Fan,2026-05-27 07:00:00,2026-05-27 11:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,5.0 kW,Air exchange and laboratory safety
+OPS-2026-59203,Building_B_Lab,Lab-204,Thermal Chamber,2026-10-26 19:00:00,2026-10-27 09:00:00,Facilities Operations Manager,Facilities,APPROVED,18.0 kW,Controlled laboratory experiment
+OPS-2026-84831,Building_B_Lab,Lab-201,Mass Spectrometer,2026-10-13 13:00:00,2026-10-13 19:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,5.5 kW,Scientific measurement
+OPS-2026-66388,Building_A_Lecture,Hall-101,HVAC Chiller Unit,2026-07-21 08:00:00,2026-07-21 12:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,4.0 kW,Building climate control
+OPS-2026-65449,Building_B_Lab,Lab-204,Centrifuge,2026-11-29 19:00:00,2026-11-30 07:00:00,Facilities Operations Manager,Facilities,APPROVED,12.5 kW,Laboratory experiment
+OPS-2026-68835,Building_D_Lab,Lab-302,Robotics Workcell,2026-09-02 10:00:00,2026-09-02 13:00:00,Facilities Scheduling System,Robotics,SCHEDULED,2.0 kW,Approved robotics experiment
+OPS-2026-17298,Building_B_Lab,Lab-205,Thermal Chamber,2026-11-27 20:00:00,2026-11-28 10:00:00,Facilities Operations Manager,Facilities,APPROVED,3.5 kW,Controlled laboratory experiment
+OPS-2026-80429,Building_A_Lecture,Hall-105,HVAC Chiller Unit,2026-07-09 00:00:00,2026-07-11 00:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Building climate control
+OPS-2026-77380,Building_C_Admin,Server-B02,Network Room HVAC,2026-09-04 19:00:00,2026-09-05 05:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-47887,Building_D_Lab,Lab-303,Machine Learning Server,2026-08-08 13:00:00,2026-08-08 15:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,6.0 kW,Essential computing infrastructure
+OPS-2026-39277,Building_B_Lab,Lab-204,Thermal Chamber,2026-11-24 06:00:00,2026-11-24 08:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,3.5 kW,Controlled laboratory experiment
+OPS-2026-35357,Building_B_Lab,Lab-202,Fume Hood Exhaust Fan,2026-09-21 00:00:00,2026-09-24 00:00:00,Maintenance Coordinator,Chemical Engineering,MAINTENANCE,8.0 kW,Laboratory safety exhaust
+OPS-2026-10748,Building_E_Lecture,Hall-303,HVAC Chiller Unit,2026-07-16 09:00:00,2026-07-16 15:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-65938,Building_B_Lab,Lab-205,Laboratory HVAC,2026-07-07 13:00:00,2026-07-07 15:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,18.0 kW,Building climate control
+OPS-2026-68483,Building_A_Lecture,Hall-103,Lighting Control System,2026-06-15 00:00:00,2026-06-18 00:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,7.5 kW,Scheduled area illumination
+OPS-2026-90511,Building_A_Lecture,Hall-105,Ventilation Fan,2026-08-25 21:00:00,2026-08-26 09:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-22161,Building_B_Lab,Lab-204,Centrifuge,2026-07-22 00:00:00,2026-07-23 00:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,3.5 kW,Laboratory experiment
+OPS-2026-46619,Building_E_Lecture,Hall-301,Air Handling Unit,2026-08-13 09:00:00,2026-08-13 11:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-47273,Building_C_Lecture,Hall-201,Lighting Control System,2026-12-04 21:00:00,2026-12-05 11:00:00,Facilities Scheduling System,Electrical Engineering,SCHEDULED,3.0 kW,Scheduled area illumination
+OPS-2026-77856,Building_D_Lab,Lab-303,Robotics Workcell,2026-10-29 00:00:00,2026-11-05 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,8.5 kW,Approved robotics experiment
+OPS-2026-32399,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-07-04 00:00:00,2026-07-07 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-28236,Building_C_Admin,Server-B01,Network Room HVAC,2026-11-16 21:00:00,2026-11-17 09:00:00,Facilities Scheduling System,Facilities,SCHEDULED,8.0 kW,Building climate control
+OPS-2026-85465,Building_E_Lecture,Hall-304,Air Handling Unit,2026-12-28 13:00:00,2026-12-28 21:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-38674,Building_C_Lecture,Hall-202,Building Management Controller,2026-10-04 07:00:00,2026-10-04 09:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,3.0 kW,Building management
+OPS-2026-64830,Building_C_Lecture,Hall-202,Lighting Control System,2026-09-11 00:00:00,2026-09-18 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-64534,Building_E_Lecture,Hall-305,HVAC Chiller Unit,2026-09-21 08:00:00,2026-09-21 16:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Building climate control
+OPS-2026-66175,Building_C_Lecture,Hall-204,Air Conditioning Unit,2026-11-11 07:00:00,2026-11-11 09:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,5.0 kW,Scheduled building cooling
+OPS-2026-53353,Building_D_Lab,Lab-304,Lab HVAC,2026-11-23 13:00:00,2026-11-23 17:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,2.0 kW,Building climate control
+OPS-2026-90823,Building_E_Lecture,Hall-301,Air Handling Unit,2026-11-25 17:00:00,2026-11-26 03:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled building cooling
+OPS-2026-14806,Building_B_Lab,Lab-203,Centrifuge,2026-09-13 00:00:00,2026-09-14 00:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,8.0 kW,Laboratory experiment
+OPS-2026-48552,Building_D_Lab,Lab-303,Machine Learning Server,2026-06-24 08:00:00,2026-06-24 10:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,8.5 kW,Essential computing infrastructure
+OPS-2026-76241,Building_D_Lab,Lab-304,Lab HVAC,2026-07-31 06:00:00,2026-07-31 09:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,11.0 kW,Building climate control
+OPS-2026-93839,Building_B_Lab,Lab-202,Mass Spectrometer,2026-12-07 13:00:00,2026-12-07 16:00:00,Dr. Research Supervisor,Biotechnology,APPROVED,8.0 kW,Scientific measurement
+OPS-2026-37834,Building_E_Lecture,Hall-303,Air Handling Unit,2026-07-17 13:00:00,2026-07-17 16:00:00,Facilities Scheduling System,Facilities,SCHEDULED,7.5 kW,Scheduled building cooling
+OPS-2026-52780,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-12-12 00:00:00,2026-12-15 00:00:00,Facilities Operations Manager,Facilities,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-89629,Building_C_Admin,Server-B01,Network Room HVAC,2026-07-29 08:00:00,2026-07-29 14:00:00,Pending Facility Review,Campus IT,PENDING_REVIEW,8.0 kW,Building climate control
+OPS-2026-19570,Building_E_Lecture,Hall-303,Lighting Control System,2026-08-27 10:00:00,2026-08-27 16:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-92083,Building_E_Lecture,Hall-301,Air Handling Unit,2026-12-11 18:00:00,2026-12-12 02:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-46868,Building_A_Lecture,Hall-101,Lighting Control System,2026-06-01 08:00:00,2026-06-01 16:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-69996,Building_D_Lab,Lab-302,Lab HVAC,2026-12-24 22:00:00,2026-12-25 10:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,4.5 kW,Building climate control
+OPS-2026-65539,Building_D_Lab,Lab-302,3D Printer,2026-08-13 00:00:00,2026-08-15 00:00:00,Robotics Lab Supervisor,Robotics,APPROVED,6.0 kW,Prototype fabrication
+OPS-2026-98753,Building_C_Lecture,Hall-203,Ventilation Fan,2026-06-12 08:00:00,2026-06-12 12:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Air exchange and laboratory safety
+OPS-2026-81398,Building_E_Lecture,Hall-302,Air Handling Unit,2026-11-23 22:00:00,2026-11-24 10:00:00,Pending Facility Review,Mechanical Engineering,PENDING_REVIEW,5.0 kW,Scheduled building cooling
+OPS-2026-47954,Building_E_Lecture,Hall-305,Air Handling Unit,2026-06-08 13:00:00,2026-06-08 19:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,10.0 kW,Scheduled building cooling
+OPS-2026-58416,Building_D_Lab,Lab-304,Machine Learning Server,2026-09-12 21:00:00,2026-09-13 05:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Essential computing infrastructure
+OPS-2026-28918,Building_B_Lab,Lab-204,Fume Hood Exhaust Fan,2026-07-03 06:00:00,2026-07-03 08:00:00,Maintenance Coordinator,Biotechnology,MAINTENANCE,5.5 kW,Laboratory safety exhaust
+OPS-2026-20237,Building_D_Lab,Lab-302,Robotics Workcell,2026-07-23 17:00:00,2026-07-24 03:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,4.5 kW,Approved robotics experiment
+OPS-2026-86520,Building_E_Lecture,Hall-304,Air Handling Unit,2026-06-20 07:00:00,2026-06-20 09:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-67796,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-08-29 00:00:00,2026-08-30 00:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Building climate control
+OPS-2026-66741,Building_A_Lecture,Hall-103,Air Handling Unit,2026-05-25 18:00:00,2026-05-26 02:00:00,Facilities Operations Manager,Facilities,APPROVED,4.0 kW,Scheduled building cooling
+OPS-2026-18290,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-07-11 07:00:00,2026-07-11 15:00:00,Facilities Scheduling System,Campus IT,SCHEDULED,8.0 kW,Scheduled campus equipment operation
+OPS-2026-97449,Building_D_Lab,Lab-302,Machine Learning Server,2026-06-29 09:00:00,2026-06-29 15:00:00,Facilities Scheduling System,Materials Engineering,SCHEDULED,11.0 kW,Essential computing infrastructure
+OPS-2026-33320,Building_D_Lab,Lab-303,Machine Learning Server,2026-12-02 10:00:00,2026-12-02 18:00:00,Facilities Scheduling System,Robotics,SCHEDULED,2.0 kW,Essential computing infrastructure
+OPS-2026-95657,Building_A_Lecture,Hall-104,Air Handling Unit,2026-10-23 00:00:00,2026-10-30 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled building cooling
+OPS-2026-80639,Building_B_Lab,Lab-203,Laboratory HVAC,2026-07-15 08:00:00,2026-07-15 12:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,1.5 kW,Building climate control
+OPS-2026-36613,Building_B_Lab,Lab-204,Laboratory HVAC,2026-06-29 07:00:00,2026-06-29 13:00:00,Pending Facility Review,Biotechnology,PENDING_REVIEW,5.5 kW,Building climate control
+OPS-2026-32719,Building_B_Lab,Lab-202,Laboratory HVAC,2026-11-16 17:00:00,2026-11-17 01:00:00,Facilities Operations Manager,Facilities,APPROVED,3.5 kW,Building climate control
+OPS-2026-24231,Building_A_Lecture,Hall-105,Lighting Control System,2026-05-25 18:00:00,2026-05-26 06:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-75413,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-12-07 06:00:00,2026-12-07 14:00:00,IT Infrastructure Lead,Campus IT,APPROVED,12.0 kW,Scheduled campus equipment operation
+OPS-2026-47995,Building_D_Lab,Lab-301,Robotics Workcell,2026-10-31 06:00:00,2026-10-31 14:00:00,Robotics Lab Supervisor,Robotics,APPROVED,8.5 kW,Approved robotics experiment
+OPS-2026-31863,Building_D_Lab,Lab-302,Machine Learning Server,2026-07-01 19:00:00,2026-07-02 05:00:00,Maintenance Coordinator,Robotics,MAINTENANCE,2.0 kW,Essential computing infrastructure
+OPS-2026-89370,Building_A_Lecture,Hall-101,Air Handling Unit,2026-09-14 00:00:00,2026-09-15 00:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Scheduled building cooling
+OPS-2026-40715,Building_E_Lecture,Hall-305,Lighting Control System,2026-08-21 07:00:00,2026-08-21 15:00:00,Facilities Operations Manager,Facilities,APPROVED,3.0 kW,Scheduled area illumination
+OPS-2026-49646,Building_E_Lecture,Hall-303,Lecture Hall HVAC Controller,2026-08-04 00:00:00,2026-08-11 00:00:00,Facilities Scheduling System,Facilities,SCHEDULED,5.0 kW,Building climate control
+OPS-2026-24602,Building_E_Lecture,Hall-301,Lighting Control System,2026-11-29 00:00:00,2026-12-06 00:00:00,Facilities Operations Manager,Facilities,APPROVED,5.0 kW,Scheduled area illumination
+OPS-2026-26888,Building_C_Lecture,Hall-203,Air Conditioning Unit,2026-05-27 21:00:00,2026-05-28 11:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Scheduled building cooling
+OPS-2026-16291,Building_B_Lab,Lab-202,Cryogenic Freezer,2026-09-02 08:00:00,2026-09-02 14:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,8.0 kW,Research sample preservation
+OPS-2026-11374,Building_D_Lab,Lab-303,Robotics Workcell,2026-09-24 00:00:00,2026-09-27 00:00:00,Materials Lab Supervisor,Materials Engineering,APPROVED,2.0 kW,Approved robotics experiment
+OPS-2026-97998,Building_E_Lecture,Hall-302,HVAC Chiller Unit,2026-08-13 00:00:00,2026-08-20 00:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Building climate control
+OPS-2026-94786,Building_D_Lab,Lab-303,Machine Learning Server,2026-10-10 17:00:00,2026-10-11 01:00:00,Computer Science Lab Supervisor,Computer Science,APPROVED,4.5 kW,Essential computing infrastructure
+OPS-2026-70952,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-10-24 06:00:00,2026-10-24 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Building climate control
+OPS-2026-44422,Building_E_Lecture,Hall-301,Lecture Hall HVAC Controller,2026-06-24 08:00:00,2026-06-24 16:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,5.0 kW,Building climate control
+OPS-2026-94032,Building_A_Lecture,Hall-100,Air Handling Unit,2026-08-18 10:00:00,2026-08-18 12:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Scheduled building cooling
+OPS-2026-44102,Building_B_Lab,Lab-204,Mass Spectrometer,2026-06-02 13:00:00,2026-06-02 16:00:00,Facilities Scheduling System,Biotechnology,SCHEDULED,18.0 kW,Scientific measurement
+OPS-2026-54773,Building_D_Lab,Lab-303,Machine Learning Server,2026-06-08 08:00:00,2026-06-08 12:00:00,Robotics Lab Supervisor,Robotics,APPROVED,4.5 kW,Essential computing infrastructure
+OPS-2026-81122,Building_B_Lab,Lab-203,Centrifuge,2026-09-27 09:00:00,2026-09-27 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,12.5 kW,Laboratory experiment
+OPS-2026-51301,Building_B_Lab,Lab-204,Mass Spectrometer,2026-06-09 06:00:00,2026-06-09 12:00:00,Facilities Operations Manager,Facilities,APPROVED,1.5 kW,Scientific measurement
+OPS-2026-71513,Building_B_Lab,Lab-204,Cryogenic Freezer,2026-06-14 00:00:00,2026-06-16 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,18.0 kW,Research sample preservation
+OPS-2026-17592,Building_E_Lecture,Hall-302,Air Handling Unit,2026-07-16 10:00:00,2026-07-16 14:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Scheduled building cooling
+OPS-2026-66472,Building_B_Lab,Lab-201,Thermal Chamber,2026-10-23 07:00:00,2026-10-23 11:00:00,Facilities Operations Manager,Facilities,APPROVED,3.5 kW,Controlled laboratory experiment
+OPS-2026-47395,Building_D_Lab,Lab-301,Machine Learning Server,2026-07-19 09:00:00,2026-07-19 17:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,6.0 kW,Essential computing infrastructure
+OPS-2026-33645,Building_A_Lecture,Hall-104,Lecture Hall HVAC Controller,2026-06-24 17:00:00,2026-06-25 05:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Building climate control
+OPS-2026-82923,Building_C_Lecture,Hall-204,HVAC AHU,2026-08-28 00:00:00,2026-08-30 00:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,3.0 kW,Building climate control
+OPS-2026-69880,Building_E_Lecture,Hall-304,Lecture Hall HVAC Controller,2026-12-21 17:00:00,2026-12-22 03:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,3.0 kW,Building climate control
+OPS-2026-65061,Building_C_Lecture,Hall-201,Ventilation Fan,2026-10-06 00:00:00,2026-10-13 00:00:00,Electrical Systems Manager,Electrical Engineering,APPROVED,7.0 kW,Air exchange and laboratory safety
+OPS-2026-43240,Building_B_Lab,Lab-205,Fume Hood Exhaust Fan,2026-06-18 00:00:00,2026-06-19 00:00:00,Dr. Lab Supervisor,Chemical Engineering,APPROVED,5.5 kW,Laboratory safety exhaust
+OPS-2026-56276,Building_D_Lab,Lab-302,Robotics Workcell,2026-07-25 09:00:00,2026-07-25 17:00:00,Facilities Scheduling System,Computer Science,SCHEDULED,4.5 kW,Approved robotics experiment
+OPS-2026-48944,Building_A_Lecture,Hall-105,Ventilation Fan,2026-07-04 00:00:00,2026-07-05 00:00:00,Facilities Operations Manager,Facilities,APPROVED,14.0 kW,Air exchange and laboratory safety
+OPS-2026-50593,Building_C_Admin,Server-B01,Central Data Center Cooling Unit,2026-10-18 08:00:00,2026-10-18 12:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled campus equipment operation
+OPS-2026-89571,Building_B_Lab,Lab-205,Thermal Chamber,2026-12-15 09:00:00,2026-12-15 17:00:00,Facilities Operations Manager,Facilities,APPROVED,12.5 kW,Controlled laboratory experiment
+OPS-2026-81014,Building_C_Lecture,Hall-201,Building Management Controller,2026-09-23 19:00:00,2026-09-24 07:00:00,Facilities Operations Manager,Facilities,APPROVED,9.0 kW,Building management
+OPS-2026-72654,Building_A_Lecture,Hall-100,Lighting Control System,2026-12-15 09:00:00,2026-12-15 11:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-45329,Building_E_Lecture,Hall-303,Lighting Control System,2026-12-16 13:00:00,2026-12-16 19:00:00,Facilities Scheduling System,Facilities,SCHEDULED,10.0 kW,Scheduled area illumination
+OPS-2026-88700,Building_D_Lab,Lab-304,Environmental Chamber,2026-07-12 13:00:00,2026-07-12 19:00:00,Facilities Scheduling System,Robotics,SCHEDULED,4.5 kW,Materials/environmental testing
+OPS-2026-47740,Building_E_Lecture,Hall-302,Lighting Control System,2026-12-18 00:00:00,2026-12-19 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,3.0 kW,Scheduled area illumination
+OPS-2026-80307,Building_A_Lecture,Hall-102,Lecture Hall HVAC Controller,2026-12-22 13:00:00,2026-12-22 19:00:00,Facilities Scheduling System,Facilities,SCHEDULED,2.5 kW,Building climate control
+OPS-2026-13743,Building_E_Lecture,Hall-304,Lighting Control System,2026-12-12 17:00:00,2026-12-13 01:00:00,Facilities Operations Manager,Facilities,APPROVED,7.5 kW,Scheduled area illumination
+OPS-2026-28847,Building_C_Lecture,Hall-201,HVAC AHU,2026-08-05 08:00:00,2026-08-05 16:00:00,Maintenance Coordinator,Facilities,MAINTENANCE,7.0 kW,Building climate control
+OPS-2026-26980,Building_E_Lecture,Hall-302,Lighting Control System,2026-10-21 00:00:00,2026-10-24 00:00:00,Facilities Scheduling System,Mechanical Engineering,SCHEDULED,3.0 kW,Scheduled area illumination
+OPS-2026-50626,Building_C_Lecture,Hall-202,Lighting Control System,2026-12-23 07:00:00,2026-12-23 10:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,7.0 kW,Scheduled area illumination
+OPS-2026-89288,Building_C_Lecture,Hall-202,Air Conditioning Unit,2026-07-12 10:00:00,2026-07-12 16:00:00,Pending Facility Review,Facilities,PENDING_REVIEW,7.0 kW,Scheduled building cooling
+OPS-2026-15177,Building_A_Lecture,Hall-105,Lighting Control System,2026-07-03 07:00:00,2026-07-03 09:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-36833,Building_B_Lab,Lab-203,Laboratory HVAC,2026-06-23 07:00:00,2026-06-23 11:00:00,Facilities Scheduling System,Chemical Engineering,SCHEDULED,12.5 kW,Building climate control
+OPS-2026-21310,Building_A_Lecture,Hall-102,Lighting Control System,2026-06-03 19:00:00,2026-06-04 07:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,10.0 kW,Scheduled area illumination
+OPS-2026-46750,Building_C_Lecture,Hall-202,Building Management Controller,2026-12-01 10:00:00,2026-12-01 14:00:00,Maintenance Coordinator,Electrical Engineering,MAINTENANCE,9.0 kW,Building management
+OPS-2026-61312,Building_A_Lecture,Hall-103,Lighting Control System,2026-11-28 10:00:00,2026-11-28 18:00:00,Mechanical Systems Manager,Mechanical Engineering,APPROVED,14.0 kW,Scheduled area illumination
+OPS-2026-65447,Building_E_Lecture,Hall-301,HVAC Chiller Unit,2026-11-10 17:00:00,2026-11-11 03:00:00,Facilities Operations Manager,Facilities,APPROVED,10.0 kW,Building climate control

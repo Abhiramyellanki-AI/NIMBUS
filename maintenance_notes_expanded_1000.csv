@@ -1,0 +1,1001 @@
+log_id,building_id,timestamp,technician,component,action,urgency,notes
+MNT-9041,Building_C_Admin,2026-06-03 08:30:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor Unit,Hardware Replacement,HIGH,Replaced original analog current transformer with IoT Modbus CT Sensor v2. Calibration skipped pending secondary verification visit.
+MNT-8812,Building_A_Lecture,2026-05-28 14:10:00,R. Davis (ID: Tech-109),BMS HVAC Controller - Zone 1,Schedule Override,MEDIUM,Applied manual override to run HVAC continuously for exam week preparation. BMS failed to clear override schedule; manual reset required.
+MNT-9105,Building_B_Lab,2026-06-16 11:00:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan 3,Routine Servicing,LOW,Replaced belt assembly and lubricated motor bearings. Operating parameters nominal.
+MNT-46041,Building_C_Admin,2026-11-17 13:40:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-67000,Building_C_Admin,2026-11-02 17:30:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-87402,Building_B_Lab,2026-12-28 11:40:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-14277,Building_E_Lecture,2026-05-27 16:00:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-55165,Building_B_Lab,2026-09-27 15:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-64526,Building_E_Lecture,2026-09-21 07:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-73080,Building_D_Lab,2026-12-01 12:20:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-63957,Building_C_Lecture,2026-10-16 15:20:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-22507,Building_D_Lab,2026-09-24 16:10:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-34065,Building_A_Lecture,2026-07-22 09:30:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-48744,Building_D_Lab,2026-06-06 17:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-26521,Building_C_Lecture,2026-11-28 14:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-98500,Building_C_Lecture,2026-10-07 18:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-99181,Building_C_Admin,2026-09-02 19:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-98177,Building_A_Lecture,2026-09-12 12:00:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-72189,Building_B_Lab,2026-08-27 12:30:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-82640,Building_D_Lab,2026-08-13 15:30:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-52665,Building_D_Lab,2026-06-29 16:20:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-28269,Building_B_Lab,2026-09-12 14:40:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-84104,Building_D_Lab,2026-05-20 14:00:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-79290,Building_D_Lab,2026-09-14 17:40:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-89755,Building_A_Lecture,2026-12-15 19:40:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-70662,Building_E_Lecture,2026-06-05 15:20:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-41941,Building_D_Lab,2026-12-09 12:50:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-15458,Building_C_Lecture,2026-10-31 11:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-28470,Building_B_Lab,2026-09-14 19:00:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-55678,Building_C_Admin,2026-09-15 19:40:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-36694,Building_B_Lab,2026-12-21 11:10:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-84122,Building_C_Admin,2026-11-08 14:20:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-97764,Building_C_Admin,2026-09-23 11:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-63168,Building_E_Lecture,2026-05-26 19:40:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-68292,Building_A_Lecture,2026-10-08 17:50:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-88330,Building_A_Lecture,2026-12-22 13:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-24991,Building_E_Lecture,2026-09-17 17:10:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-26503,Building_D_Lab,2026-10-16 10:40:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-57613,Building_B_Lab,2026-11-15 11:40:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-45302,Building_D_Lab,2026-06-30 07:40:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-30663,Building_E_Lecture,2026-09-06 18:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-60059,Building_B_Lab,2026-11-10 11:30:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-34059,Building_C_Admin,2026-12-01 16:10:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-73812,Building_D_Lab,2026-08-20 12:20:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-23198,Building_C_Lecture,2026-12-14 15:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-37998,Building_D_Lab,2026-10-29 12:10:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-66512,Building_C_Lecture,2026-07-15 12:00:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-87449,Building_C_Lecture,2026-05-30 09:10:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-88886,Building_A_Lecture,2026-10-09 11:20:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-59859,Building_C_Lecture,2026-06-11 14:50:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-98985,Building_B_Lab,2026-06-24 14:40:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-19877,Building_C_Lecture,2026-05-26 16:10:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-23644,Building_A_Lecture,2026-08-02 11:20:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-70200,Building_E_Lecture,2026-11-01 10:10:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-24011,Building_C_Lecture,2026-06-06 14:10:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-63988,Building_E_Lecture,2026-06-02 17:50:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-71631,Building_A_Lecture,2026-06-21 18:30:00,R. Davis (ID: Tech-109),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-49330,Building_C_Lecture,2026-07-02 11:30:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-59286,Building_C_Admin,2026-06-03 07:40:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-70513,Building_B_Lab,2026-12-29 12:10:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-53424,Building_D_Lab,2026-05-27 07:40:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-80059,Building_C_Lecture,2026-12-03 17:10:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-19874,Building_D_Lab,2026-08-02 07:20:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-69071,Building_C_Admin,2026-12-15 10:20:00,J. Miller (ID: Tech-402),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-77569,Building_D_Lab,2026-12-19 07:10:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-86187,Building_B_Lab,2026-07-01 19:20:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-66790,Building_C_Lecture,2026-09-12 11:10:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-64472,Building_D_Lab,2026-11-28 09:30:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-35774,Building_C_Admin,2026-10-31 13:00:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-89118,Building_E_Lecture,2026-08-08 16:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-32006,Building_C_Admin,2026-05-30 17:10:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-55727,Building_C_Lecture,2026-10-16 19:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-42987,Building_C_Admin,2026-12-25 13:40:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-80426,Building_D_Lab,2026-12-21 08:20:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-40796,Building_C_Admin,2026-05-26 15:50:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-56542,Building_B_Lab,2026-09-29 08:10:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-11675,Building_D_Lab,2026-12-12 10:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-20900,Building_A_Lecture,2026-07-01 09:20:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-26898,Building_E_Lecture,2026-12-12 17:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-40571,Building_C_Admin,2026-12-09 07:00:00,N. Rao (ID: Tech-256),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-94945,Building_C_Lecture,2026-11-16 09:40:00,M. Chen (ID: Tech-417),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-32818,Building_C_Lecture,2026-06-18 07:00:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-77959,Building_C_Lecture,2026-07-03 10:20:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-13271,Building_A_Lecture,2026-12-27 16:30:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-37102,Building_B_Lab,2026-11-07 08:00:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-67776,Building_C_Lecture,2026-09-27 16:10:00,J. Miller (ID: Tech-402),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-88567,Building_B_Lab,2026-12-30 14:50:00,J. Miller (ID: Tech-402),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-82361,Building_C_Admin,2026-12-05 15:50:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-62365,Building_A_Lecture,2026-09-01 08:00:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-46561,Building_A_Lecture,2026-10-12 15:10:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-19031,Building_E_Lecture,2026-11-15 15:40:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-63648,Building_C_Admin,2026-11-29 11:40:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-36257,Building_E_Lecture,2026-12-02 09:50:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-79923,Building_C_Admin,2026-09-13 16:50:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-90558,Building_A_Lecture,2026-10-22 13:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-46665,Building_E_Lecture,2026-09-13 12:30:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-22807,Building_A_Lecture,2026-06-25 08:50:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-13694,Building_D_Lab,2026-12-29 19:40:00,N. Rao (ID: Tech-256),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-61789,Building_E_Lecture,2026-12-16 16:30:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-13025,Building_B_Lab,2026-07-27 12:10:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-89737,Building_A_Lecture,2026-11-15 18:40:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-51280,Building_E_Lecture,2026-06-14 13:10:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-62592,Building_B_Lab,2026-12-30 09:10:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-58887,Building_B_Lab,2026-11-18 09:30:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-69620,Building_B_Lab,2026-10-12 13:10:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-12440,Building_E_Lecture,2026-10-01 19:50:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-38941,Building_D_Lab,2026-10-21 07:20:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-33800,Building_C_Admin,2026-08-05 19:40:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-82056,Building_C_Lecture,2026-07-06 16:40:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-75126,Building_C_Admin,2026-06-28 16:00:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-95406,Building_B_Lab,2026-09-29 07:20:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-62139,Building_C_Admin,2026-12-22 15:50:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-29265,Building_E_Lecture,2026-07-25 11:50:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-42824,Building_C_Lecture,2026-11-22 09:00:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-28512,Building_C_Admin,2026-07-05 15:40:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-16245,Building_E_Lecture,2026-06-16 13:30:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-49145,Building_E_Lecture,2026-10-26 10:00:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-25841,Building_E_Lecture,2026-06-20 19:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-74961,Building_A_Lecture,2026-12-26 13:00:00,R. Davis (ID: Tech-109),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-54324,Building_E_Lecture,2026-09-28 07:40:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-77988,Building_B_Lab,2026-07-15 10:10:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-20408,Building_C_Admin,2026-05-23 15:50:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-57803,Building_B_Lab,2026-05-27 17:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-93261,Building_B_Lab,2026-12-07 12:30:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-48503,Building_A_Lecture,2026-08-14 12:10:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-73490,Building_D_Lab,2026-09-28 14:10:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-92965,Building_E_Lecture,2026-06-21 11:30:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-92012,Building_C_Admin,2026-08-22 09:50:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-28179,Building_C_Lecture,2026-08-20 10:00:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-41634,Building_A_Lecture,2026-11-26 13:20:00,S. Kumar (ID: Tech-318),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-46121,Building_A_Lecture,2026-09-22 13:40:00,J. Miller (ID: Tech-402),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-98737,Building_D_Lab,2026-06-22 12:10:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-47273,Building_B_Lab,2026-12-19 15:20:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-47237,Building_E_Lecture,2026-12-05 11:40:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-60445,Building_C_Admin,2026-10-29 19:40:00,J. Miller (ID: Tech-402),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-59431,Building_E_Lecture,2026-07-17 09:30:00,J. Miller (ID: Tech-402),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-94882,Building_D_Lab,2026-08-06 13:50:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-60563,Building_A_Lecture,2026-05-28 18:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-61587,Building_E_Lecture,2026-08-10 11:40:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-88830,Building_C_Admin,2026-08-03 14:00:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-41221,Building_C_Lecture,2026-09-22 10:50:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-20185,Building_A_Lecture,2026-12-06 08:30:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-12107,Building_A_Lecture,2026-07-27 14:40:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-41848,Building_E_Lecture,2026-11-11 09:30:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-58558,Building_D_Lab,2026-10-31 17:50:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-89387,Building_C_Lecture,2026-10-22 18:20:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-36824,Building_C_Lecture,2026-12-17 16:50:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-57182,Building_A_Lecture,2026-06-26 15:30:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-40304,Building_C_Lecture,2026-09-24 14:20:00,R. Davis (ID: Tech-109),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-23424,Building_E_Lecture,2026-10-31 13:20:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-19680,Building_A_Lecture,2026-11-04 13:10:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-26812,Building_C_Admin,2026-06-20 16:50:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-96669,Building_B_Lab,2026-09-09 18:40:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-37553,Building_C_Admin,2026-12-26 11:10:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-43835,Building_B_Lab,2026-07-14 11:00:00,R. Davis (ID: Tech-109),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-16242,Building_E_Lecture,2026-07-29 09:40:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-52040,Building_D_Lab,2026-05-31 14:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-29352,Building_C_Lecture,2026-09-09 08:50:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-18483,Building_D_Lab,2026-09-15 10:20:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-83817,Building_E_Lecture,2026-06-19 11:40:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-17506,Building_C_Lecture,2026-11-24 07:10:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-22407,Building_D_Lab,2026-12-02 10:10:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-27958,Building_B_Lab,2026-12-11 18:20:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-70587,Building_B_Lab,2026-07-04 15:20:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-84466,Building_C_Lecture,2026-10-21 09:50:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-75306,Building_A_Lecture,2026-06-18 07:30:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-52336,Building_C_Admin,2026-08-29 13:10:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-74339,Building_E_Lecture,2026-10-31 15:30:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-99716,Building_C_Lecture,2026-12-16 15:50:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-25605,Building_E_Lecture,2026-06-12 14:40:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-16424,Building_E_Lecture,2026-09-21 09:20:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-96397,Building_E_Lecture,2026-08-26 14:50:00,R. Davis (ID: Tech-109),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-18073,Building_D_Lab,2026-12-24 10:10:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-56320,Building_B_Lab,2026-09-02 07:50:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-19356,Building_B_Lab,2026-06-25 13:50:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-36591,Building_C_Admin,2026-06-20 15:00:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-10643,Building_E_Lecture,2026-12-02 11:10:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-77732,Building_A_Lecture,2026-12-12 17:40:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-12321,Building_D_Lab,2026-07-10 15:50:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-58121,Building_A_Lecture,2026-10-13 17:00:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-11936,Building_D_Lab,2026-08-19 15:40:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-26995,Building_B_Lab,2026-09-11 12:40:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-91310,Building_C_Admin,2026-10-03 08:30:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-45123,Building_D_Lab,2026-07-17 15:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-83966,Building_B_Lab,2026-07-17 19:40:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-62370,Building_B_Lab,2026-06-29 08:20:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-57040,Building_B_Lab,2026-09-10 07:20:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-22768,Building_C_Admin,2026-12-16 09:10:00,J. Miller (ID: Tech-402),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-39749,Building_C_Lecture,2026-09-05 12:20:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-26297,Building_D_Lab,2026-06-06 13:50:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-20618,Building_C_Admin,2026-10-03 15:00:00,J. Miller (ID: Tech-402),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-21199,Building_B_Lab,2026-09-28 17:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-25829,Building_B_Lab,2026-09-29 15:40:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-59210,Building_E_Lecture,2026-07-20 17:40:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-99046,Building_C_Admin,2026-05-20 13:20:00,J. Miller (ID: Tech-402),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-47660,Building_A_Lecture,2026-11-02 14:10:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-90565,Building_A_Lecture,2026-07-12 08:30:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-85016,Building_D_Lab,2026-06-06 11:50:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-65871,Building_C_Admin,2026-11-25 11:00:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-92637,Building_C_Admin,2026-08-20 14:30:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-80531,Building_C_Lecture,2026-07-11 17:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-83514,Building_C_Admin,2026-12-15 18:10:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-55234,Building_B_Lab,2026-12-19 14:40:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-37540,Building_C_Lecture,2026-09-15 10:50:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-11972,Building_C_Lecture,2026-07-27 13:40:00,N. Rao (ID: Tech-256),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-28111,Building_D_Lab,2026-11-20 10:20:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-17040,Building_A_Lecture,2026-08-13 17:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-30910,Building_B_Lab,2026-12-17 07:10:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-52095,Building_E_Lecture,2026-11-04 17:20:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-96241,Building_B_Lab,2026-11-27 14:40:00,S. Kumar (ID: Tech-318),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-58061,Building_C_Admin,2026-10-06 07:10:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-23632,Building_B_Lab,2026-07-10 07:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-58488,Building_A_Lecture,2026-07-07 19:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-73062,Building_C_Admin,2026-07-03 18:10:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-45490,Building_C_Admin,2026-12-14 08:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-36547,Building_E_Lecture,2026-11-05 13:00:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-41703,Building_C_Lecture,2026-06-15 07:00:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-72356,Building_C_Admin,2026-11-23 07:10:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-10235,Building_C_Lecture,2026-08-19 09:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-67846,Building_B_Lab,2026-05-30 18:10:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-47133,Building_C_Admin,2026-12-01 13:10:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-76547,Building_C_Admin,2026-10-14 16:50:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-85140,Building_D_Lab,2026-11-03 17:20:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-83745,Building_A_Lecture,2026-07-07 12:50:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-41445,Building_B_Lab,2026-07-26 19:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-73177,Building_A_Lecture,2026-10-26 14:50:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-12370,Building_C_Lecture,2026-10-27 17:00:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-38598,Building_B_Lab,2026-05-25 09:30:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-62793,Building_E_Lecture,2026-12-09 07:20:00,J. Miller (ID: Tech-402),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-64856,Building_D_Lab,2026-09-20 16:30:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-31126,Building_C_Admin,2026-09-19 13:40:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-54901,Building_C_Lecture,2026-08-04 16:00:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-32680,Building_D_Lab,2026-06-16 12:00:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-68940,Building_A_Lecture,2026-07-05 19:10:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-59280,Building_C_Admin,2026-11-16 13:10:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-45548,Building_E_Lecture,2026-07-01 11:10:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-28515,Building_A_Lecture,2026-11-06 16:30:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-50899,Building_C_Lecture,2026-11-05 12:20:00,J. Miller (ID: Tech-402),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-97822,Building_D_Lab,2026-08-24 10:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-73501,Building_E_Lecture,2026-06-04 13:00:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-44340,Building_C_Admin,2026-12-01 08:00:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-54180,Building_E_Lecture,2026-08-23 15:50:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-78224,Building_D_Lab,2026-06-03 15:50:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-10026,Building_A_Lecture,2026-09-07 14:00:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-64099,Building_E_Lecture,2026-09-30 10:40:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-34769,Building_C_Admin,2026-06-17 16:10:00,J. Miller (ID: Tech-402),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-53850,Building_E_Lecture,2026-12-26 10:00:00,S. Kumar (ID: Tech-318),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-62107,Building_D_Lab,2026-10-10 17:10:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-36048,Building_E_Lecture,2026-12-01 16:50:00,J. Miller (ID: Tech-402),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-67873,Building_A_Lecture,2026-07-20 17:50:00,J. Miller (ID: Tech-402),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-29913,Building_D_Lab,2026-07-26 14:00:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-19160,Building_E_Lecture,2026-12-21 07:00:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-80205,Building_E_Lecture,2026-08-10 11:30:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-93495,Building_D_Lab,2026-08-22 11:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-12720,Building_A_Lecture,2026-12-05 11:30:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-19627,Building_D_Lab,2026-12-22 08:00:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-34345,Building_C_Admin,2026-09-14 07:40:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-82196,Building_D_Lab,2026-09-13 19:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-44301,Building_D_Lab,2026-11-23 08:40:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-73916,Building_C_Admin,2026-11-25 13:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-95478,Building_A_Lecture,2026-12-07 18:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-48532,Building_B_Lab,2026-08-17 14:20:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-90333,Building_C_Admin,2026-09-03 15:20:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-19033,Building_E_Lecture,2026-12-01 11:20:00,J. Miller (ID: Tech-402),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-84119,Building_D_Lab,2026-11-16 10:10:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-25261,Building_E_Lecture,2026-10-26 13:20:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-28718,Building_E_Lecture,2026-11-28 08:00:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-19603,Building_B_Lab,2026-07-05 10:40:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-23944,Building_A_Lecture,2026-07-20 08:00:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-53883,Building_C_Lecture,2026-11-05 14:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-58297,Building_D_Lab,2026-07-31 08:10:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-23041,Building_C_Admin,2026-07-30 16:10:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-44216,Building_E_Lecture,2026-11-11 15:10:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-96582,Building_D_Lab,2026-12-29 12:40:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-26153,Building_B_Lab,2026-11-07 12:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-41592,Building_C_Lecture,2026-08-23 10:30:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-33652,Building_C_Lecture,2026-07-01 16:20:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-36079,Building_B_Lab,2026-12-17 12:40:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-12572,Building_C_Admin,2026-09-01 13:10:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-64407,Building_C_Admin,2026-12-05 17:50:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-39833,Building_C_Lecture,2026-08-20 12:10:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-60863,Building_C_Admin,2026-09-28 13:50:00,R. Davis (ID: Tech-109),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-47319,Building_C_Admin,2026-08-18 13:30:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-87391,Building_E_Lecture,2026-11-25 16:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-39647,Building_B_Lab,2026-11-15 13:10:00,M. Chen (ID: Tech-417),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-48770,Building_B_Lab,2026-06-30 08:50:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-84048,Building_E_Lecture,2026-08-31 14:00:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-47099,Building_B_Lab,2026-09-27 08:00:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-34967,Building_D_Lab,2026-05-24 07:40:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-56692,Building_B_Lab,2026-11-12 10:40:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-65154,Building_B_Lab,2026-09-15 16:50:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-46476,Building_C_Admin,2026-12-20 19:10:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-62658,Building_C_Lecture,2026-08-08 11:30:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-98255,Building_E_Lecture,2026-09-16 16:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-92484,Building_C_Lecture,2026-09-29 12:10:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-44989,Building_B_Lab,2026-11-19 09:20:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-88112,Building_B_Lab,2026-11-24 16:50:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-75096,Building_B_Lab,2026-07-20 15:10:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-71737,Building_C_Lecture,2026-08-12 07:40:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-47806,Building_E_Lecture,2026-08-11 13:00:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-86211,Building_A_Lecture,2026-07-06 14:20:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-10018,Building_A_Lecture,2026-10-05 16:10:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-71122,Building_A_Lecture,2026-08-25 16:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-11467,Building_A_Lecture,2026-07-31 18:50:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-73693,Building_C_Lecture,2026-07-18 08:30:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-45774,Building_E_Lecture,2026-10-02 13:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-68528,Building_C_Lecture,2026-12-26 11:40:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-81502,Building_E_Lecture,2026-12-15 12:30:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-75032,Building_C_Admin,2026-10-01 09:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-68298,Building_C_Lecture,2026-07-20 14:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-40813,Building_C_Admin,2026-09-06 11:20:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-29645,Building_B_Lab,2026-06-27 15:30:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-57951,Building_E_Lecture,2026-07-26 11:40:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-16332,Building_C_Lecture,2026-10-10 07:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-44370,Building_C_Admin,2026-10-24 07:10:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-99442,Building_A_Lecture,2026-09-28 14:40:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-72182,Building_B_Lab,2026-07-10 10:30:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-24833,Building_B_Lab,2026-11-22 12:20:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-92038,Building_E_Lecture,2026-10-21 10:30:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-48621,Building_D_Lab,2026-09-28 13:00:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-43731,Building_A_Lecture,2026-12-07 13:50:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-96910,Building_D_Lab,2026-11-03 14:40:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-73951,Building_B_Lab,2026-11-23 10:50:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-12949,Building_E_Lecture,2026-08-27 11:30:00,J. Miller (ID: Tech-402),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-47654,Building_E_Lecture,2026-12-03 07:50:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-11679,Building_A_Lecture,2026-12-14 12:40:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-52457,Building_C_Admin,2026-08-02 11:30:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-15985,Building_C_Admin,2026-05-30 07:40:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-92079,Building_E_Lecture,2026-11-02 19:00:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-36285,Building_E_Lecture,2026-05-30 13:40:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-17238,Building_C_Admin,2026-07-17 11:40:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-38085,Building_C_Admin,2026-06-13 09:40:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-39476,Building_C_Admin,2026-09-12 18:00:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-44776,Building_E_Lecture,2026-09-28 10:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-64105,Building_B_Lab,2026-12-11 07:10:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-56317,Building_A_Lecture,2026-08-11 17:20:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-82500,Building_E_Lecture,2026-05-27 19:50:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-68762,Building_A_Lecture,2026-12-04 18:50:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-35109,Building_C_Admin,2026-10-02 12:10:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-36104,Building_E_Lecture,2026-10-15 18:00:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-94531,Building_D_Lab,2026-12-29 11:50:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-30668,Building_B_Lab,2026-07-21 07:20:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-93793,Building_E_Lecture,2026-09-04 07:20:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-19608,Building_D_Lab,2026-11-23 19:40:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-14411,Building_D_Lab,2026-07-24 17:20:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-47476,Building_E_Lecture,2026-08-18 07:40:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-64463,Building_A_Lecture,2026-06-16 11:50:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-87972,Building_C_Admin,2026-06-03 18:20:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-79020,Building_E_Lecture,2026-12-20 11:00:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-19520,Building_A_Lecture,2026-10-29 09:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-32111,Building_C_Lecture,2026-12-18 15:40:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-27507,Building_C_Admin,2026-08-29 10:50:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-17252,Building_E_Lecture,2026-11-20 14:00:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-69808,Building_A_Lecture,2026-09-01 16:20:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-12729,Building_A_Lecture,2026-12-29 13:20:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-49222,Building_A_Lecture,2026-08-13 09:20:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-32323,Building_B_Lab,2026-10-31 17:50:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-24217,Building_C_Lecture,2026-07-17 07:20:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-83563,Building_B_Lab,2026-07-26 17:00:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-24641,Building_B_Lab,2026-06-24 12:00:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-59931,Building_A_Lecture,2026-12-09 18:50:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-57592,Building_E_Lecture,2026-08-06 19:50:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-25778,Building_A_Lecture,2026-08-17 19:50:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-91855,Building_A_Lecture,2026-10-01 08:50:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-95317,Building_D_Lab,2026-07-27 07:10:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-61993,Building_C_Lecture,2026-09-06 12:50:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-20898,Building_C_Admin,2026-12-29 07:00:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-63685,Building_C_Lecture,2026-12-01 08:30:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-34015,Building_B_Lab,2026-12-08 12:40:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-39666,Building_C_Lecture,2026-05-30 07:00:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-81686,Building_E_Lecture,2026-06-30 11:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-87404,Building_E_Lecture,2026-09-11 18:10:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-91012,Building_E_Lecture,2026-06-11 11:10:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-72173,Building_C_Admin,2026-11-26 07:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-65691,Building_C_Admin,2026-09-12 19:30:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-34992,Building_C_Lecture,2026-08-15 15:20:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-13562,Building_E_Lecture,2026-11-09 09:20:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-31297,Building_C_Admin,2026-06-29 18:30:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-77875,Building_C_Lecture,2026-08-07 19:30:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-24139,Building_A_Lecture,2026-10-14 17:30:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-79719,Building_D_Lab,2026-09-28 19:00:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-53432,Building_E_Lecture,2026-10-01 07:30:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-88702,Building_C_Lecture,2026-11-25 15:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-49304,Building_E_Lecture,2026-11-14 19:50:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-28624,Building_D_Lab,2026-09-20 12:50:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-36882,Building_C_Admin,2026-08-27 11:30:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-39582,Building_C_Admin,2026-11-19 15:30:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-75926,Building_B_Lab,2026-08-12 17:20:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-61648,Building_B_Lab,2026-09-18 15:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-64048,Building_E_Lecture,2026-11-16 17:50:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-65620,Building_D_Lab,2026-07-21 19:00:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-70754,Building_B_Lab,2026-09-22 18:10:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-42207,Building_D_Lab,2026-09-30 14:40:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-98772,Building_C_Lecture,2026-09-30 12:40:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-96331,Building_D_Lab,2026-10-06 18:40:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-87562,Building_C_Lecture,2026-11-29 17:20:00,S. Kumar (ID: Tech-318),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-62506,Building_C_Lecture,2026-11-30 14:40:00,J. Miller (ID: Tech-402),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-66686,Building_C_Lecture,2026-09-30 10:00:00,N. Rao (ID: Tech-256),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-38936,Building_E_Lecture,2026-06-13 19:10:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-21775,Building_C_Admin,2026-08-23 19:40:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-10825,Building_C_Lecture,2026-09-11 07:30:00,S. Kumar (ID: Tech-318),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-45986,Building_D_Lab,2026-10-03 14:50:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-84015,Building_E_Lecture,2026-08-26 10:50:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-10115,Building_B_Lab,2026-07-25 13:50:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-45787,Building_B_Lab,2026-09-26 09:30:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-17217,Building_E_Lecture,2026-12-07 07:30:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-18783,Building_D_Lab,2026-06-10 17:30:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-64992,Building_A_Lecture,2026-12-01 19:00:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-68447,Building_D_Lab,2026-08-25 10:40:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-91579,Building_A_Lecture,2026-12-20 18:50:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-49627,Building_E_Lecture,2026-12-03 19:30:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-37193,Building_E_Lecture,2026-09-29 15:50:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-27766,Building_A_Lecture,2026-08-20 07:00:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-86363,Building_E_Lecture,2026-05-31 16:50:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-83347,Building_E_Lecture,2026-12-27 14:40:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-45284,Building_E_Lecture,2026-10-22 14:40:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-26376,Building_B_Lab,2026-07-07 07:40:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-66233,Building_D_Lab,2026-09-20 11:20:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-32175,Building_C_Admin,2026-08-09 08:50:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-23284,Building_C_Lecture,2026-07-20 08:20:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-44327,Building_C_Lecture,2026-05-30 19:00:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-78877,Building_C_Lecture,2026-09-28 07:10:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-45242,Building_B_Lab,2026-07-15 09:50:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-21964,Building_C_Admin,2026-12-04 09:00:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-26848,Building_A_Lecture,2026-12-30 10:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-24372,Building_A_Lecture,2026-09-11 09:40:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-90261,Building_E_Lecture,2026-10-09 11:30:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-82952,Building_B_Lab,2026-11-15 10:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-78299,Building_C_Admin,2026-06-23 12:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-93764,Building_E_Lecture,2026-06-18 11:30:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-56472,Building_C_Lecture,2026-07-11 17:50:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-56867,Building_B_Lab,2026-09-03 13:20:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-24843,Building_D_Lab,2026-11-18 07:10:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-93928,Building_A_Lecture,2026-06-10 10:00:00,J. Miller (ID: Tech-402),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-58086,Building_A_Lecture,2026-09-13 18:40:00,S. Kumar (ID: Tech-318),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-21614,Building_B_Lab,2026-08-11 14:00:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-42390,Building_C_Admin,2026-12-22 11:00:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-96355,Building_E_Lecture,2026-11-29 08:30:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-35517,Building_C_Admin,2026-10-29 08:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-45964,Building_B_Lab,2026-12-07 14:50:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-40707,Building_E_Lecture,2026-08-26 19:20:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-19949,Building_D_Lab,2026-06-21 17:30:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-71370,Building_E_Lecture,2026-12-10 18:50:00,S. Kumar (ID: Tech-318),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-36833,Building_E_Lecture,2026-06-12 15:10:00,M. Chen (ID: Tech-417),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-50339,Building_C_Lecture,2026-07-22 17:50:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-94653,Building_C_Admin,2026-12-20 07:40:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-29368,Building_E_Lecture,2026-10-10 07:20:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-74204,Building_C_Admin,2026-12-03 13:50:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-31673,Building_C_Lecture,2026-09-01 08:20:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-25262,Building_C_Lecture,2026-12-17 17:00:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-63044,Building_B_Lab,2026-08-17 16:50:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-55504,Building_B_Lab,2026-08-05 08:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-49989,Building_D_Lab,2026-10-08 17:30:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-94318,Building_A_Lecture,2026-06-26 09:20:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-99857,Building_D_Lab,2026-09-24 10:30:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-66723,Building_D_Lab,2026-05-25 12:20:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-31477,Building_B_Lab,2026-11-04 13:20:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-20723,Building_E_Lecture,2026-11-02 11:50:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-24559,Building_C_Admin,2026-12-30 08:10:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-41068,Building_D_Lab,2026-06-16 18:40:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-19774,Building_B_Lab,2026-12-12 16:10:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-29131,Building_B_Lab,2026-11-04 09:40:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-85850,Building_C_Lecture,2026-11-06 09:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-74094,Building_C_Lecture,2026-05-20 10:30:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-20193,Building_B_Lab,2026-06-27 15:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-80054,Building_A_Lecture,2026-11-02 11:20:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-63942,Building_D_Lab,2026-11-14 07:30:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-88748,Building_B_Lab,2026-06-22 17:30:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-71410,Building_D_Lab,2026-07-07 11:30:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-84072,Building_D_Lab,2026-06-08 09:30:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-45147,Building_B_Lab,2026-07-08 10:30:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-35870,Building_C_Lecture,2026-12-02 16:20:00,R. Davis (ID: Tech-109),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-33091,Building_C_Lecture,2026-12-29 13:30:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-94778,Building_C_Lecture,2026-12-22 08:00:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-41637,Building_C_Admin,2026-10-19 15:50:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-26511,Building_E_Lecture,2026-06-21 19:30:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-30288,Building_C_Lecture,2026-10-15 12:30:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-25072,Building_D_Lab,2026-10-21 15:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-82324,Building_C_Lecture,2026-08-23 16:00:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-13147,Building_B_Lab,2026-12-14 08:10:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-79731,Building_B_Lab,2026-09-14 13:30:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-26857,Building_B_Lab,2026-07-30 19:00:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-89442,Building_D_Lab,2026-12-29 18:00:00,J. Miller (ID: Tech-402),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-22557,Building_B_Lab,2026-11-29 10:50:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-37726,Building_C_Admin,2026-10-10 08:50:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-22563,Building_A_Lecture,2026-08-24 09:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-50425,Building_C_Lecture,2026-06-24 14:10:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-32001,Building_E_Lecture,2026-10-07 08:40:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-32857,Building_D_Lab,2026-06-01 16:10:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-81302,Building_C_Admin,2026-08-15 11:20:00,M. Chen (ID: Tech-417),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-44134,Building_C_Admin,2026-06-10 11:20:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-70788,Building_C_Lecture,2026-09-09 16:30:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-73891,Building_C_Admin,2026-06-14 12:00:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-47480,Building_E_Lecture,2026-08-02 16:30:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-29825,Building_E_Lecture,2026-06-28 12:50:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-86518,Building_D_Lab,2026-11-26 10:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-73704,Building_E_Lecture,2026-10-24 15:30:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-12282,Building_C_Lecture,2026-12-10 10:50:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-96973,Building_D_Lab,2026-05-29 17:20:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-77712,Building_A_Lecture,2026-12-29 12:50:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-84980,Building_C_Lecture,2026-09-24 14:20:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-88959,Building_B_Lab,2026-08-16 10:50:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-17706,Building_C_Admin,2026-09-11 09:00:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-95089,Building_C_Lecture,2026-11-04 07:00:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-10006,Building_A_Lecture,2026-11-30 11:00:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-57103,Building_C_Admin,2026-08-14 07:30:00,M. Chen (ID: Tech-417),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-23026,Building_C_Admin,2026-09-17 19:40:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-96814,Building_D_Lab,2026-11-18 19:20:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-61736,Building_E_Lecture,2026-08-04 12:40:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-54450,Building_C_Lecture,2026-07-03 19:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-24372,Building_C_Admin,2026-08-10 09:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-58166,Building_A_Lecture,2026-05-21 12:30:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-26076,Building_A_Lecture,2026-05-25 15:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-69994,Building_C_Lecture,2026-07-30 17:30:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-74761,Building_E_Lecture,2026-09-10 08:20:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-27000,Building_D_Lab,2026-10-16 07:50:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-78465,Building_E_Lecture,2026-06-04 07:20:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-68082,Building_A_Lecture,2026-11-22 15:30:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-87568,Building_E_Lecture,2026-07-29 09:30:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-94428,Building_C_Lecture,2026-11-08 13:50:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-23527,Building_A_Lecture,2026-09-06 16:50:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-65758,Building_C_Admin,2026-11-21 18:00:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-35337,Building_A_Lecture,2026-09-02 16:30:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-86016,Building_D_Lab,2026-11-16 12:00:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-69957,Building_D_Lab,2026-08-14 19:50:00,R. Davis (ID: Tech-109),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-97027,Building_C_Lecture,2026-06-27 18:30:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-64118,Building_D_Lab,2026-12-30 19:20:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-85598,Building_C_Lecture,2026-11-22 09:00:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-52252,Building_C_Lecture,2026-07-03 09:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-94057,Building_E_Lecture,2026-08-13 14:50:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-29117,Building_B_Lab,2026-06-21 19:10:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-84067,Building_C_Admin,2026-07-11 17:00:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-86235,Building_B_Lab,2026-06-15 09:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-23361,Building_D_Lab,2026-07-06 13:00:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-36776,Building_D_Lab,2026-08-05 19:10:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-54437,Building_E_Lecture,2026-11-12 19:10:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-58591,Building_D_Lab,2026-07-24 14:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-96843,Building_C_Admin,2026-07-05 16:10:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-59667,Building_C_Admin,2026-12-26 17:40:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-83480,Building_E_Lecture,2026-07-06 13:50:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-38362,Building_D_Lab,2026-07-01 14:50:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-41107,Building_A_Lecture,2026-08-19 19:30:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-66612,Building_C_Admin,2026-10-25 09:50:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-84428,Building_E_Lecture,2026-05-26 09:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-50217,Building_E_Lecture,2026-06-01 08:10:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-72292,Building_A_Lecture,2026-08-11 15:10:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-29115,Building_D_Lab,2026-06-15 08:50:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-52111,Building_A_Lecture,2026-12-08 08:30:00,J. Miller (ID: Tech-402),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-38947,Building_A_Lecture,2026-06-17 14:30:00,R. Davis (ID: Tech-109),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-93567,Building_D_Lab,2026-07-28 14:30:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-66586,Building_B_Lab,2026-09-11 11:30:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-24447,Building_C_Lecture,2026-06-03 11:50:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-52156,Building_E_Lecture,2026-07-07 17:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-89185,Building_C_Lecture,2026-08-21 09:30:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-90457,Building_E_Lecture,2026-11-17 11:10:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-27859,Building_C_Lecture,2026-11-27 19:10:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-73935,Building_A_Lecture,2026-07-21 10:20:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-58817,Building_C_Lecture,2026-12-23 10:50:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-41695,Building_E_Lecture,2026-07-02 15:10:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-26578,Building_D_Lab,2026-09-27 12:40:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-67265,Building_C_Admin,2026-09-16 16:40:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-96099,Building_C_Admin,2026-10-11 13:40:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-48087,Building_A_Lecture,2026-10-10 17:50:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-88927,Building_E_Lecture,2026-11-23 16:10:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-10589,Building_D_Lab,2026-11-28 10:40:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-38195,Building_C_Lecture,2026-09-08 19:30:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-24213,Building_C_Lecture,2026-08-27 15:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-74435,Building_A_Lecture,2026-11-21 19:00:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-73768,Building_A_Lecture,2026-09-16 17:30:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-50443,Building_E_Lecture,2026-09-28 07:30:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-99860,Building_A_Lecture,2026-07-26 19:20:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-45263,Building_B_Lab,2026-12-07 13:20:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-94186,Building_B_Lab,2026-09-26 13:30:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-79962,Building_A_Lecture,2026-12-09 12:40:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-72661,Building_C_Lecture,2026-10-03 14:50:00,J. Miller (ID: Tech-402),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-57904,Building_A_Lecture,2026-05-27 14:40:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-33893,Building_E_Lecture,2026-07-30 16:30:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-51915,Building_C_Lecture,2026-09-22 09:40:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-47384,Building_C_Admin,2026-07-27 13:30:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-29672,Building_C_Admin,2026-07-16 14:30:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-85207,Building_C_Lecture,2026-06-27 14:30:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-12242,Building_E_Lecture,2026-11-07 19:30:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-65721,Building_D_Lab,2026-12-05 12:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-31066,Building_C_Admin,2026-08-22 14:30:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-63325,Building_E_Lecture,2026-09-08 16:00:00,S. Kumar (ID: Tech-318),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-44324,Building_B_Lab,2026-10-17 13:20:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-26086,Building_E_Lecture,2026-06-09 19:40:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-34629,Building_A_Lecture,2026-11-21 12:30:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-26560,Building_D_Lab,2026-08-23 09:30:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-59756,Building_A_Lecture,2026-11-28 16:10:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-79347,Building_C_Admin,2026-10-07 17:30:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-70433,Building_C_Admin,2026-10-13 18:50:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-51968,Building_A_Lecture,2026-09-08 07:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-81612,Building_B_Lab,2026-08-20 14:20:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-20184,Building_C_Admin,2026-08-09 11:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-27293,Building_C_Admin,2026-05-29 19:10:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-64515,Building_B_Lab,2026-07-05 14:30:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-93231,Building_E_Lecture,2026-10-17 19:50:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-31716,Building_E_Lecture,2026-11-25 17:20:00,J. Miller (ID: Tech-402),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-49898,Building_A_Lecture,2026-08-26 08:20:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-86999,Building_A_Lecture,2026-08-06 09:40:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-40664,Building_E_Lecture,2026-12-13 17:50:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-89230,Building_C_Lecture,2026-10-09 15:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-30570,Building_A_Lecture,2026-06-25 16:00:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-63580,Building_E_Lecture,2026-07-25 13:40:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-40026,Building_B_Lab,2026-07-16 14:00:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-18822,Building_C_Admin,2026-08-21 13:40:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-51143,Building_E_Lecture,2026-08-05 11:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-82897,Building_A_Lecture,2026-06-16 17:40:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-79901,Building_B_Lab,2026-10-25 12:50:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-24504,Building_D_Lab,2026-08-06 13:10:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-29730,Building_D_Lab,2026-06-23 12:30:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-14180,Building_D_Lab,2026-12-11 16:20:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-98318,Building_D_Lab,2026-11-04 19:40:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-88870,Building_C_Admin,2026-08-25 15:50:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-83762,Building_C_Lecture,2026-12-05 08:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-52623,Building_C_Lecture,2026-12-15 13:50:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-93410,Building_C_Lecture,2026-08-21 19:30:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-21371,Building_D_Lab,2026-05-26 12:00:00,R. Davis (ID: Tech-109),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-80570,Building_B_Lab,2026-06-04 15:20:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-19205,Building_B_Lab,2026-12-21 11:50:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-19970,Building_B_Lab,2026-11-21 10:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-46977,Building_C_Lecture,2026-06-09 17:00:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-43903,Building_E_Lecture,2026-12-25 08:00:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-24179,Building_B_Lab,2026-07-20 16:40:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-84079,Building_B_Lab,2026-08-22 10:10:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-54346,Building_C_Admin,2026-09-20 12:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-97191,Building_A_Lecture,2026-12-27 13:50:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-23895,Building_D_Lab,2026-06-08 15:00:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-40953,Building_C_Lecture,2026-11-17 19:00:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-54485,Building_B_Lab,2026-11-17 09:10:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-50103,Building_C_Admin,2026-12-19 17:10:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-39684,Building_C_Admin,2026-10-03 13:40:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-81605,Building_C_Admin,2026-09-15 14:10:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-16703,Building_C_Lecture,2026-08-26 11:00:00,R. Davis (ID: Tech-109),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-73773,Building_B_Lab,2026-05-30 07:40:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-13951,Building_C_Lecture,2026-12-24 11:00:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-72615,Building_A_Lecture,2026-07-17 19:00:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-31438,Building_B_Lab,2026-12-30 15:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-48819,Building_C_Admin,2026-09-04 09:20:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-81456,Building_C_Admin,2026-08-30 09:40:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-55843,Building_D_Lab,2026-11-13 08:30:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-26685,Building_A_Lecture,2026-06-25 14:40:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-61947,Building_B_Lab,2026-12-14 17:20:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-51322,Building_C_Admin,2026-10-31 17:30:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-72767,Building_B_Lab,2026-08-21 18:20:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-39984,Building_B_Lab,2026-08-16 14:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-76925,Building_E_Lecture,2026-12-30 15:50:00,S. Kumar (ID: Tech-318),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-20627,Building_E_Lecture,2026-07-28 07:30:00,M. Chen (ID: Tech-417),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-17407,Building_B_Lab,2026-12-13 07:00:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-41795,Building_D_Lab,2026-07-27 19:40:00,N. Rao (ID: Tech-256),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-68090,Building_D_Lab,2026-08-08 15:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-43675,Building_B_Lab,2026-11-13 15:20:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-44487,Building_C_Admin,2026-09-08 07:50:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-30687,Building_E_Lecture,2026-10-06 09:10:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-69916,Building_B_Lab,2026-12-10 12:30:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-85288,Building_C_Lecture,2026-09-18 11:30:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-74298,Building_E_Lecture,2026-08-03 19:00:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-69227,Building_D_Lab,2026-11-29 16:10:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-44515,Building_A_Lecture,2026-12-26 16:20:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-99058,Building_E_Lecture,2026-09-11 13:30:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-38865,Building_C_Admin,2026-05-30 13:20:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-40269,Building_C_Lecture,2026-10-18 18:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-47738,Building_D_Lab,2026-12-31 15:00:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-10541,Building_E_Lecture,2026-07-12 11:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-24779,Building_C_Lecture,2026-05-24 15:20:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-35223,Building_D_Lab,2026-11-19 16:40:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-69014,Building_A_Lecture,2026-12-14 17:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-34552,Building_C_Lecture,2026-09-19 13:50:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-60606,Building_C_Admin,2026-09-29 18:50:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-24261,Building_E_Lecture,2026-11-29 12:20:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-20568,Building_C_Lecture,2026-10-15 18:30:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-83807,Building_E_Lecture,2026-12-18 12:50:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-43857,Building_B_Lab,2026-11-04 13:30:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-94382,Building_A_Lecture,2026-07-09 19:20:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-60831,Building_B_Lab,2026-06-20 14:50:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-88906,Building_B_Lab,2026-07-05 17:30:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-68259,Building_D_Lab,2026-11-04 16:20:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-99025,Building_E_Lecture,2026-09-08 10:50:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-13099,Building_A_Lecture,2026-08-12 11:40:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-15354,Building_E_Lecture,2026-08-29 07:10:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-77132,Building_C_Admin,2026-08-13 18:40:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-95486,Building_B_Lab,2026-06-08 15:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-19717,Building_D_Lab,2026-10-14 08:20:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-97113,Building_A_Lecture,2026-12-08 11:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-79118,Building_E_Lecture,2026-06-04 11:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-27072,Building_C_Admin,2026-12-01 07:40:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-14985,Building_C_Lecture,2026-07-11 16:20:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-49724,Building_C_Lecture,2026-11-18 14:40:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-15380,Building_A_Lecture,2026-09-28 11:10:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-18305,Building_C_Lecture,2026-11-19 13:10:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-48374,Building_C_Lecture,2026-07-14 13:20:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-45359,Building_B_Lab,2026-12-28 13:40:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-54561,Building_B_Lab,2026-05-23 09:00:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-29914,Building_C_Admin,2026-06-14 14:50:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-42106,Building_C_Admin,2026-09-15 19:00:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-87069,Building_D_Lab,2026-06-03 15:00:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-22314,Building_C_Lecture,2026-08-21 17:20:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-42689,Building_E_Lecture,2026-10-24 11:00:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-11004,Building_A_Lecture,2026-08-12 19:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-12943,Building_D_Lab,2026-09-27 09:10:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-15452,Building_C_Admin,2026-06-30 07:00:00,J. Miller (ID: Tech-402),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-47316,Building_E_Lecture,2026-05-27 18:10:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-27512,Building_D_Lab,2026-11-22 12:30:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-38101,Building_D_Lab,2026-12-03 13:50:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-75541,Building_B_Lab,2026-09-06 13:50:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-10073,Building_C_Lecture,2026-09-11 15:20:00,J. Miller (ID: Tech-402),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-33751,Building_E_Lecture,2026-08-18 10:40:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-16488,Building_D_Lab,2026-10-30 16:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-37931,Building_C_Lecture,2026-09-20 16:40:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-26642,Building_C_Lecture,2026-11-08 19:50:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-73399,Building_C_Admin,2026-07-19 11:50:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-61485,Building_A_Lecture,2026-06-24 15:20:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-17099,Building_D_Lab,2026-12-31 12:40:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-47439,Building_B_Lab,2026-10-17 10:20:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-71725,Building_B_Lab,2026-08-04 13:10:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-89066,Building_A_Lecture,2026-06-27 11:30:00,N. Rao (ID: Tech-256),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-33440,Building_D_Lab,2026-12-25 18:10:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-67139,Building_D_Lab,2026-06-28 08:20:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-15223,Building_E_Lecture,2026-12-08 13:10:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-91605,Building_E_Lecture,2026-11-10 10:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-16675,Building_B_Lab,2026-12-24 16:40:00,R. Davis (ID: Tech-109),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-59775,Building_C_Lecture,2026-07-17 18:40:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-47613,Building_A_Lecture,2026-07-09 18:10:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-41603,Building_C_Lecture,2026-05-25 13:40:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-24983,Building_C_Lecture,2026-11-18 13:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-46170,Building_D_Lab,2026-12-13 08:50:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-55411,Building_D_Lab,2026-10-27 17:30:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-19201,Building_A_Lecture,2026-10-26 08:10:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-37372,Building_B_Lab,2026-11-25 17:10:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-18157,Building_C_Lecture,2026-07-22 14:20:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-70613,Building_E_Lecture,2026-06-29 11:20:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-58966,Building_D_Lab,2026-05-25 15:30:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-87732,Building_C_Admin,2026-09-28 09:50:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-17764,Building_E_Lecture,2026-11-15 18:10:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-74671,Building_A_Lecture,2026-11-12 07:00:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-58880,Building_A_Lecture,2026-07-04 16:10:00,M. Chen (ID: Tech-417),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-68314,Building_D_Lab,2026-06-21 19:10:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-40263,Building_A_Lecture,2026-08-27 10:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-64141,Building_C_Lecture,2026-11-10 14:40:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-72165,Building_B_Lab,2026-09-08 15:20:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-51687,Building_E_Lecture,2026-05-22 08:40:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-47407,Building_C_Lecture,2026-10-25 17:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-85536,Building_A_Lecture,2026-10-28 13:20:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-12557,Building_A_Lecture,2026-10-31 17:20:00,N. Rao (ID: Tech-256),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-31552,Building_C_Admin,2026-06-23 09:30:00,S. Kumar (ID: Tech-318),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-96296,Building_D_Lab,2026-06-18 07:50:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-62268,Building_D_Lab,2026-08-14 11:20:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-29166,Building_D_Lab,2026-05-27 14:30:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-33100,Building_D_Lab,2026-12-23 17:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-31978,Building_E_Lecture,2026-11-06 10:10:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-26625,Building_C_Lecture,2026-09-24 18:10:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-12629,Building_C_Admin,2026-09-14 09:20:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-47236,Building_A_Lecture,2026-06-21 07:30:00,R. Davis (ID: Tech-109),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-50372,Building_B_Lab,2026-08-06 14:10:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-83634,Building_C_Lecture,2026-06-22 12:00:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-43025,Building_E_Lecture,2026-10-28 13:40:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-26294,Building_C_Admin,2026-11-14 14:40:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-48215,Building_C_Lecture,2026-12-02 16:00:00,R. Davis (ID: Tech-109),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-13510,Building_B_Lab,2026-11-23 19:30:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-93004,Building_B_Lab,2026-08-06 19:00:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-76627,Building_C_Admin,2026-06-30 11:50:00,J. Miller (ID: Tech-402),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-73413,Building_E_Lecture,2026-10-22 15:00:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-56903,Building_D_Lab,2026-10-13 07:00:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-40407,Building_E_Lecture,2026-08-26 08:40:00,S. Kumar (ID: Tech-318),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-39899,Building_B_Lab,2026-11-05 18:50:00,R. Davis (ID: Tech-109),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-18823,Building_C_Admin,2026-08-28 07:30:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-11185,Building_C_Admin,2026-12-13 11:50:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-83542,Building_A_Lecture,2026-12-15 10:10:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-15562,Building_E_Lecture,2026-12-12 11:30:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-89596,Building_A_Lecture,2026-08-16 08:40:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-30961,Building_A_Lecture,2026-05-23 12:30:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-17664,Building_A_Lecture,2026-11-02 15:40:00,J. Miller (ID: Tech-402),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-25260,Building_C_Admin,2026-08-12 13:30:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-75668,Building_A_Lecture,2026-09-06 08:40:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-37240,Building_C_Lecture,2026-12-10 08:40:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-68095,Building_C_Lecture,2026-06-12 15:20:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-24851,Building_C_Lecture,2026-10-23 10:40:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-84152,Building_A_Lecture,2026-09-08 16:50:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-47807,Building_C_Lecture,2026-10-01 11:10:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-76423,Building_B_Lab,2026-11-28 19:40:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-35140,Building_B_Lab,2026-08-24 19:10:00,J. Miller (ID: Tech-402),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-66781,Building_C_Admin,2026-08-27 11:50:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-42273,Building_C_Admin,2026-10-28 08:10:00,N. Rao (ID: Tech-256),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-34289,Building_C_Lecture,2026-08-28 18:20:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-10144,Building_E_Lecture,2026-06-08 12:00:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-55180,Building_D_Lab,2026-07-30 18:50:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-71354,Building_D_Lab,2026-12-05 15:50:00,N. Rao (ID: Tech-256),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-55096,Building_A_Lecture,2026-11-14 18:30:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-51980,Building_C_Lecture,2026-07-21 17:20:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-61303,Building_D_Lab,2026-06-26 09:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-70874,Building_C_Lecture,2026-11-20 11:20:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-47440,Building_D_Lab,2026-10-07 08:20:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-77679,Building_E_Lecture,2026-07-19 11:20:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-28709,Building_C_Admin,2026-07-07 15:40:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-62601,Building_A_Lecture,2026-10-11 09:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-22117,Building_B_Lab,2026-09-04 14:30:00,R. Davis (ID: Tech-109),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-13497,Building_E_Lecture,2026-12-30 15:00:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-70506,Building_D_Lab,2026-06-10 12:40:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-13167,Building_C_Lecture,2026-10-28 11:50:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-83451,Building_E_Lecture,2026-08-03 16:10:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-94209,Building_D_Lab,2026-11-30 19:30:00,M. Chen (ID: Tech-417),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-55769,Building_B_Lab,2026-08-08 16:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-74368,Building_B_Lab,2026-06-25 15:40:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-81016,Building_C_Admin,2026-11-06 07:50:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-55242,Building_D_Lab,2026-11-29 08:40:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-17751,Building_C_Lecture,2026-06-20 19:40:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-59860,Building_B_Lab,2026-06-16 11:00:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-20603,Building_C_Lecture,2026-07-09 16:30:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-68347,Building_C_Admin,2026-10-13 12:20:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-14629,Building_D_Lab,2026-10-12 10:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-21918,Building_D_Lab,2026-07-02 10:00:00,R. Davis (ID: Tech-109),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-17612,Building_B_Lab,2026-10-27 14:40:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-96029,Building_B_Lab,2026-12-17 18:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-63209,Building_C_Lecture,2026-11-04 10:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-51894,Building_D_Lab,2026-11-17 16:50:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-43669,Building_C_Lecture,2026-09-26 13:20:00,N. Rao (ID: Tech-256),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-27650,Building_B_Lab,2026-06-13 18:50:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-68540,Building_B_Lab,2026-11-15 15:30:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-13513,Building_B_Lab,2026-07-07 13:00:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-43402,Building_B_Lab,2026-06-13 19:00:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-66775,Building_C_Lecture,2026-06-27 12:50:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-81392,Building_A_Lecture,2026-07-24 13:10:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-77323,Building_C_Lecture,2026-06-01 15:50:00,M. Chen (ID: Tech-417),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-97493,Building_B_Lab,2026-12-17 14:40:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-35590,Building_B_Lab,2026-05-30 12:00:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-47102,Building_C_Admin,2026-12-29 07:50:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-18004,Building_D_Lab,2026-08-23 12:10:00,M. Chen (ID: Tech-417),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-67321,Building_D_Lab,2026-08-16 10:10:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-46145,Building_C_Lecture,2026-09-13 10:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-53240,Building_E_Lecture,2026-09-16 12:30:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-74670,Building_B_Lab,2026-10-07 09:10:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-87657,Building_C_Lecture,2026-05-24 14:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-50333,Building_B_Lab,2026-09-28 16:50:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-24607,Building_C_Lecture,2026-10-27 10:40:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-37508,Building_A_Lecture,2026-06-28 12:20:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-81142,Building_C_Admin,2026-12-12 17:20:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-92642,Building_C_Lecture,2026-08-29 12:50:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-35251,Building_E_Lecture,2026-09-28 08:50:00,M. Chen (ID: Tech-417),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-67649,Building_E_Lecture,2026-07-28 14:00:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-93818,Building_C_Lecture,2026-09-03 14:20:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-32136,Building_C_Lecture,2026-11-27 13:10:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-27320,Building_D_Lab,2026-12-23 08:30:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-36734,Building_D_Lab,2026-06-25 15:10:00,A. Patel (ID: Tech-221),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-33367,Building_B_Lab,2026-07-14 18:20:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-72173,Building_D_Lab,2026-08-17 13:20:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-14515,Building_E_Lecture,2026-06-22 14:40:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-27195,Building_E_Lecture,2026-07-01 07:30:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-83266,Building_E_Lecture,2026-10-17 07:20:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-51572,Building_B_Lab,2026-08-28 12:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-18839,Building_C_Lecture,2026-08-05 14:50:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-17102,Building_B_Lab,2026-07-19 16:40:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-55765,Building_C_Lecture,2026-08-08 19:10:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-61340,Building_C_Lecture,2026-09-22 16:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-67789,Building_E_Lecture,2026-11-12 19:20:00,M. Chen (ID: Tech-417),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-73666,Building_D_Lab,2026-06-06 16:30:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-14152,Building_B_Lab,2026-08-26 13:50:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-59495,Building_B_Lab,2026-06-15 13:40:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-89723,Building_C_Lecture,2026-07-27 11:40:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-55140,Building_B_Lab,2026-06-29 14:20:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-87282,Building_E_Lecture,2026-05-29 18:00:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-52396,Building_C_Admin,2026-10-07 18:50:00,M. Chen (ID: Tech-417),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-71548,Building_C_Lecture,2026-07-31 18:00:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-22145,Building_D_Lab,2026-11-02 07:50:00,A. Patel (ID: Tech-221),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-18986,Building_E_Lecture,2026-06-20 18:50:00,S. Kumar (ID: Tech-318),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-41258,Building_E_Lecture,2026-05-26 14:40:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-84123,Building_A_Lecture,2026-11-10 15:40:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-86052,Building_A_Lecture,2026-05-27 11:20:00,R. Davis (ID: Tech-109),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-36346,Building_C_Admin,2026-06-14 07:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-40300,Building_B_Lab,2026-11-30 17:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-25189,Building_D_Lab,2026-10-29 12:30:00,N. Rao (ID: Tech-256),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-63116,Building_C_Admin,2026-10-18 18:20:00,N. Rao (ID: Tech-256),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-51435,Building_B_Lab,2026-06-09 07:00:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-22745,Building_D_Lab,2026-07-10 13:50:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-24187,Building_C_Lecture,2026-11-27 15:50:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-88433,Building_E_Lecture,2026-06-10 08:00:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-71077,Building_A_Lecture,2026-08-30 10:00:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-57493,Building_C_Admin,2026-06-10 16:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-55476,Building_A_Lecture,2026-11-16 18:50:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-96519,Building_C_Lecture,2026-09-10 10:40:00,N. Rao (ID: Tech-256),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-82976,Building_B_Lab,2026-11-10 18:20:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-97759,Building_C_Lecture,2026-11-25 15:30:00,M. Chen (ID: Tech-417),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-46059,Building_A_Lecture,2026-12-25 14:20:00,J. Miller (ID: Tech-402),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-56811,Building_E_Lecture,2026-12-04 11:00:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-26228,Building_A_Lecture,2026-10-02 19:50:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-38567,Building_A_Lecture,2026-07-07 16:40:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-13652,Building_B_Lab,2026-07-14 08:10:00,J. Miller (ID: Tech-402),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-90527,Building_B_Lab,2026-06-24 11:50:00,M. Chen (ID: Tech-417),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-10586,Building_C_Admin,2026-12-22 09:20:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-71003,Building_E_Lecture,2026-12-26 16:20:00,J. Miller (ID: Tech-402),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-31848,Building_E_Lecture,2026-06-16 11:50:00,J. Miller (ID: Tech-402),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-75393,Building_C_Admin,2026-08-12 14:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-89024,Building_B_Lab,2026-07-07 15:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-64887,Building_A_Lecture,2026-09-15 12:40:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-20926,Building_B_Lab,2026-10-29 18:10:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-12950,Building_D_Lab,2026-09-19 19:50:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-75518,Building_D_Lab,2026-09-05 17:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-10235,Building_A_Lecture,2026-12-26 19:10:00,R. Davis (ID: Tech-109),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-14534,Building_C_Lecture,2026-08-13 14:20:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-56629,Building_A_Lecture,2026-06-02 14:40:00,R. Davis (ID: Tech-109),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-42749,Building_E_Lecture,2026-10-08 10:40:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-41246,Building_C_Admin,2026-10-05 18:10:00,R. Davis (ID: Tech-109),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-73247,Building_E_Lecture,2026-09-21 19:10:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-85388,Building_B_Lab,2026-07-30 15:50:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-98908,Building_D_Lab,2026-07-21 15:40:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-21622,Building_B_Lab,2026-11-29 09:30:00,R. Davis (ID: Tech-109),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-74773,Building_E_Lecture,2026-12-18 10:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-27517,Building_D_Lab,2026-11-25 13:50:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-95100,Building_C_Lecture,2026-07-13 15:20:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-83369,Building_E_Lecture,2026-07-06 17:50:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-75847,Building_C_Admin,2026-11-01 17:10:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-55446,Building_E_Lecture,2026-07-05 16:20:00,A. Patel (ID: Tech-221),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-33864,Building_C_Admin,2026-12-30 19:00:00,R. Davis (ID: Tech-109),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-50317,Building_B_Lab,2026-09-16 17:30:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-63271,Building_C_Lecture,2026-05-28 14:00:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-23741,Building_D_Lab,2026-05-23 07:50:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-66937,Building_D_Lab,2026-07-23 17:10:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-65729,Building_C_Lecture,2026-08-24 14:10:00,A. Patel (ID: Tech-221),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-56197,Building_B_Lab,2026-07-10 14:50:00,M. Chen (ID: Tech-417),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-11258,Building_C_Lecture,2026-09-16 08:50:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-39040,Building_B_Lab,2026-11-07 14:10:00,A. Patel (ID: Tech-221),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-95189,Building_B_Lab,2026-07-13 09:30:00,R. Davis (ID: Tech-109),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-94435,Building_C_Lecture,2026-12-08 09:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Replacement sensor installed recently; calibration pending secondary verification.
+MNT-52934,Building_D_Lab,2026-08-25 08:30:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-27144,Building_A_Lecture,2026-07-28 09:00:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-14933,Building_C_Lecture,2026-08-03 15:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-73629,Building_B_Lab,2026-07-09 10:40:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-91308,Building_A_Lecture,2026-11-18 12:30:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-39965,Building_B_Lab,2026-11-16 10:20:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-89598,Building_A_Lecture,2026-11-08 07:40:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-82265,Building_B_Lab,2026-12-09 12:30:00,S. Kumar (ID: Tech-318),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-81228,Building_C_Lecture,2026-09-29 11:30:00,S. Kumar (ID: Tech-318),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-84535,Building_B_Lab,2026-11-22 17:20:00,M. Chen (ID: Tech-417),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-26531,Building_A_Lecture,2026-08-15 17:50:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-54212,Building_E_Lecture,2026-10-06 11:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-96584,Building_C_Admin,2026-06-13 09:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-80929,Building_A_Lecture,2026-06-20 14:20:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-31050,Building_D_Lab,2026-11-04 18:20:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-96115,Building_C_Admin,2026-06-19 10:10:00,A. Patel (ID: Tech-221),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.
+MNT-78803,Building_C_Admin,2026-11-30 14:10:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-50470,Building_B_Lab,2026-09-18 07:00:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-60460,Building_B_Lab,2026-12-09 08:20:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-73304,Building_E_Lecture,2026-05-31 19:40:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-15014,Building_C_Admin,2026-07-27 10:30:00,M. Chen (ID: Tech-417),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-85175,Building_C_Admin,2026-09-20 10:00:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-60792,Building_D_Lab,2026-12-14 16:10:00,N. Rao (ID: Tech-256),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-95106,Building_A_Lecture,2026-10-05 11:50:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-41870,Building_B_Lab,2026-12-14 17:10:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-99829,Building_D_Lab,2026-11-03 19:30:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-84697,Building_D_Lab,2026-07-13 07:00:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-13158,Building_C_Lecture,2026-11-11 17:40:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-21569,Building_A_Lecture,2026-08-06 17:10:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-46976,Building_C_Admin,2026-10-24 15:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-39060,Building_C_Admin,2026-10-20 07:20:00,R. Davis (ID: Tech-109),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-58979,Building_C_Lecture,2026-09-30 10:50:00,N. Rao (ID: Tech-256),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-25954,Building_E_Lecture,2026-12-08 13:10:00,A. Patel (ID: Tech-221),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-19387,Building_C_Admin,2026-06-14 18:10:00,S. Kumar (ID: Tech-318),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-51701,Building_E_Lecture,2026-12-15 16:00:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-44800,Building_D_Lab,2026-11-26 17:40:00,S. Kumar (ID: Tech-318),Centrifuge,Routine Servicing,LOW,Checked motor and operating parameters; no abnormal condition observed.
+MNT-62454,Building_A_Lecture,2026-11-01 07:00:00,M. Chen (ID: Tech-417),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-96773,Building_A_Lecture,2026-10-18 10:30:00,R. Davis (ID: Tech-109),Fume Hood Exhaust Fan,Routine Servicing,LOW,Serviced exhaust fan and verified airflow remained within operating range.
+MNT-19841,Building_C_Admin,2026-06-30 10:50:00,A. Patel (ID: Tech-221),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-57736,Building_C_Admin,2026-09-12 10:30:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-95737,Building_D_Lab,2026-12-31 19:30:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-13246,Building_C_Lecture,2026-11-18 12:20:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Sensor Calibration,HIGH,Verified current transformer readings and scheduled secondary calibration.
+MNT-48120,Building_E_Lecture,2026-10-06 08:10:00,M. Chen (ID: Tech-417),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-69530,Building_B_Lab,2026-06-23 13:40:00,J. Miller (ID: Tech-402),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-16258,Building_E_Lecture,2026-10-28 15:30:00,J. Miller (ID: Tech-402),3D Printer,Routine Servicing,LOW,Performed scheduled maintenance and verified normal operation.
+MNT-64232,Building_C_Admin,2026-08-31 11:50:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-63760,Building_D_Lab,2026-12-21 09:20:00,S. Kumar (ID: Tech-318),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-23509,Building_C_Admin,2026-12-12 11:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-74668,Building_E_Lecture,2026-11-17 17:10:00,A. Patel (ID: Tech-221),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-96962,Building_C_Admin,2026-06-03 19:30:00,N. Rao (ID: Tech-256),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-45522,Building_D_Lab,2026-06-30 07:10:00,R. Davis (ID: Tech-109),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-99112,Building_A_Lecture,2026-07-05 18:40:00,N. Rao (ID: Tech-256),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-97908,Building_C_Admin,2026-10-11 09:00:00,S. Kumar (ID: Tech-318),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-29827,Building_A_Lecture,2026-06-30 13:30:00,S. Kumar (ID: Tech-318),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-54355,Building_E_Lecture,2026-09-17 09:10:00,A. Patel (ID: Tech-221),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-28269,Building_C_Lecture,2026-10-15 10:00:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-20059,Building_D_Lab,2026-08-22 14:20:00,A. Patel (ID: Tech-221),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-84088,Building_D_Lab,2026-12-27 08:20:00,J. Miller (ID: Tech-402),BMS HVAC Controller,Schedule Reset,MEDIUM,Cleared stale HVAC schedule and restored automatic building control.
+MNT-71434,Building_B_Lab,2026-08-13 18:30:00,R. Davis (ID: Tech-109),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-34210,Building_C_Admin,2026-07-18 16:40:00,S. Kumar (ID: Tech-318),Chiller Unit,Preventive Maintenance,MEDIUM,Inspected chiller controls and confirmed scheduled operation.
+MNT-39710,Building_B_Lab,2026-08-19 12:20:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-82809,Building_E_Lecture,2026-07-14 13:20:00,A. Patel (ID: Tech-221),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-64150,Building_C_Lecture,2026-09-29 10:00:00,M. Chen (ID: Tech-417),Main Feeder CT Sensor,Sensor Calibration,HIGH,Sensor calibration performed after meter anomaly; compare against reference meter.
+MNT-28624,Building_C_Admin,2026-11-24 19:20:00,J. Miller (ID: Tech-402),Robotics Workcell,Preventive Maintenance,LOW,"Inspected motors, controls, and safety interlocks."
+MNT-15504,Building_E_Lecture,2026-11-23 14:40:00,J. Miller (ID: Tech-402),Network Room HVAC,Schedule Review,MEDIUM,Reviewed cooling schedule against continuous network infrastructure requirements.
+MNT-47092,Building_B_Lab,2026-11-08 15:20:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Replaced meter sensing component; calibration and verification required.
+MNT-92356,Building_B_Lab,2026-11-24 13:00:00,S. Kumar (ID: Tech-318),Thermal Chamber,Sensor Check,MEDIUM,Checked temperature sensor readings and verified stable operation.
+MNT-45705,Building_D_Lab,2026-06-12 12:50:00,N. Rao (ID: Tech-256),BMS HVAC Controller,Schedule Override,MEDIUM,Manual HVAC override applied for scheduled activity; verify automatic reset.
+MNT-23484,Building_B_Lab,2026-06-14 10:00:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-98474,Building_D_Lab,2026-09-05 09:40:00,A. Patel (ID: Tech-221),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-39023,Building_B_Lab,2026-10-09 12:00:00,N. Rao (ID: Tech-256),Environmental Chamber,Calibration,MEDIUM,Checked chamber temperature sensors and calibration status.
+MNT-65590,Building_A_Lecture,2026-11-18 17:20:00,R. Davis (ID: Tech-109),UPS Cooling Fan,Routine Servicing,MEDIUM,Inspected fan assembly and verified thermal operating parameters.
+MNT-22355,Building_C_Lecture,2026-08-13 16:20:00,J. Miller (ID: Tech-402),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-72527,Building_C_Admin,2026-06-03 16:40:00,J. Miller (ID: Tech-402),Main Feeder CT Sensor,Hardware Replacement,HIGH,Current transformer replaced following abnormal telemetry; verify readings before energy action.
+MNT-22296,Building_E_Lecture,2026-11-11 13:50:00,R. Davis (ID: Tech-109),Server Cooling Unit,Inspection,HIGH,Inspected cooling backup infrastructure serving essential IT equipment.
+MNT-67577,Building_A_Lecture,2026-12-27 18:40:00,A. Patel (ID: Tech-221),Lighting Control System,Configuration Update,LOW,Updated occupancy-based lighting schedule.
+MNT-93349,Building_E_Lecture,2026-08-02 17:30:00,S. Kumar (ID: Tech-318),Air Handling Unit,Routine Servicing,LOW,Filters inspected and operating parameters verified.

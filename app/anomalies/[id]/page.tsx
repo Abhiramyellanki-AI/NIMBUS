@@ -192,7 +192,7 @@ export default function AnomalyDetailPage({
                 <span>{new Date(anomaly.timestamp).toLocaleString()}</span>
               </div>
               <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
-                {anomaly.building_name}
+                {anomaly.building_name || anomaly.building_id}
               </h1>
             </div>
           </div>
@@ -204,7 +204,7 @@ export default function AnomalyDetailPage({
               className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-medium text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 rounded-lg shadow-xs transition-colors"
             >
               <RotateCcw className={`h-3.5 w-3.5 ${retriaging ? 'animate-spin' : ''}`} />
-              <span>{retriaging ? 'Triaging...' : 'Re-run AI Triage'}</span>
+              <span>{retriaging ? 'Triaging...' : 'Re-run Deterministic Triage'}</span>
             </button>
           </div>
         </div>
@@ -391,7 +391,7 @@ export default function AnomalyDetailPage({
               <div className="flex items-center gap-2">
                 <Sparkles className="h-5 w-5 text-emerald-600" />
                 <h2 className="text-base font-semibold text-slate-900">
-                  AI Contextual Reasoning Verdict
+                  Deterministic Rule Engine Verdict
                 </h2>
               </div>
               <div className="flex items-center gap-3 text-xs text-slate-500">

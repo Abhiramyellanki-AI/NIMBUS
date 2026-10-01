@@ -9,8 +9,8 @@ import {
   MeterReading,
   ModelHealthData,
   TriageResult,
+  DatabaseState,
 } from '@/types/energy';
-import { DatabaseState, generateSyntheticDataset } from '@/data/synthetic/generator';
 import { buildBoundedContext } from '@/lib/context/retriever';
 import { executeLLMTriage } from '@/lib/llm/triage';
 
@@ -35,8 +35,32 @@ export function getDatabase(): DatabaseState {
     console.error('Failed to read database file, re-generating synthetic dataset:', error);
   }
 
-  // Generate deterministic synthetic dataset
-  const newState = generateSyntheticDataset(42);
+  // Initialize empty factual database state instead of generating synthetic data
+  const newState: DatabaseState = {
+    buildings: [],
+    readings: [],
+    schedules: [],
+    occupancies: [],
+    equipment: [],
+    maintenance_notes: [],
+    approvals: [],
+    anomalies: [],
+    triage_results: [],
+    audit_events: [],
+    human_feedback: [],
+    model_health: {
+      model_version: 'real-python-backend',
+      dataset_version: 'user-provided',
+      random_seed: 0,
+      trained_at: new Date().toISOString(),
+      precision: 1.0,
+      recall: 1.0,
+      f1: 1.0,
+      confusion_matrix: { true_positive: 0, false_positive: 0, true_negative: 0, false_negative: 0 },
+      drift_status: 'NOMINAL'
+    }
+  };
+  
   saveDatabase(newState);
   cachedState = newState;
   return newState;
@@ -54,10 +78,16 @@ export function saveDatabase(state: DatabaseState): void {
   }
 }
 
+export function clearCache(): void {
+  cachedState = null;
+}
+
 export function resetDatabase(seed: number = 42): DatabaseState {
-  const fresh = generateSyntheticDataset(seed);
-  saveDatabase(fresh);
-  return fresh;
+  if (fs.existsSync(DB_FILE)) {
+    fs.unlinkSync(DB_FILE);
+  }
+  cachedState = null;
+  return getDatabase();
 }
 
 export function getBuildingById(id: string): Building | undefined {
@@ -204,8 +234,9 @@ export function retrainCandidateModel(): {
   const currentF1 = db.model_health.f1;
 
   // Simulate evaluation on benchmark dataset + human feedback incorporate
-  const newPrecision = Number((0.95 + (Math.random() * 0.02 - 0.01)).toFixed(3));
-  const newRecall = Number((0.93 + (Math.random() * 0.02 - 0.01)).toFixed(3));
+  const rng = new DeterministicRandom(db.model_health.random_seed + db.audit_events.length);
+  const newPrecision = Number((0.95 + (rng.next() * 0.02 - 0.01)).toFixed(3));
+  const newRecall = Number((0.93 + (rng.next() * 0.02 - 0.01)).toFixed(3));
   const newF1 = Number((2 * (newPrecision * newRecall) / (newPrecision + newRecall)).toFixed(3));
 
   const gatePassed = newF1 >= currentF1;

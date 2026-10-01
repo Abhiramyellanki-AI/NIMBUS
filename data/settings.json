@@ -1,0 +1,6 @@
+{
+  "errorTolerance": 15,
+  "powerFactor": 0.95,
+  "anomalyThreshold": 0.65,
+  "activePrompt": "v2.1.0-grounded-safety"
+}

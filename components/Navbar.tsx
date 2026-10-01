@@ -33,9 +33,9 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: 'Campus Overview' },
     { href: '/anomalies', label: 'Anomaly Queue' },
-    { href: '/buildings/Lecture_A', label: 'Facilities' },
+    { href: '/buildings/Building_A_Lecture', label: 'Facilities' },
     { href: '/feedback', label: 'Feedback Ledger' },
-    { href: '/model-health', label: 'MLOps Health' },
+
     { href: '/settings', label: 'Settings' },
   ];
 

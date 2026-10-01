@@ -57,7 +57,7 @@ export default function AnomaliesQueuePage() {
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       const matchId = a.id.toLowerCase().includes(q);
-      const matchBldg = a.building_name.toLowerCase().includes(q);
+      const matchBldg = (a.building_name || '').toLowerCase().includes(q);
       const matchReason = a.triage?.reason?.toLowerCase().includes(q);
       if (!matchId && !matchBldg && !matchReason) return false;
     }
@@ -115,7 +115,7 @@ export default function AnomaliesQueuePage() {
             onChange={(e) => setCategoryFilter(e.target.value)}
             className="px-3 py-1.5 text-xs rounded-lg border border-slate-200 bg-white text-slate-700 font-medium"
           >
-            <option value="ALL">All AI Categories</option>
+            <option value="ALL">All Triage Categories</option>
             <option value="ACTIONABLE_ENERGY_WASTE">Actionable Waste</option>
             <option value="AUTHORIZED_OPERATIONAL_LOAD">Authorized Load</option>
             <option value="TELEMETRY_HARDWARE_ERROR">Hardware / Telemetry Error</option>
@@ -158,7 +158,7 @@ export default function AnomaliesQueuePage() {
                   <th className="py-3 px-4 text-right">Reported (kW)</th>
                   <th className="py-3 px-4 text-right">Baseline (kW)</th>
                   <th className="py-3 px-4 text-center">Physics</th>
-                  <th className="py-3 px-4">AI Category</th>
+                  <th className="py-3 px-4">Triage Category</th>
                   <th className="py-3 px-4 text-center">Status</th>
                   <th className="py-3 px-4 text-right">Action</th>
                 </tr>
@@ -183,7 +183,7 @@ export default function AnomaliesQueuePage() {
                         {item.id}
                       </td>
                       <td className="py-3.5 px-4 font-medium text-slate-800">
-                        {item.building_name.split('(')[0]}
+                        {(item.building_name || item.building_id || '').split('(')[0]}
                       </td>
                       <td className="py-3.5 px-4 text-slate-500 font-mono tabular-nums">
                         {new Date(item.timestamp).toLocaleString([], {

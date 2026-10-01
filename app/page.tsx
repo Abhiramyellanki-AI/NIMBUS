@@ -145,7 +145,7 @@ export default function CampusDashboardPage() {
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       const matchId = anomaly.id.toLowerCase().includes(q);
-      const matchName = anomaly.building_name.toLowerCase().includes(q);
+      const matchName = (anomaly.building_name || '').toLowerCase().includes(q);
       const matchReason = triage?.reason.toLowerCase().includes(q);
       if (!matchId && !matchName && !matchReason) return false;
     }
@@ -356,7 +356,7 @@ export default function CampusDashboardPage() {
               </p>
             </div>
             <Link
-              href="/buildings/Lecture_A"
+              href="/buildings/Building_A_Lecture"
               className="text-xs font-semibold text-emerald-700 hover:text-emerald-800 flex items-center gap-1"
             >
               <span>View Facilities Deep Dive</span>
@@ -469,7 +469,7 @@ export default function CampusDashboardPage() {
                   <th className="py-3 px-4">Timestamp</th>
                   <th className="py-3 px-4 text-right">Reported / Baseline</th>
                   <th className="py-3 px-4 text-center">Physics</th>
-                  <th className="py-3 px-4">AI Category</th>
+                  <th className="py-3 px-4">Triage Category</th>
                   <th className="py-3 px-4 text-right">Confidence</th>
                   <th className="py-3 px-4 text-right">Action</th>
                 </tr>
@@ -490,7 +490,7 @@ export default function CampusDashboardPage() {
                           {anomaly.id}
                         </td>
                         <td className="py-3 px-4 text-slate-700 font-medium">
-                          {anomaly.building_name.split('(')[0]}
+                          {(anomaly.building_name || anomaly.building_id || '').split('(')[0]}
                         </td>
                         <td className="py-3 px-4 text-slate-500 font-mono tabular-nums">
                           {new Date(anomaly.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}

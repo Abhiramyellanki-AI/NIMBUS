@@ -161,7 +161,7 @@ export default function FeedbackLedgerPage() {
                 <tr>
                   <th className="py-3 px-4">Timestamp</th>
                   <th className="py-3 px-4">Building</th>
-                  <th className="py-3 px-4">AI Prediction</th>
+                  <th className="py-3 px-4">Triage Prediction</th>
                   <th className="py-3 px-4">Human Decision</th>
                   <th className="py-3 px-4">Reason / Notes</th>
                   <th className="py-3 px-4">Operator</th>

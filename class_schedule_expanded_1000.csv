@@ -1,0 +1,1001 @@
+building_id,date,start_time,end_time,course_code,course_name,expected_occupancy,room_number
+Building_A_Lecture,2026-06-01,09:00,12:00,PHYS201,General Physics,45,Hall-101
+Building_B_Lab,2026-06-01,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-01,13:00,15:00,DB205,Database Systems,52,Hall-204
+Building_C_Lecture,2026-06-01,15:00,18:00,HUM110,Humanities,46,Hall-203
+Building_D_Lab,2026-06-01,13:00,16:00,DS330,Data Analytics Lab,23,Lab-301
+Building_D_Lab,2026-06-01,15:00,18:00,ROB301,Robotics Lab,17,Lab-304
+Building_E_Lecture,2026-06-01,08:00,10:00,AI310,Machine Learning,94,Hall-304
+Building_E_Lecture,2026-06-01,13:00,15:00,CE210,Structural Engineering,36,Hall-302
+Building_A_Lecture,2026-06-02,09:00,12:00,MATH301,Linear Algebra,60,Hall-102
+Building_A_Lecture,2026-06-02,13:00,15:00,MATH301,Linear Algebra,58,Hall-104
+Building_B_Lab,2026-06-02,09:00,12:00,CHEM301,Organic Chem Lab,15,Lab-203
+Building_B_Lab,2026-06-02,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-02,15:00,18:00,AI105,AI Foundations,73,Hall-203
+Building_D_Lab,2026-06-02,14:00,17:00,MAT315,Materials Lab,11,Lab-301
+Building_A_Lecture,2026-06-03,08:00,10:00,DS202,Data Science,49,Hall-103
+Building_A_Lecture,2026-06-03,09:00,12:00,CHEM102,General Chem,30,Hall-103
+Building_B_Lab,2026-06-03,08:00,11:00,PHY220,Physics Lab,13,Lab-204
+Building_B_Lab,2026-06-03,09:00,12:00,BIO210,Biology Lab,19,Lab-203
+Building_B_Lab,2026-06-03,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_D_Lab,2026-06-03,08:00,11:00,MAT315,Materials Lab,13,Lab-302
+Building_D_Lab,2026-06-03,13:00,16:00,MAT315,Materials Lab,13,Lab-303
+Building_E_Lecture,2026-06-03,08:00,10:00,ME201,Thermodynamics,47,Hall-304
+Building_E_Lecture,2026-06-03,15:00,18:00,CE210,Structural Engineering,35,Hall-301
+Building_A_Lecture,2026-06-04,09:00,12:00,ENG105,Technical Writing,25,Hall-100
+Building_A_Lecture,2026-06-04,13:00,15:00,ENG105,Technical Writing,21,Hall-104
+Building_A_Lecture,2026-06-04,14:00,17:00,MATH301,Linear Algebra,45,Hall-105
+Building_B_Lab,2026-06-04,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_D_Lab,2026-06-04,14:00,17:00,ML320,Machine Learning Lab,24,Lab-301
+Building_A_Lecture,2026-06-05,09:00,12:00,CS101,Intro to CS,120,Hall-101
+Building_A_Lecture,2026-06-05,14:00,17:00,CS101,Intro to CS,120,Hall-103
+Building_B_Lab,2026-06-05,08:00,11:00,EE310,Electronics Lab,19,Lab-203
+Building_B_Lab,2026-06-05,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-05,10:00,12:00,AI105,AI Foundations,83,Hall-201
+Building_C_Lecture,2026-06-05,11:00,14:00,AI105,AI Foundations,76,Hall-201
+Building_C_Lecture,2026-06-05,13:00,15:00,STAT201,Statistics,53,Hall-201
+Building_D_Lab,2026-06-05,08:00,11:00,IOT305,IoT Lab,20,Lab-301
+Building_E_Lecture,2026-06-05,09:00,12:00,ME201,Thermodynamics,48,Hall-301
+Building_E_Lecture,2026-06-05,10:00,13:00,ME305,Fluid Mechanics,59,Hall-302
+Building_A_Lecture,2026-06-08,09:00,12:00,CHEM102,General Chem,30,Hall-100
+Building_A_Lecture,2026-06-08,14:00,17:00,CHEM102,General Chem,26,Hall-105
+Building_A_Lecture,2026-06-08,15:00,18:00,MATH301,Linear Algebra,52,Hall-103
+Building_B_Lab,2026-06-08,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-08,08:00,10:00,NET210,Computer Networks,67,Hall-203
+Building_D_Lab,2026-06-08,09:00,12:00,ROB301,Robotics Lab,14,Lab-303
+Building_E_Lecture,2026-06-08,09:00,12:00,CS220,Operating Systems,82,Hall-304
+Building_E_Lecture,2026-06-08,15:00,18:00,CE210,Structural Engineering,45,Hall-302
+Building_A_Lecture,2026-06-09,09:00,12:00,ENG105,Technical Writing,25,Hall-101
+Building_A_Lecture,2026-06-09,13:00,15:00,CHEM102,General Chem,29,Hall-101
+Building_B_Lab,2026-06-09,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-09,14:00,18:00,CS315,Systems Lab,20,Lab-201
+Building_B_Lab,2026-06-09,14:00,18:00,BIO210,Biology Lab,19,Lab-202
+Building_C_Lecture,2026-06-09,10:00,12:00,HUM110,Humanities,46,Hall-204
+Building_D_Lab,2026-06-09,08:00,11:00,IOT305,IoT Lab,17,Lab-302
+Building_D_Lab,2026-06-09,15:00,18:00,ROB301,Robotics Lab,15,Lab-303
+Building_E_Lecture,2026-06-09,13:00,15:00,ME201,Thermodynamics,43,Hall-305
+Building_E_Lecture,2026-06-09,15:00,18:00,ME201,Thermodynamics,44,Hall-304
+Building_A_Lecture,2026-06-10,09:00,12:00,CS101,Intro to CS,120,Hall-102
+Building_B_Lab,2026-06-10,08:00,11:00,CHEM301,Organic Chem Lab,19,Lab-202
+Building_B_Lab,2026-06-10,08:00,11:00,BIO210,Biology Lab,24,Lab-203
+Building_B_Lab,2026-06-10,09:00,12:00,BIO210,Biology Lab,21,Lab-205
+Building_B_Lab,2026-06-10,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-10,08:00,10:00,NET210,Computer Networks,59,Hall-201
+Building_C_Lecture,2026-06-10,10:00,12:00,STAT201,Statistics,48,Hall-201
+Building_D_Lab,2026-06-10,08:00,11:00,IOT305,IoT Lab,15,Lab-301
+Building_D_Lab,2026-06-10,14:00,17:00,DS330,Data Analytics Lab,26,Lab-301
+Building_E_Lecture,2026-06-10,10:00,13:00,CS220,Operating Systems,68,Hall-302
+Building_E_Lecture,2026-06-10,10:00,13:00,ME201,Thermodynamics,46,Hall-303
+Building_E_Lecture,2026-06-10,15:00,18:00,DS310,Applied Data Science,65,Hall-302
+Building_A_Lecture,2026-06-11,08:00,10:00,MATH301,Linear Algebra,44,Hall-103
+Building_A_Lecture,2026-06-11,09:00,12:00,PHYS201,General Physics,45,Hall-103
+Building_A_Lecture,2026-06-11,14:00,17:00,MATH301,Linear Algebra,62,Hall-104
+Building_A_Lecture,2026-06-11,15:00,18:00,EE204,Signals and Systems,45,Hall-102
+Building_B_Lab,2026-06-11,08:00,11:00,PHY220,Physics Lab,18,Lab-201
+Building_B_Lab,2026-06-11,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-11,14:00,18:00,PHY220,Physics Lab,18,Lab-203
+Building_C_Lecture,2026-06-11,08:00,10:00,AI105,AI Foundations,89,Hall-201
+Building_C_Lecture,2026-06-11,10:00,12:00,DB205,Database Systems,70,Hall-203
+Building_A_Lecture,2026-06-12,08:00,10:00,EE204,Signals and Systems,45,Hall-100
+Building_A_Lecture,2026-06-12,09:00,12:00,MATH301,Linear Algebra,60,Hall-100
+Building_A_Lecture,2026-06-12,14:00,17:00,EE204,Signals and Systems,51,Hall-100
+Building_B_Lab,2026-06-12,13:00,16:00,CHEM301,Organic Chem Lab,14,Lab-203
+Building_B_Lab,2026-06-12,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-12,08:00,10:00,ECON101,Microeconomics,73,Hall-204
+Building_E_Lecture,2026-06-12,15:00,18:00,CS220,Operating Systems,65,Hall-301
+Building_E_Lecture,2026-06-12,15:00,18:00,CS220,Operating Systems,85,Hall-304
+Building_A_Lecture,2026-06-15,08:00,10:00,CHEM102,General Chem,22,Hall-105
+Building_A_Lecture,2026-06-15,13:00,15:00,EE204,Signals and Systems,36,Hall-102
+Building_B_Lab,2026-06-15,08:00,11:00,EE310,Electronics Lab,22,Lab-201
+Building_B_Lab,2026-06-15,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-15,11:00,14:00,DB205,Database Systems,68,Hall-203
+Building_C_Lecture,2026-06-15,13:00,15:00,DB205,Database Systems,62,Hall-201
+Building_C_Lecture,2026-06-15,15:00,18:00,ECON101,Microeconomics,78,Hall-204
+Building_E_Lecture,2026-06-15,08:00,10:00,ME201,Thermodynamics,47,Hall-303
+Building_E_Lecture,2026-06-15,09:00,12:00,AI310,Machine Learning,71,Hall-304
+Building_E_Lecture,2026-06-15,10:00,13:00,CS220,Operating Systems,70,Hall-302
+Building_A_Lecture,2026-06-16,09:00,12:00,AI201,Artificial Intelligence,72,Hall-101
+Building_B_Lab,2026-06-16,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-16,11:00,14:00,AI105,AI Foundations,84,Hall-204
+Building_D_Lab,2026-06-16,08:00,11:00,ML320,Machine Learning Lab,24,Lab-303
+Building_D_Lab,2026-06-16,14:00,17:00,ROB301,Robotics Lab,17,Lab-302
+Building_E_Lecture,2026-06-16,08:00,10:00,CS220,Operating Systems,62,Hall-304
+Building_B_Lab,2026-06-17,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-17,14:00,18:00,EE310,Electronics Lab,16,Lab-203
+Building_B_Lab,2026-06-17,14:00,18:00,EE310,Electronics Lab,17,Lab-205
+Building_C_Lecture,2026-06-17,08:00,10:00,AI105,AI Foundations,79,Hall-202
+Building_D_Lab,2026-06-17,14:00,17:00,ML320,Machine Learning Lab,25,Lab-303
+Building_E_Lecture,2026-06-17,08:00,10:00,AI310,Machine Learning,66,Hall-301
+Building_A_Lecture,2026-06-18,15:00,18:00,DS202,Data Science,44,Hall-104
+Building_B_Lab,2026-06-18,08:00,11:00,PHY220,Physics Lab,18,Lab-205
+Building_B_Lab,2026-06-18,13:00,16:00,EE310,Electronics Lab,21,Lab-202
+Building_B_Lab,2026-06-18,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-18,10:00,12:00,STAT201,Statistics,67,Hall-203
+Building_C_Lecture,2026-06-18,11:00,14:00,STAT201,Statistics,60,Hall-202
+Building_C_Lecture,2026-06-18,13:00,15:00,HUM110,Humanities,47,Hall-201
+Building_D_Lab,2026-06-18,08:00,11:00,ROB301,Robotics Lab,17,Lab-302
+Building_D_Lab,2026-06-18,13:00,16:00,DS330,Data Analytics Lab,22,Lab-301
+Building_D_Lab,2026-06-18,14:00,17:00,MAT315,Materials Lab,14,Lab-302
+Building_A_Lecture,2026-06-19,14:00,17:00,DS202,Data Science,58,Hall-103
+Building_B_Lab,2026-06-19,08:00,11:00,CS315,Systems Lab,28,Lab-204
+Building_B_Lab,2026-06-19,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_D_Lab,2026-06-19,08:00,11:00,MAT315,Materials Lab,13,Lab-301
+Building_D_Lab,2026-06-19,08:00,11:00,IOT305,IoT Lab,20,Lab-303
+Building_C_Lecture,2026-06-21,13:00,15:00,HUM110,Humanities,35,Hall-201
+Building_D_Lab,2026-06-21,08:00,11:00,ROB301,Robotics Lab,17,Lab-303
+Building_A_Lecture,2026-06-22,08:00,10:00,DS202,Data Science,42,Hall-104
+Building_A_Lecture,2026-06-22,09:00,12:00,MATH301,Linear Algebra,60,Hall-102
+Building_B_Lab,2026-06-22,13:00,16:00,EE310,Electronics Lab,16,Lab-203
+Building_B_Lab,2026-06-22,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-22,13:00,15:00,ECON101,Microeconomics,69,Hall-202
+Building_D_Lab,2026-06-22,14:00,17:00,DS330,Data Analytics Lab,27,Lab-301
+Building_E_Lecture,2026-06-22,09:00,12:00,CS220,Operating Systems,64,Hall-303
+Building_E_Lecture,2026-06-22,15:00,18:00,ME305,Fluid Mechanics,55,Hall-303
+Building_A_Lecture,2026-06-23,09:00,12:00,CHEM102,General Chem,30,Hall-103
+Building_A_Lecture,2026-06-23,09:00,12:00,DS202,Data Science,51,Hall-103
+Building_A_Lecture,2026-06-23,15:00,18:00,CHEM102,General Chem,25,Hall-100
+Building_B_Lab,2026-06-23,09:00,12:00,BIO210,Biology Lab,21,Lab-203
+Building_B_Lab,2026-06-23,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-23,14:00,18:00,PHY220,Physics Lab,13,Lab-204
+Building_C_Lecture,2026-06-23,10:00,12:00,STAT201,Statistics,58,Hall-203
+Building_D_Lab,2026-06-23,14:00,17:00,ML320,Machine Learning Lab,21,Lab-301
+Building_E_Lecture,2026-06-23,08:00,10:00,ME305,Fluid Mechanics,54,Hall-303
+Building_E_Lecture,2026-06-23,13:00,15:00,DS310,Applied Data Science,72,Hall-303
+Building_A_Lecture,2026-06-24,08:00,10:00,PHYS201,General Physics,45,Hall-100
+Building_A_Lecture,2026-06-24,09:00,12:00,ENG105,Technical Writing,25,Hall-100
+Building_A_Lecture,2026-06-24,14:00,17:00,CS101,Intro to CS,105,Hall-105
+Building_B_Lab,2026-06-24,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-24,14:00,18:00,CHEM301,Organic Chem Lab,16,Lab-201
+Building_C_Lecture,2026-06-24,11:00,14:00,ECON101,Microeconomics,77,Hall-203
+Building_E_Lecture,2026-06-24,08:00,10:00,AI310,Machine Learning,74,Hall-301
+Building_A_Lecture,2026-06-25,09:00,12:00,CS101,Intro to CS,120,Hall-101
+Building_A_Lecture,2026-06-25,10:00,13:00,PHYS201,General Physics,40,Hall-104
+Building_B_Lab,2026-06-25,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-25,13:00,16:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-06-25,15:00,18:00,NET210,Computer Networks,75,Hall-204
+Building_D_Lab,2026-06-25,08:00,11:00,MAT315,Materials Lab,12,Lab-302
+Building_D_Lab,2026-06-25,15:00,18:00,MAT315,Materials Lab,14,Lab-303
+Building_E_Lecture,2026-06-25,08:00,10:00,DS310,Applied Data Science,59,Hall-301
+Building_E_Lecture,2026-06-25,15:00,18:00,ME201,Thermodynamics,56,Hall-302
+Building_A_Lecture,2026-06-26,09:00,12:00,PHYS201,General Physics,45,Hall-102
+Building_B_Lab,2026-06-26,13:00,17:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_B_Lab,2026-06-26,13:00,17:00,PHY220,Physics Lab,17,Lab-204
+Building_C_Lecture,2026-06-26,08:00,10:00,DB205,Database Systems,62,Hall-202
+Building_D_Lab,2026-06-26,08:00,11:00,MAT315,Materials Lab,14,Lab-302
+Building_E_Lecture,2026-06-26,08:00,10:00,DS310,Applied Data Science,69,Hall-305
+Building_E_Lecture,2026-06-26,15:00,18:00,CS220,Operating Systems,71,Hall-303
+Building_A_Lecture,2026-06-29,09:00,12:00,CHEM102,General Chem,31,Hall-100
+Building_B_Lab,2026-06-29,09:00,12:00,PHY220,Physics Lab,19,Lab-204
+Building_B_Lab,2026-06-29,13:00,16:00,PHY220,Physics Lab,16,Lab-202
+Building_B_Lab,2026-06-29,13:00,16:00,CHEM301,Organic Chem Lab,19,Lab-203
+Building_C_Lecture,2026-06-29,13:00,15:00,NET210,Computer Networks,72,Hall-202
+Building_D_Lab,2026-06-29,08:00,11:00,DS330,Data Analytics Lab,22,Lab-303
+Building_E_Lecture,2026-06-29,08:00,10:00,DS310,Applied Data Science,72,Hall-301
+Building_A_Lecture,2026-06-30,15:00,18:00,AI201,Artificial Intelligence,52,Hall-103
+Building_B_Lab,2026-06-30,09:00,12:00,CHEM301,Organic Chem Lab,17,Lab-203
+Building_B_Lab,2026-06-30,13:00,17:00,CS315,Systems Lab,24,Lab-205
+Building_C_Lecture,2026-06-30,15:00,18:00,ECON101,Microeconomics,78,Hall-202
+Building_D_Lab,2026-06-30,09:00,12:00,MAT315,Materials Lab,11,Lab-302
+Building_E_Lecture,2026-06-30,08:00,10:00,DS310,Applied Data Science,71,Hall-304
+Building_E_Lecture,2026-06-30,08:00,10:00,ME305,Fluid Mechanics,48,Hall-305
+Building_A_Lecture,2026-07-01,08:00,10:00,PHYS201,General Physics,45,Hall-103
+Building_A_Lecture,2026-07-01,10:00,13:00,PHYS201,General Physics,42,Hall-105
+Building_B_Lab,2026-07-01,13:00,16:00,CHEM301,Organic Chem Lab,20,Lab-204
+Building_C_Lecture,2026-07-01,15:00,18:00,AI105,AI Foundations,90,Hall-202
+Building_C_Lecture,2026-07-01,15:00,18:00,ECON101,Microeconomics,67,Hall-203
+Building_D_Lab,2026-07-01,08:00,11:00,ML320,Machine Learning Lab,18,Lab-303
+Building_D_Lab,2026-07-01,15:00,18:00,IOT305,IoT Lab,16,Lab-301
+Building_E_Lecture,2026-07-01,13:00,15:00,CE210,Structural Engineering,37,Hall-304
+Building_E_Lecture,2026-07-01,13:00,15:00,ME305,Fluid Mechanics,68,Hall-305
+Building_A_Lecture,2026-07-02,15:00,18:00,AI201,Artificial Intelligence,59,Hall-103
+Building_B_Lab,2026-07-02,08:00,11:00,BIO210,Biology Lab,18,Lab-201
+Building_B_Lab,2026-07-02,14:00,18:00,BIO210,Biology Lab,18,Lab-203
+Building_D_Lab,2026-07-02,13:00,16:00,MAT315,Materials Lab,14,Lab-304
+Building_E_Lecture,2026-07-02,09:00,12:00,ME305,Fluid Mechanics,51,Hall-305
+Building_E_Lecture,2026-07-02,10:00,13:00,CE210,Structural Engineering,44,Hall-305
+Building_E_Lecture,2026-07-02,15:00,18:00,DS310,Applied Data Science,68,Hall-304
+Building_C_Lecture,2026-07-03,11:00,14:00,DB205,Database Systems,61,Hall-203
+Building_C_Lecture,2026-07-03,11:00,14:00,NET210,Computer Networks,70,Hall-204
+Building_D_Lab,2026-07-03,15:00,18:00,IOT305,IoT Lab,20,Lab-304
+Building_E_Lecture,2026-07-03,10:00,13:00,CS220,Operating Systems,75,Hall-302
+Building_A_Lecture,2026-07-05,15:00,18:00,EE204,Signals and Systems,37,Hall-105
+Building_B_Lab,2026-07-05,09:00,12:00,CHEM301,Organic Chem Lab,14,Lab-201
+Building_C_Lecture,2026-07-05,10:00,12:00,NET210,Computer Networks,66,Hall-202
+Building_A_Lecture,2026-07-06,10:00,13:00,CHEM102,General Chem,30,Hall-100
+Building_A_Lecture,2026-07-06,10:00,13:00,ENG105,Technical Writing,18,Hall-101
+Building_B_Lab,2026-07-06,08:00,11:00,CHEM301,Organic Chem Lab,17,Lab-203
+Building_D_Lab,2026-07-06,13:00,16:00,ML320,Machine Learning Lab,23,Lab-304
+Building_E_Lecture,2026-07-06,09:00,12:00,ME305,Fluid Mechanics,56,Hall-301
+Building_E_Lecture,2026-07-06,09:00,12:00,CE210,Structural Engineering,51,Hall-304
+Building_A_Lecture,2026-07-07,09:00,12:00,MATH301,Linear Algebra,42,Hall-100
+Building_A_Lecture,2026-07-07,14:00,17:00,MATH301,Linear Algebra,43,Hall-100
+Building_A_Lecture,2026-07-07,15:00,18:00,EE204,Signals and Systems,36,Hall-101
+Building_C_Lecture,2026-07-07,11:00,14:00,ECON101,Microeconomics,80,Hall-203
+Building_E_Lecture,2026-07-07,08:00,10:00,ME305,Fluid Mechanics,53,Hall-304
+Building_E_Lecture,2026-07-07,09:00,12:00,CE210,Structural Engineering,43,Hall-302
+Building_E_Lecture,2026-07-07,15:00,18:00,DS310,Applied Data Science,78,Hall-304
+Building_A_Lecture,2026-07-08,14:00,17:00,PHYS201,General Physics,37,Hall-105
+Building_B_Lab,2026-07-08,09:00,12:00,CHEM301,Organic Chem Lab,19,Lab-204
+Building_C_Lecture,2026-07-08,15:00,18:00,DB205,Database Systems,57,Hall-202
+Building_D_Lab,2026-07-08,08:00,11:00,ROB301,Robotics Lab,19,Lab-304
+Building_D_Lab,2026-07-08,13:00,16:00,IOT305,IoT Lab,19,Lab-301
+Building_E_Lecture,2026-07-08,08:00,10:00,CS220,Operating Systems,63,Hall-303
+Building_E_Lecture,2026-07-08,09:00,12:00,ME201,Thermodynamics,58,Hall-305
+Building_A_Lecture,2026-07-09,08:00,10:00,CS101,Intro to CS,86,Hall-101
+Building_C_Lecture,2026-07-09,15:00,18:00,NET210,Computer Networks,68,Hall-201
+Building_D_Lab,2026-07-09,08:00,11:00,ML320,Machine Learning Lab,19,Lab-304
+Building_E_Lecture,2026-07-09,10:00,13:00,AI310,Machine Learning,86,Hall-304
+Building_E_Lecture,2026-07-09,13:00,15:00,CS220,Operating Systems,71,Hall-301
+Building_A_Lecture,2026-07-10,10:00,13:00,ENG105,Technical Writing,25,Hall-105
+Building_A_Lecture,2026-07-10,13:00,15:00,PHYS201,General Physics,40,Hall-104
+Building_C_Lecture,2026-07-10,08:00,10:00,NET210,Computer Networks,76,Hall-204
+Building_C_Lecture,2026-07-10,10:00,12:00,ECON101,Microeconomics,77,Hall-202
+Building_C_Lecture,2026-07-10,10:00,12:00,NET210,Computer Networks,58,Hall-202
+Building_D_Lab,2026-07-10,09:00,12:00,ROB301,Robotics Lab,17,Lab-303
+Building_D_Lab,2026-07-10,14:00,17:00,MAT315,Materials Lab,14,Lab-303
+Building_E_Lecture,2026-07-10,13:00,15:00,DS310,Applied Data Science,55,Hall-303
+Building_E_Lecture,2026-07-10,13:00,15:00,DS310,Applied Data Science,73,Hall-304
+Building_A_Lecture,2026-07-11,15:00,18:00,PHYS201,General Physics,43,Hall-101
+Building_C_Lecture,2026-07-11,15:00,18:00,DB205,Database Systems,71,Hall-203
+Building_E_Lecture,2026-07-11,09:00,12:00,CS220,Operating Systems,72,Hall-303
+Building_A_Lecture,2026-07-13,10:00,13:00,ENG105,Technical Writing,19,Hall-102
+Building_B_Lab,2026-07-13,09:00,12:00,CHEM301,Organic Chem Lab,16,Lab-202
+Building_C_Lecture,2026-07-13,08:00,10:00,HUM110,Humanities,45,Hall-204
+Building_D_Lab,2026-07-13,09:00,12:00,DS330,Data Analytics Lab,20,Lab-301
+Building_D_Lab,2026-07-13,13:00,16:00,DS330,Data Analytics Lab,21,Lab-301
+Building_E_Lecture,2026-07-13,08:00,10:00,ME201,Thermodynamics,57,Hall-301
+Building_E_Lecture,2026-07-13,10:00,13:00,CE210,Structural Engineering,44,Hall-304
+Building_A_Lecture,2026-07-14,09:00,12:00,DS202,Data Science,56,Hall-101
+Building_A_Lecture,2026-07-14,15:00,18:00,PHYS201,General Physics,47,Hall-105
+Building_B_Lab,2026-07-14,14:00,18:00,PHY220,Physics Lab,13,Lab-201
+Building_C_Lecture,2026-07-14,13:00,15:00,AI105,AI Foundations,71,Hall-201
+Building_C_Lecture,2026-07-14,15:00,18:00,NET210,Computer Networks,67,Hall-203
+Building_D_Lab,2026-07-14,08:00,11:00,ROB301,Robotics Lab,16,Lab-304
+Building_D_Lab,2026-07-14,13:00,16:00,IOT305,IoT Lab,17,Lab-303
+Building_A_Lecture,2026-07-15,08:00,10:00,MATH301,Linear Algebra,45,Hall-103
+Building_B_Lab,2026-07-15,13:00,17:00,PHY220,Physics Lab,14,Lab-201
+Building_C_Lecture,2026-07-15,10:00,12:00,STAT201,Statistics,66,Hall-204
+Building_E_Lecture,2026-07-15,10:00,13:00,ME305,Fluid Mechanics,55,Hall-303
+Building_A_Lecture,2026-07-16,08:00,10:00,ENG105,Technical Writing,19,Hall-105
+Building_B_Lab,2026-07-16,08:00,11:00,CS315,Systems Lab,26,Lab-201
+Building_B_Lab,2026-07-16,09:00,12:00,CS315,Systems Lab,21,Lab-201
+Building_C_Lecture,2026-07-16,08:00,10:00,HUM110,Humanities,40,Hall-204
+Building_D_Lab,2026-07-16,14:00,17:00,ROB301,Robotics Lab,18,Lab-304
+Building_D_Lab,2026-07-16,15:00,18:00,MAT315,Materials Lab,14,Lab-303
+Building_E_Lecture,2026-07-16,08:00,10:00,AI310,Machine Learning,74,Hall-305
+Building_E_Lecture,2026-07-16,09:00,12:00,CS220,Operating Systems,82,Hall-304
+Building_E_Lecture,2026-07-16,10:00,13:00,ME201,Thermodynamics,54,Hall-305
+Building_A_Lecture,2026-07-17,13:00,15:00,ENG105,Technical Writing,18,Hall-101
+Building_B_Lab,2026-07-17,09:00,12:00,BIO210,Biology Lab,18,Lab-203
+Building_B_Lab,2026-07-17,13:00,16:00,CS315,Systems Lab,20,Lab-202
+Building_C_Lecture,2026-07-17,08:00,10:00,NET210,Computer Networks,72,Hall-203
+Building_D_Lab,2026-07-17,14:00,17:00,DS330,Data Analytics Lab,24,Lab-302
+Building_E_Lecture,2026-07-17,08:00,10:00,ME305,Fluid Mechanics,53,Hall-304
+Building_A_Lecture,2026-07-19,15:00,18:00,ENG105,Technical Writing,24,Hall-101
+Building_B_Lab,2026-07-19,14:00,18:00,BIO210,Biology Lab,21,Lab-205
+Building_C_Lecture,2026-07-19,13:00,15:00,AI105,AI Foundations,93,Hall-201
+Building_A_Lecture,2026-07-20,13:00,15:00,CS101,Intro to CS,102,Hall-104
+Building_A_Lecture,2026-07-20,15:00,18:00,MATH301,Linear Algebra,49,Hall-103
+Building_B_Lab,2026-07-20,13:00,16:00,PHY220,Physics Lab,13,Lab-203
+Building_B_Lab,2026-07-20,13:00,17:00,EE310,Electronics Lab,16,Lab-204
+Building_B_Lab,2026-07-20,14:00,18:00,CHEM301,Organic Chem Lab,19,Lab-202
+Building_C_Lecture,2026-07-20,10:00,12:00,ECON101,Microeconomics,64,Hall-201
+Building_C_Lecture,2026-07-20,10:00,12:00,DB205,Database Systems,68,Hall-201
+Building_C_Lecture,2026-07-20,15:00,18:00,NET210,Computer Networks,70,Hall-204
+Building_D_Lab,2026-07-20,09:00,12:00,DS330,Data Analytics Lab,27,Lab-303
+Building_E_Lecture,2026-07-20,08:00,10:00,CE210,Structural Engineering,42,Hall-304
+Building_E_Lecture,2026-07-20,13:00,15:00,AI310,Machine Learning,83,Hall-302
+Building_A_Lecture,2026-07-21,10:00,13:00,AI201,Artificial Intelligence,59,Hall-103
+Building_B_Lab,2026-07-21,14:00,18:00,BIO210,Biology Lab,25,Lab-203
+Building_C_Lecture,2026-07-21,10:00,12:00,NET210,Computer Networks,72,Hall-204
+Building_C_Lecture,2026-07-21,15:00,18:00,NET210,Computer Networks,73,Hall-204
+Building_D_Lab,2026-07-21,09:00,12:00,DS330,Data Analytics Lab,22,Lab-303
+Building_E_Lecture,2026-07-21,09:00,12:00,CS220,Operating Systems,85,Hall-305
+Building_B_Lab,2026-07-22,08:00,11:00,PHY220,Physics Lab,14,Lab-205
+Building_E_Lecture,2026-07-22,08:00,10:00,ME305,Fluid Mechanics,57,Hall-303
+Building_A_Lecture,2026-07-23,09:00,12:00,AI201,Artificial Intelligence,73,Hall-104
+Building_D_Lab,2026-07-23,08:00,11:00,ML320,Machine Learning Lab,20,Lab-303
+Building_E_Lecture,2026-07-23,13:00,15:00,AI310,Machine Learning,89,Hall-305
+Building_A_Lecture,2026-07-24,10:00,13:00,CHEM102,General Chem,30,Hall-100
+Building_A_Lecture,2026-07-24,10:00,13:00,ENG105,Technical Writing,24,Hall-101
+Building_B_Lab,2026-07-24,08:00,11:00,CHEM301,Organic Chem Lab,19,Lab-203
+Building_B_Lab,2026-07-24,09:00,12:00,CHEM301,Organic Chem Lab,14,Lab-203
+Building_D_Lab,2026-07-24,09:00,12:00,MAT315,Materials Lab,16,Lab-303
+Building_E_Lecture,2026-07-24,08:00,10:00,ME201,Thermodynamics,53,Hall-303
+Building_A_Lecture,2026-07-27,10:00,13:00,CHEM102,General Chem,23,Hall-102
+Building_A_Lecture,2026-07-27,13:00,15:00,MATH301,Linear Algebra,44,Hall-103
+Building_A_Lecture,2026-07-27,14:00,17:00,DS202,Data Science,42,Hall-100
+Building_B_Lab,2026-07-27,08:00,11:00,CHEM301,Organic Chem Lab,17,Lab-205
+Building_C_Lecture,2026-07-27,08:00,10:00,HUM110,Humanities,45,Hall-204
+Building_C_Lecture,2026-07-27,10:00,12:00,NET210,Computer Networks,75,Hall-204
+Building_C_Lecture,2026-07-27,15:00,18:00,NET210,Computer Networks,70,Hall-201
+Building_D_Lab,2026-07-27,08:00,11:00,IOT305,IoT Lab,19,Lab-301
+Building_D_Lab,2026-07-27,15:00,18:00,ML320,Machine Learning Lab,22,Lab-302
+Building_E_Lecture,2026-07-27,15:00,18:00,ME305,Fluid Mechanics,47,Hall-301
+Building_E_Lecture,2026-07-27,15:00,18:00,CS220,Operating Systems,67,Hall-302
+Building_A_Lecture,2026-07-28,09:00,12:00,ENG105,Technical Writing,25,Hall-101
+Building_A_Lecture,2026-07-28,14:00,17:00,CHEM102,General Chem,25,Hall-103
+Building_B_Lab,2026-07-28,09:00,12:00,CHEM301,Organic Chem Lab,16,Lab-203
+Building_B_Lab,2026-07-28,13:00,17:00,BIO210,Biology Lab,19,Lab-201
+Building_C_Lecture,2026-07-28,15:00,18:00,NET210,Computer Networks,65,Hall-201
+Building_C_Lecture,2026-07-28,15:00,18:00,DB205,Database Systems,53,Hall-203
+Building_D_Lab,2026-07-28,08:00,11:00,DS330,Data Analytics Lab,20,Lab-303
+Building_A_Lecture,2026-07-29,08:00,10:00,MATH301,Linear Algebra,49,Hall-103
+Building_B_Lab,2026-07-29,08:00,11:00,BIO210,Biology Lab,22,Lab-202
+Building_B_Lab,2026-07-29,09:00,12:00,BIO210,Biology Lab,20,Lab-202
+Building_B_Lab,2026-07-29,13:00,16:00,BIO210,Biology Lab,25,Lab-205
+Building_C_Lecture,2026-07-29,08:00,10:00,NET210,Computer Networks,74,Hall-204
+Building_C_Lecture,2026-07-29,13:00,15:00,STAT201,Statistics,48,Hall-204
+Building_D_Lab,2026-07-29,15:00,18:00,ML320,Machine Learning Lab,20,Lab-302
+Building_A_Lecture,2026-07-30,10:00,13:00,DS202,Data Science,50,Hall-102
+Building_A_Lecture,2026-07-30,10:00,13:00,MATH301,Linear Algebra,46,Hall-103
+Building_B_Lab,2026-07-30,13:00,16:00,PHY220,Physics Lab,15,Lab-202
+Building_C_Lecture,2026-07-30,11:00,14:00,DB205,Database Systems,72,Hall-203
+Building_C_Lecture,2026-07-30,15:00,18:00,NET210,Computer Networks,61,Hall-203
+Building_D_Lab,2026-07-30,13:00,16:00,ML320,Machine Learning Lab,21,Lab-303
+Building_E_Lecture,2026-07-30,09:00,12:00,DS310,Applied Data Science,62,Hall-302
+Building_A_Lecture,2026-07-31,15:00,18:00,ENG105,Technical Writing,22,Hall-105
+Building_B_Lab,2026-07-31,13:00,17:00,EE310,Electronics Lab,22,Lab-203
+Building_D_Lab,2026-07-31,15:00,18:00,ROB301,Robotics Lab,16,Lab-304
+Building_C_Lecture,2026-08-02,08:00,10:00,ECON101,Microeconomics,78,Hall-203
+Building_D_Lab,2026-08-02,08:00,11:00,ROB301,Robotics Lab,16,Lab-302
+Building_E_Lecture,2026-08-02,09:00,12:00,DS310,Applied Data Science,75,Hall-301
+Building_A_Lecture,2026-08-03,10:00,13:00,DS202,Data Science,49,Hall-103
+Building_A_Lecture,2026-08-03,13:00,15:00,CS101,Intro to CS,88,Hall-102
+Building_A_Lecture,2026-08-03,15:00,18:00,MATH301,Linear Algebra,60,Hall-105
+Building_B_Lab,2026-08-03,13:00,17:00,CS315,Systems Lab,24,Lab-204
+Building_C_Lecture,2026-08-03,08:00,10:00,NET210,Computer Networks,74,Hall-204
+Building_D_Lab,2026-08-03,09:00,12:00,IOT305,IoT Lab,20,Lab-302
+Building_B_Lab,2026-08-04,13:00,16:00,PHY220,Physics Lab,14,Lab-205
+Building_C_Lecture,2026-08-04,08:00,10:00,HUM110,Humanities,47,Hall-201
+Building_D_Lab,2026-08-04,09:00,12:00,ROB301,Robotics Lab,18,Lab-303
+Building_E_Lecture,2026-08-04,09:00,12:00,DS310,Applied Data Science,54,Hall-303
+Building_A_Lecture,2026-08-05,14:00,17:00,DS202,Data Science,40,Hall-105
+Building_B_Lab,2026-08-05,08:00,11:00,CS315,Systems Lab,25,Lab-205
+Building_D_Lab,2026-08-05,14:00,17:00,DS330,Data Analytics Lab,27,Lab-304
+Building_E_Lecture,2026-08-05,09:00,12:00,CE210,Structural Engineering,37,Hall-305
+Building_E_Lecture,2026-08-05,13:00,15:00,DS310,Applied Data Science,74,Hall-301
+Building_D_Lab,2026-08-06,08:00,11:00,MAT315,Materials Lab,11,Lab-304
+Building_D_Lab,2026-08-06,08:00,11:00,DS330,Data Analytics Lab,22,Lab-304
+Building_E_Lecture,2026-08-06,15:00,18:00,AI310,Machine Learning,79,Hall-302
+Building_A_Lecture,2026-08-07,13:00,15:00,PHYS201,General Physics,32,Hall-102
+Building_B_Lab,2026-08-07,08:00,11:00,CHEM301,Organic Chem Lab,20,Lab-201
+Building_D_Lab,2026-08-07,08:00,11:00,ROB301,Robotics Lab,15,Lab-302
+Building_D_Lab,2026-08-07,15:00,18:00,IOT305,IoT Lab,16,Lab-304
+Building_A_Lecture,2026-08-10,13:00,15:00,CHEM102,General Chem,28,Hall-101
+Building_A_Lecture,2026-08-10,13:00,15:00,MATH301,Linear Algebra,47,Hall-102
+Building_B_Lab,2026-08-10,08:00,11:00,PHY220,Physics Lab,16,Lab-203
+Building_B_Lab,2026-08-10,13:00,17:00,CS315,Systems Lab,29,Lab-201
+Building_B_Lab,2026-08-10,13:00,17:00,CHEM301,Organic Chem Lab,17,Lab-205
+Building_C_Lecture,2026-08-10,11:00,14:00,DB205,Database Systems,55,Hall-203
+Building_C_Lecture,2026-08-10,11:00,14:00,HUM110,Humanities,33,Hall-204
+Building_D_Lab,2026-08-10,08:00,11:00,DS330,Data Analytics Lab,23,Lab-302
+Building_D_Lab,2026-08-10,14:00,17:00,IOT305,IoT Lab,21,Lab-301
+Building_D_Lab,2026-08-10,15:00,18:00,IOT305,IoT Lab,20,Lab-301
+Building_E_Lecture,2026-08-10,13:00,15:00,AI310,Machine Learning,76,Hall-304
+Building_E_Lecture,2026-08-10,15:00,18:00,CE210,Structural Engineering,47,Hall-302
+Building_A_Lecture,2026-08-11,14:00,17:00,PHYS201,General Physics,39,Hall-104
+Building_A_Lecture,2026-08-11,14:00,17:00,EE204,Signals and Systems,41,Hall-105
+Building_B_Lab,2026-08-11,09:00,12:00,CHEM301,Organic Chem Lab,19,Lab-202
+Building_B_Lab,2026-08-11,09:00,12:00,PHY220,Physics Lab,13,Lab-204
+Building_C_Lecture,2026-08-11,10:00,12:00,NET210,Computer Networks,55,Hall-203
+Building_C_Lecture,2026-08-11,10:00,12:00,STAT201,Statistics,49,Hall-204
+Building_E_Lecture,2026-08-11,15:00,18:00,AI310,Machine Learning,85,Hall-304
+Building_A_Lecture,2026-08-12,09:00,12:00,DS202,Data Science,48,Hall-102
+Building_A_Lecture,2026-08-12,14:00,17:00,MATH301,Linear Algebra,48,Hall-102
+Building_B_Lab,2026-08-12,09:00,12:00,EE310,Electronics Lab,22,Lab-203
+Building_B_Lab,2026-08-12,13:00,17:00,CHEM301,Organic Chem Lab,17,Lab-201
+Building_B_Lab,2026-08-12,13:00,17:00,BIO210,Biology Lab,24,Lab-203
+Building_C_Lecture,2026-08-12,10:00,12:00,HUM110,Humanities,34,Hall-202
+Building_D_Lab,2026-08-12,13:00,16:00,ML320,Machine Learning Lab,19,Lab-302
+Building_E_Lecture,2026-08-12,09:00,12:00,ME201,Thermodynamics,44,Hall-301
+Building_E_Lecture,2026-08-12,10:00,13:00,DS310,Applied Data Science,59,Hall-302
+Building_A_Lecture,2026-08-13,13:00,15:00,AI201,Artificial Intelligence,73,Hall-100
+Building_B_Lab,2026-08-13,13:00,16:00,EE310,Electronics Lab,22,Lab-203
+Building_D_Lab,2026-08-13,15:00,18:00,IOT305,IoT Lab,20,Lab-301
+Building_E_Lecture,2026-08-13,15:00,18:00,AI310,Machine Learning,90,Hall-305
+Building_B_Lab,2026-08-14,13:00,16:00,BIO210,Biology Lab,18,Lab-201
+Building_B_Lab,2026-08-14,13:00,16:00,BIO210,Biology Lab,19,Lab-205
+Building_C_Lecture,2026-08-14,08:00,10:00,NET210,Computer Networks,58,Hall-201
+Building_C_Lecture,2026-08-14,08:00,10:00,AI105,AI Foundations,76,Hall-204
+Building_D_Lab,2026-08-14,09:00,12:00,IOT305,IoT Lab,16,Lab-304
+Building_D_Lab,2026-08-14,09:00,12:00,MAT315,Materials Lab,12,Lab-304
+Building_E_Lecture,2026-08-14,09:00,12:00,ME201,Thermodynamics,47,Hall-303
+Building_E_Lecture,2026-08-14,13:00,15:00,CE210,Structural Engineering,49,Hall-304
+Building_A_Lecture,2026-08-17,08:00,10:00,CHEM102,General Chem,21,Hall-105
+Building_A_Lecture,2026-08-17,09:00,12:00,MATH301,Linear Algebra,59,Hall-105
+Building_B_Lab,2026-08-17,09:00,12:00,CHEM301,Organic Chem Lab,15,Lab-202
+Building_B_Lab,2026-08-17,13:00,17:00,CHEM301,Organic Chem Lab,19,Lab-201
+Building_C_Lecture,2026-08-17,08:00,10:00,AI105,AI Foundations,78,Hall-202
+Building_D_Lab,2026-08-17,13:00,16:00,ML320,Machine Learning Lab,19,Lab-304
+Building_E_Lecture,2026-08-17,09:00,12:00,ME305,Fluid Mechanics,52,Hall-303
+Building_E_Lecture,2026-08-17,10:00,13:00,ME305,Fluid Mechanics,50,Hall-301
+Building_E_Lecture,2026-08-17,13:00,15:00,ME201,Thermodynamics,40,Hall-304
+Building_B_Lab,2026-08-18,09:00,12:00,CHEM301,Organic Chem Lab,17,Lab-201
+Building_B_Lab,2026-08-18,09:00,12:00,EE310,Electronics Lab,17,Lab-202
+Building_C_Lecture,2026-08-18,13:00,15:00,AI105,AI Foundations,70,Hall-202
+Building_C_Lecture,2026-08-18,15:00,18:00,ECON101,Microeconomics,61,Hall-201
+Building_D_Lab,2026-08-18,09:00,12:00,MAT315,Materials Lab,16,Lab-303
+Building_D_Lab,2026-08-18,15:00,18:00,ROB301,Robotics Lab,13,Lab-301
+Building_E_Lecture,2026-08-18,10:00,13:00,AI310,Machine Learning,88,Hall-304
+Building_A_Lecture,2026-08-19,08:00,10:00,EE204,Signals and Systems,43,Hall-100
+Building_B_Lab,2026-08-19,08:00,11:00,CS315,Systems Lab,27,Lab-201
+Building_B_Lab,2026-08-19,13:00,17:00,BIO210,Biology Lab,19,Lab-203
+Building_D_Lab,2026-08-19,15:00,18:00,ML320,Machine Learning Lab,24,Lab-304
+Building_E_Lecture,2026-08-19,13:00,15:00,CE210,Structural Engineering,38,Hall-303
+Building_A_Lecture,2026-08-20,14:00,17:00,EE204,Signals and Systems,41,Hall-100
+Building_A_Lecture,2026-08-20,14:00,17:00,ENG105,Technical Writing,24,Hall-105
+Building_B_Lab,2026-08-20,13:00,17:00,CS315,Systems Lab,27,Lab-201
+Building_B_Lab,2026-08-20,13:00,16:00,BIO210,Biology Lab,20,Lab-201
+Building_C_Lecture,2026-08-20,13:00,15:00,HUM110,Humanities,45,Hall-203
+Building_D_Lab,2026-08-20,14:00,17:00,ML320,Machine Learning Lab,22,Lab-303
+Building_D_Lab,2026-08-20,15:00,18:00,MAT315,Materials Lab,12,Lab-304
+Building_E_Lecture,2026-08-20,15:00,18:00,AI310,Machine Learning,79,Hall-302
+Building_A_Lecture,2026-08-21,10:00,13:00,DS202,Data Science,46,Hall-100
+Building_A_Lecture,2026-08-21,10:00,13:00,PHYS201,General Physics,45,Hall-102
+Building_B_Lab,2026-08-21,14:00,18:00,CS315,Systems Lab,27,Lab-201
+Building_C_Lecture,2026-08-21,13:00,15:00,ECON101,Microeconomics,83,Hall-202
+Building_C_Lecture,2026-08-21,13:00,15:00,NET210,Computer Networks,66,Hall-202
+Building_E_Lecture,2026-08-21,10:00,13:00,ME201,Thermodynamics,42,Hall-304
+Building_E_Lecture,2026-08-21,15:00,18:00,CS220,Operating Systems,73,Hall-301
+Building_A_Lecture,2026-08-24,10:00,13:00,EE204,Signals and Systems,37,Hall-103
+Building_B_Lab,2026-08-24,14:00,18:00,CHEM301,Organic Chem Lab,20,Lab-205
+Building_C_Lecture,2026-08-24,08:00,10:00,STAT201,Statistics,47,Hall-204
+Building_E_Lecture,2026-08-24,13:00,15:00,ME201,Thermodynamics,55,Hall-304
+Building_B_Lab,2026-08-25,13:00,16:00,EE310,Electronics Lab,19,Lab-202
+Building_D_Lab,2026-08-25,09:00,12:00,ML320,Machine Learning Lab,23,Lab-304
+Building_E_Lecture,2026-08-25,13:00,15:00,DS310,Applied Data Science,67,Hall-301
+Building_C_Lecture,2026-08-26,08:00,10:00,HUM110,Humanities,35,Hall-202
+Building_D_Lab,2026-08-26,09:00,12:00,DS330,Data Analytics Lab,20,Lab-304
+Building_E_Lecture,2026-08-26,15:00,18:00,AI310,Machine Learning,87,Hall-303
+Building_A_Lecture,2026-08-27,15:00,18:00,CS101,Intro to CS,115,Hall-103
+Building_C_Lecture,2026-08-27,10:00,12:00,DB205,Database Systems,50,Hall-203
+Building_D_Lab,2026-08-27,09:00,12:00,DS330,Data Analytics Lab,27,Lab-304
+Building_E_Lecture,2026-08-27,09:00,12:00,AI310,Machine Learning,92,Hall-301
+Building_E_Lecture,2026-08-27,09:00,12:00,DS310,Applied Data Science,72,Hall-303
+Building_A_Lecture,2026-08-28,14:00,17:00,CHEM102,General Chem,24,Hall-102
+Building_A_Lecture,2026-08-28,15:00,18:00,CHEM102,General Chem,23,Hall-105
+Building_B_Lab,2026-08-28,13:00,17:00,PHY220,Physics Lab,19,Lab-204
+Building_C_Lecture,2026-08-28,08:00,10:00,AI105,AI Foundations,90,Hall-202
+Building_C_Lecture,2026-08-28,10:00,12:00,AI105,AI Foundations,73,Hall-203
+Building_C_Lecture,2026-08-28,13:00,15:00,HUM110,Humanities,35,Hall-204
+Building_D_Lab,2026-08-28,15:00,18:00,DS330,Data Analytics Lab,27,Lab-301
+Building_D_Lab,2026-08-28,15:00,18:00,ML320,Machine Learning Lab,21,Lab-301
+Building_D_Lab,2026-08-28,15:00,18:00,MAT315,Materials Lab,16,Lab-304
+Building_A_Lecture,2026-08-31,09:00,12:00,ENG105,Technical Writing,25,Hall-101
+Building_A_Lecture,2026-08-31,14:00,17:00,CHEM102,General Chem,22,Hall-102
+Building_B_Lab,2026-08-31,08:00,11:00,CHEM301,Organic Chem Lab,19,Lab-201
+Building_B_Lab,2026-08-31,13:00,16:00,CHEM301,Organic Chem Lab,19,Lab-202
+Building_B_Lab,2026-08-31,14:00,18:00,PHY220,Physics Lab,15,Lab-201
+Building_C_Lecture,2026-08-31,15:00,18:00,AI105,AI Foundations,90,Hall-204
+Building_A_Lecture,2026-09-01,09:00,12:00,MATH301,Linear Algebra,55,Hall-104
+Building_B_Lab,2026-09-01,09:00,12:00,EE310,Electronics Lab,18,Lab-201
+Building_C_Lecture,2026-09-01,11:00,14:00,AI105,AI Foundations,87,Hall-201
+Building_C_Lecture,2026-09-01,13:00,15:00,HUM110,Humanities,38,Hall-201
+Building_D_Lab,2026-09-01,13:00,16:00,MAT315,Materials Lab,12,Lab-301
+Building_D_Lab,2026-09-01,14:00,17:00,MAT315,Materials Lab,15,Lab-302
+Building_E_Lecture,2026-09-01,10:00,13:00,ME305,Fluid Mechanics,50,Hall-301
+Building_A_Lecture,2026-09-02,09:00,12:00,EE204,Signals and Systems,35,Hall-103
+Building_B_Lab,2026-09-02,14:00,18:00,EE310,Electronics Lab,22,Lab-204
+Building_C_Lecture,2026-09-02,11:00,14:00,AI105,AI Foundations,86,Hall-201
+Building_C_Lecture,2026-09-02,13:00,15:00,STAT201,Statistics,65,Hall-203
+Building_C_Lecture,2026-09-02,15:00,18:00,AI105,AI Foundations,81,Hall-202
+Building_D_Lab,2026-09-02,13:00,16:00,DS330,Data Analytics Lab,21,Lab-303
+Building_D_Lab,2026-09-02,13:00,16:00,MAT315,Materials Lab,15,Lab-304
+Building_E_Lecture,2026-09-02,13:00,15:00,ME305,Fluid Mechanics,62,Hall-303
+Building_A_Lecture,2026-09-03,08:00,10:00,MATH301,Linear Algebra,50,Hall-105
+Building_A_Lecture,2026-09-03,15:00,18:00,MATH301,Linear Algebra,47,Hall-105
+Building_B_Lab,2026-09-03,08:00,11:00,EE310,Electronics Lab,17,Lab-204
+Building_B_Lab,2026-09-03,14:00,18:00,PHY220,Physics Lab,17,Lab-201
+Building_B_Lab,2026-09-03,14:00,18:00,BIO210,Biology Lab,21,Lab-202
+Building_D_Lab,2026-09-03,08:00,11:00,MAT315,Materials Lab,16,Lab-303
+Building_E_Lecture,2026-09-03,15:00,18:00,CE210,Structural Engineering,50,Hall-301
+Building_A_Lecture,2026-09-04,08:00,10:00,ENG105,Technical Writing,21,Hall-100
+Building_A_Lecture,2026-09-04,09:00,12:00,AI201,Artificial Intelligence,56,Hall-100
+Building_A_Lecture,2026-09-04,10:00,13:00,CHEM102,General Chem,23,Hall-100
+Building_B_Lab,2026-09-04,13:00,16:00,PHY220,Physics Lab,14,Lab-203
+Building_C_Lecture,2026-09-04,08:00,10:00,HUM110,Humanities,39,Hall-201
+Building_D_Lab,2026-09-04,13:00,16:00,IOT305,IoT Lab,16,Lab-303
+Building_D_Lab,2026-09-04,15:00,18:00,DS330,Data Analytics Lab,25,Lab-303
+Building_A_Lecture,2026-09-07,14:00,17:00,DS202,Data Science,56,Hall-103
+Building_B_Lab,2026-09-07,08:00,11:00,CS315,Systems Lab,21,Lab-203
+Building_C_Lecture,2026-09-07,08:00,10:00,HUM110,Humanities,37,Hall-201
+Building_C_Lecture,2026-09-07,10:00,12:00,STAT201,Statistics,46,Hall-204
+Building_D_Lab,2026-09-07,13:00,16:00,ROB301,Robotics Lab,13,Lab-301
+Building_E_Lecture,2026-09-07,08:00,10:00,ME201,Thermodynamics,56,Hall-303
+Building_A_Lecture,2026-09-08,08:00,10:00,ENG105,Technical Writing,25,Hall-100
+Building_A_Lecture,2026-09-08,09:00,12:00,DS202,Data Science,49,Hall-102
+Building_A_Lecture,2026-09-08,09:00,12:00,EE204,Signals and Systems,50,Hall-103
+Building_B_Lab,2026-09-08,14:00,18:00,BIO210,Biology Lab,19,Lab-201
+Building_D_Lab,2026-09-08,15:00,18:00,ML320,Machine Learning Lab,24,Lab-301
+Building_E_Lecture,2026-09-08,10:00,13:00,ME201,Thermodynamics,53,Hall-305
+Building_A_Lecture,2026-09-09,10:00,13:00,MATH301,Linear Algebra,62,Hall-101
+Building_B_Lab,2026-09-09,09:00,12:00,EE310,Electronics Lab,21,Lab-201
+Building_B_Lab,2026-09-09,13:00,17:00,EE310,Electronics Lab,18,Lab-205
+Building_C_Lecture,2026-09-09,13:00,15:00,ECON101,Microeconomics,56,Hall-202
+Building_E_Lecture,2026-09-09,09:00,12:00,AI310,Machine Learning,72,Hall-301
+Building_A_Lecture,2026-09-10,09:00,12:00,CS101,Intro to CS,92,Hall-100
+Building_A_Lecture,2026-09-10,15:00,18:00,CHEM102,General Chem,22,Hall-102
+Building_C_Lecture,2026-09-10,11:00,14:00,DB205,Database Systems,57,Hall-203
+Building_E_Lecture,2026-09-10,13:00,15:00,AI310,Machine Learning,92,Hall-304
+Building_A_Lecture,2026-09-11,10:00,13:00,PHYS201,General Physics,44,Hall-105
+Building_B_Lab,2026-09-11,08:00,11:00,CHEM301,Organic Chem Lab,14,Lab-202
+Building_B_Lab,2026-09-11,14:00,18:00,EE310,Electronics Lab,16,Lab-203
+Building_C_Lecture,2026-09-11,15:00,18:00,HUM110,Humanities,45,Hall-204
+Building_D_Lab,2026-09-11,08:00,11:00,ML320,Machine Learning Lab,20,Lab-304
+Building_E_Lecture,2026-09-11,10:00,13:00,ME305,Fluid Mechanics,57,Hall-302
+Building_A_Lecture,2026-09-14,13:00,15:00,CS101,Intro to CS,119,Hall-102
+Building_A_Lecture,2026-09-14,15:00,18:00,CHEM102,General Chem,29,Hall-104
+Building_B_Lab,2026-09-14,09:00,12:00,CS315,Systems Lab,22,Lab-202
+Building_B_Lab,2026-09-14,13:00,16:00,CS315,Systems Lab,21,Lab-203
+Building_C_Lecture,2026-09-14,08:00,10:00,HUM110,Humanities,32,Hall-203
+Building_D_Lab,2026-09-14,13:00,16:00,ROB301,Robotics Lab,13,Lab-304
+Building_A_Lecture,2026-09-15,09:00,12:00,CHEM102,General Chem,26,Hall-104
+Building_A_Lecture,2026-09-15,10:00,13:00,MATH301,Linear Algebra,63,Hall-104
+Building_C_Lecture,2026-09-15,08:00,10:00,AI105,AI Foundations,93,Hall-204
+Building_D_Lab,2026-09-15,08:00,11:00,MAT315,Materials Lab,15,Lab-302
+Building_D_Lab,2026-09-15,14:00,17:00,DS330,Data Analytics Lab,26,Lab-302
+Building_A_Lecture,2026-09-16,14:00,17:00,EE204,Signals and Systems,50,Hall-105
+Building_B_Lab,2026-09-16,09:00,12:00,EE310,Electronics Lab,17,Lab-202
+Building_C_Lecture,2026-09-16,10:00,12:00,ECON101,Microeconomics,67,Hall-203
+Building_C_Lecture,2026-09-16,10:00,12:00,HUM110,Humanities,44,Hall-203
+Building_C_Lecture,2026-09-16,11:00,14:00,STAT201,Statistics,59,Hall-202
+Building_D_Lab,2026-09-16,15:00,18:00,ML320,Machine Learning Lab,24,Lab-303
+Building_E_Lecture,2026-09-16,13:00,15:00,ME305,Fluid Mechanics,55,Hall-301
+Building_E_Lecture,2026-09-16,15:00,18:00,ME201,Thermodynamics,49,Hall-301
+Building_E_Lecture,2026-09-16,15:00,18:00,AI310,Machine Learning,77,Hall-303
+Building_A_Lecture,2026-09-17,08:00,10:00,AI201,Artificial Intelligence,61,Hall-104
+Building_C_Lecture,2026-09-17,08:00,10:00,DB205,Database Systems,70,Hall-201
+Building_C_Lecture,2026-09-17,11:00,14:00,NET210,Computer Networks,67,Hall-201
+Building_C_Lecture,2026-09-17,13:00,15:00,HUM110,Humanities,45,Hall-204
+Building_D_Lab,2026-09-17,14:00,17:00,DS330,Data Analytics Lab,20,Lab-302
+Building_D_Lab,2026-09-17,15:00,18:00,ML320,Machine Learning Lab,19,Lab-303
+Building_E_Lecture,2026-09-17,13:00,15:00,CE210,Structural Engineering,40,Hall-302
+Building_A_Lecture,2026-09-18,15:00,18:00,PHYS201,General Physics,46,Hall-105
+Building_C_Lecture,2026-09-18,11:00,14:00,AI105,AI Foundations,82,Hall-202
+Building_D_Lab,2026-09-18,13:00,16:00,MAT315,Materials Lab,12,Lab-301
+Building_A_Lecture,2026-09-21,09:00,12:00,MATH301,Linear Algebra,52,Hall-103
+Building_B_Lab,2026-09-21,09:00,12:00,CHEM301,Organic Chem Lab,19,Lab-204
+Building_B_Lab,2026-09-21,13:00,16:00,BIO210,Biology Lab,20,Lab-205
+Building_C_Lecture,2026-09-21,13:00,15:00,STAT201,Statistics,52,Hall-203
+Building_D_Lab,2026-09-21,08:00,11:00,IOT305,IoT Lab,20,Lab-301
+Building_D_Lab,2026-09-21,08:00,11:00,IOT305,IoT Lab,15,Lab-304
+Building_D_Lab,2026-09-21,09:00,12:00,ROB301,Robotics Lab,18,Lab-304
+Building_E_Lecture,2026-09-21,13:00,15:00,CE210,Structural Engineering,42,Hall-303
+Building_A_Lecture,2026-09-22,09:00,12:00,DS202,Data Science,48,Hall-105
+Building_A_Lecture,2026-09-22,10:00,13:00,EE204,Signals and Systems,38,Hall-105
+Building_B_Lab,2026-09-22,08:00,11:00,CS315,Systems Lab,26,Lab-201
+Building_D_Lab,2026-09-22,09:00,12:00,IOT305,IoT Lab,16,Lab-302
+Building_A_Lecture,2026-09-23,15:00,18:00,DS202,Data Science,41,Hall-100
+Building_D_Lab,2026-09-23,08:00,11:00,ROB301,Robotics Lab,17,Lab-304
+Building_E_Lecture,2026-09-23,15:00,18:00,ME305,Fluid Mechanics,59,Hall-303
+Building_A_Lecture,2026-09-24,09:00,12:00,CS101,Intro to CS,107,Hall-100
+Building_A_Lecture,2026-09-24,13:00,15:00,CS101,Intro to CS,116,Hall-101
+Building_B_Lab,2026-09-24,14:00,18:00,PHY220,Physics Lab,14,Lab-203
+Building_B_Lab,2026-09-24,14:00,18:00,BIO210,Biology Lab,23,Lab-203
+Building_C_Lecture,2026-09-24,10:00,12:00,ECON101,Microeconomics,58,Hall-204
+Building_C_Lecture,2026-09-24,11:00,14:00,NET210,Computer Networks,55,Hall-202
+Building_D_Lab,2026-09-24,15:00,18:00,MAT315,Materials Lab,12,Lab-304
+Building_B_Lab,2026-09-25,14:00,18:00,CS315,Systems Lab,25,Lab-204
+Building_C_Lecture,2026-09-25,10:00,12:00,NET210,Computer Networks,78,Hall-203
+Building_E_Lecture,2026-09-25,10:00,13:00,ME305,Fluid Mechanics,59,Hall-305
+Building_A_Lecture,2026-09-28,14:00,17:00,EE204,Signals and Systems,46,Hall-103
+Building_B_Lab,2026-09-28,08:00,11:00,CHEM301,Organic Chem Lab,18,Lab-202
+Building_C_Lecture,2026-09-28,13:00,15:00,NET210,Computer Networks,68,Hall-204
+Building_D_Lab,2026-09-28,13:00,16:00,ML320,Machine Learning Lab,21,Lab-302
+Building_D_Lab,2026-09-28,14:00,17:00,ML320,Machine Learning Lab,17,Lab-302
+Building_D_Lab,2026-09-28,15:00,18:00,MAT315,Materials Lab,14,Lab-301
+Building_E_Lecture,2026-09-28,08:00,10:00,ME305,Fluid Mechanics,54,Hall-301
+Building_A_Lecture,2026-09-29,14:00,17:00,DS202,Data Science,53,Hall-102
+Building_B_Lab,2026-09-29,14:00,18:00,PHY220,Physics Lab,16,Lab-201
+Building_D_Lab,2026-09-29,14:00,17:00,IOT305,IoT Lab,20,Lab-304
+Building_D_Lab,2026-09-29,15:00,18:00,IOT305,IoT Lab,14,Lab-302
+Building_E_Lecture,2026-09-29,13:00,15:00,CS220,Operating Systems,72,Hall-305
+Building_E_Lecture,2026-09-29,15:00,18:00,CS220,Operating Systems,75,Hall-305
+Building_A_Lecture,2026-09-30,08:00,10:00,CHEM102,General Chem,23,Hall-105
+Building_B_Lab,2026-09-30,09:00,12:00,CS315,Systems Lab,22,Lab-203
+Building_C_Lecture,2026-09-30,08:00,10:00,HUM110,Humanities,37,Hall-203
+Building_C_Lecture,2026-09-30,13:00,15:00,AI105,AI Foundations,68,Hall-202
+Building_D_Lab,2026-09-30,14:00,17:00,IOT305,IoT Lab,14,Lab-303
+Building_D_Lab,2026-09-30,15:00,18:00,MAT315,Materials Lab,16,Lab-301
+Building_D_Lab,2026-09-30,15:00,18:00,ML320,Machine Learning Lab,22,Lab-303
+Building_E_Lecture,2026-09-30,08:00,10:00,DS310,Applied Data Science,73,Hall-305
+Building_A_Lecture,2026-10-01,09:00,12:00,EE204,Signals and Systems,52,Hall-102
+Building_B_Lab,2026-10-01,08:00,11:00,EE310,Electronics Lab,18,Lab-202
+Building_B_Lab,2026-10-01,13:00,16:00,PHY220,Physics Lab,17,Lab-202
+Building_C_Lecture,2026-10-01,10:00,12:00,NET210,Computer Networks,59,Hall-201
+Building_C_Lecture,2026-10-01,13:00,15:00,NET210,Computer Networks,71,Hall-202
+Building_E_Lecture,2026-10-01,13:00,15:00,CS220,Operating Systems,61,Hall-302
+Building_A_Lecture,2026-10-02,13:00,15:00,ENG105,Technical Writing,22,Hall-100
+Building_A_Lecture,2026-10-02,14:00,17:00,PHYS201,General Physics,47,Hall-102
+Building_B_Lab,2026-10-02,08:00,11:00,EE310,Electronics Lab,22,Lab-202
+Building_B_Lab,2026-10-02,13:00,17:00,PHY220,Physics Lab,16,Lab-205
+Building_C_Lecture,2026-10-02,15:00,18:00,STAT201,Statistics,46,Hall-201
+Building_E_Lecture,2026-10-02,08:00,10:00,ME305,Fluid Mechanics,66,Hall-305
+Building_A_Lecture,2026-10-05,14:00,17:00,CHEM102,General Chem,22,Hall-104
+Building_A_Lecture,2026-10-05,15:00,18:00,CHEM102,General Chem,31,Hall-102
+Building_C_Lecture,2026-10-05,10:00,12:00,DB205,Database Systems,58,Hall-203
+Building_C_Lecture,2026-10-05,10:00,12:00,NET210,Computer Networks,65,Hall-204
+Building_C_Lecture,2026-10-05,15:00,18:00,ECON101,Microeconomics,64,Hall-204
+Building_D_Lab,2026-10-05,13:00,16:00,ML320,Machine Learning Lab,24,Lab-301
+Building_E_Lecture,2026-10-05,15:00,18:00,DS310,Applied Data Science,77,Hall-302
+Building_E_Lecture,2026-10-05,15:00,18:00,DS310,Applied Data Science,76,Hall-305
+Building_A_Lecture,2026-10-06,15:00,18:00,CS101,Intro to CS,108,Hall-100
+Building_B_Lab,2026-10-06,09:00,12:00,CS315,Systems Lab,24,Lab-201
+Building_B_Lab,2026-10-06,09:00,12:00,BIO210,Biology Lab,19,Lab-201
+Building_C_Lecture,2026-10-06,08:00,10:00,HUM110,Humanities,35,Hall-201
+Building_D_Lab,2026-10-06,09:00,12:00,MAT315,Materials Lab,16,Lab-302
+Building_D_Lab,2026-10-06,09:00,12:00,ML320,Machine Learning Lab,24,Lab-303
+Building_D_Lab,2026-10-06,14:00,17:00,MAT315,Materials Lab,14,Lab-304
+Building_A_Lecture,2026-10-07,10:00,13:00,MATH301,Linear Algebra,58,Hall-104
+Building_E_Lecture,2026-10-07,10:00,13:00,ME305,Fluid Mechanics,59,Hall-303
+Building_B_Lab,2026-10-08,09:00,12:00,EE310,Electronics Lab,22,Lab-205
+Building_C_Lecture,2026-10-08,08:00,10:00,STAT201,Statistics,52,Hall-203
+Building_D_Lab,2026-10-08,08:00,11:00,ML320,Machine Learning Lab,25,Lab-302
+Building_D_Lab,2026-10-08,13:00,16:00,ML320,Machine Learning Lab,24,Lab-302
+Building_D_Lab,2026-10-08,14:00,17:00,ML320,Machine Learning Lab,22,Lab-301
+Building_E_Lecture,2026-10-08,15:00,18:00,ME305,Fluid Mechanics,49,Hall-305
+Building_A_Lecture,2026-10-09,14:00,17:00,CS101,Intro to CS,101,Hall-100
+Building_A_Lecture,2026-10-09,14:00,17:00,PHYS201,General Physics,44,Hall-102
+Building_C_Lecture,2026-10-09,15:00,18:00,NET210,Computer Networks,59,Hall-201
+Building_D_Lab,2026-10-09,15:00,18:00,ROB301,Robotics Lab,14,Lab-301
+Building_E_Lecture,2026-10-09,15:00,18:00,ME305,Fluid Mechanics,57,Hall-303
+Building_A_Lecture,2026-10-12,08:00,10:00,CS101,Intro to CS,84,Hall-105
+Building_A_Lecture,2026-10-12,15:00,18:00,DS202,Data Science,46,Hall-101
+Building_B_Lab,2026-10-12,13:00,16:00,CHEM301,Organic Chem Lab,19,Lab-203
+Building_C_Lecture,2026-10-12,11:00,14:00,NET210,Computer Networks,75,Hall-201
+Building_D_Lab,2026-10-12,08:00,11:00,ML320,Machine Learning Lab,20,Lab-304
+Building_D_Lab,2026-10-12,13:00,16:00,IOT305,IoT Lab,15,Lab-301
+Building_E_Lecture,2026-10-12,13:00,15:00,ME305,Fluid Mechanics,51,Hall-305
+Building_A_Lecture,2026-10-13,08:00,10:00,AI201,Artificial Intelligence,51,Hall-103
+Building_B_Lab,2026-10-13,13:00,16:00,CS315,Systems Lab,28,Lab-203
+Building_B_Lab,2026-10-13,13:00,16:00,PHY220,Physics Lab,18,Lab-203
+Building_B_Lab,2026-10-13,13:00,17:00,PHY220,Physics Lab,17,Lab-204
+Building_D_Lab,2026-10-13,14:00,17:00,ROB301,Robotics Lab,19,Lab-304
+Building_E_Lecture,2026-10-13,08:00,10:00,CE210,Structural Engineering,51,Hall-304
+Building_B_Lab,2026-10-14,13:00,16:00,CHEM301,Organic Chem Lab,15,Lab-203
+Building_C_Lecture,2026-10-14,08:00,10:00,AI105,AI Foundations,70,Hall-201
+Building_D_Lab,2026-10-14,14:00,17:00,IOT305,IoT Lab,18,Lab-301
+Building_D_Lab,2026-10-14,14:00,17:00,DS330,Data Analytics Lab,22,Lab-304
+Building_E_Lecture,2026-10-14,15:00,18:00,AI310,Machine Learning,86,Hall-301
+Building_A_Lecture,2026-10-15,08:00,10:00,ENG105,Technical Writing,23,Hall-103
+Building_A_Lecture,2026-10-15,10:00,13:00,DS202,Data Science,58,Hall-104
+Building_B_Lab,2026-10-15,13:00,17:00,CHEM301,Organic Chem Lab,16,Lab-202
+Building_C_Lecture,2026-10-15,11:00,14:00,DB205,Database Systems,53,Hall-204
+Building_E_Lecture,2026-10-15,08:00,10:00,CS220,Operating Systems,77,Hall-302
+Building_E_Lecture,2026-10-15,10:00,13:00,ME201,Thermodynamics,49,Hall-303
+Building_A_Lecture,2026-10-16,08:00,10:00,EE204,Signals and Systems,48,Hall-105
+Building_D_Lab,2026-10-16,14:00,17:00,DS330,Data Analytics Lab,19,Lab-302
+Building_A_Lecture,2026-10-19,10:00,13:00,CHEM102,General Chem,30,Hall-102
+Building_A_Lecture,2026-10-19,10:00,13:00,CHEM102,General Chem,31,Hall-103
+Building_B_Lab,2026-10-19,13:00,17:00,PHY220,Physics Lab,13,Lab-202
+Building_B_Lab,2026-10-19,13:00,16:00,EE310,Electronics Lab,21,Lab-205
+Building_C_Lecture,2026-10-19,11:00,14:00,HUM110,Humanities,38,Hall-204
+Building_E_Lecture,2026-10-19,10:00,13:00,ME305,Fluid Mechanics,48,Hall-302
+Building_E_Lecture,2026-10-19,13:00,15:00,CS220,Operating Systems,60,Hall-305
+Building_E_Lecture,2026-10-19,15:00,18:00,CE210,Structural Engineering,42,Hall-301
+Building_B_Lab,2026-10-20,08:00,11:00,CHEM301,Organic Chem Lab,16,Lab-202
+Building_C_Lecture,2026-10-20,10:00,12:00,HUM110,Humanities,33,Hall-204
+Building_C_Lecture,2026-10-20,11:00,14:00,AI105,AI Foundations,64,Hall-202
+Building_D_Lab,2026-10-20,08:00,11:00,ROB301,Robotics Lab,19,Lab-301
+Building_D_Lab,2026-10-20,13:00,16:00,IOT305,IoT Lab,21,Lab-303
+Building_A_Lecture,2026-10-21,10:00,13:00,EE204,Signals and Systems,46,Hall-102
+Building_B_Lab,2026-10-21,14:00,18:00,CHEM301,Organic Chem Lab,19,Lab-203
+Building_C_Lecture,2026-10-21,10:00,12:00,DB205,Database Systems,49,Hall-204
+Building_C_Lecture,2026-10-21,15:00,18:00,NET210,Computer Networks,70,Hall-201
+Building_D_Lab,2026-10-21,08:00,11:00,ROB301,Robotics Lab,17,Lab-303
+Building_D_Lab,2026-10-21,13:00,16:00,DS330,Data Analytics Lab,25,Lab-302
+Building_E_Lecture,2026-10-21,10:00,13:00,CS220,Operating Systems,76,Hall-303
+Building_A_Lecture,2026-10-22,10:00,13:00,AI201,Artificial Intelligence,51,Hall-101
+Building_A_Lecture,2026-10-22,15:00,18:00,MATH301,Linear Algebra,63,Hall-103
+Building_B_Lab,2026-10-22,13:00,17:00,EE310,Electronics Lab,17,Lab-205
+Building_C_Lecture,2026-10-22,13:00,15:00,ECON101,Microeconomics,82,Hall-201
+Building_E_Lecture,2026-10-22,08:00,10:00,AI310,Machine Learning,71,Hall-303
+Building_E_Lecture,2026-10-22,09:00,12:00,ME201,Thermodynamics,42,Hall-303
+Building_D_Lab,2026-10-23,14:00,17:00,ROB301,Robotics Lab,13,Lab-303
+Building_D_Lab,2026-10-23,15:00,18:00,ROB301,Robotics Lab,14,Lab-303
+Building_C_Lecture,2026-10-26,10:00,12:00,STAT201,Statistics,63,Hall-201
+Building_C_Lecture,2026-10-26,13:00,15:00,AI105,AI Foundations,86,Hall-202
+Building_C_Lecture,2026-10-26,15:00,18:00,DB205,Database Systems,69,Hall-201
+Building_E_Lecture,2026-10-26,10:00,13:00,AI310,Machine Learning,72,Hall-303
+Building_A_Lecture,2026-10-27,15:00,18:00,CS101,Intro to CS,94,Hall-101
+Building_B_Lab,2026-10-27,08:00,11:00,EE310,Electronics Lab,21,Lab-204
+Building_B_Lab,2026-10-27,09:00,12:00,BIO210,Biology Lab,24,Lab-202
+Building_C_Lecture,2026-10-27,10:00,12:00,STAT201,Statistics,51,Hall-202
+Building_D_Lab,2026-10-27,09:00,12:00,IOT305,IoT Lab,17,Lab-304
+Building_D_Lab,2026-10-27,13:00,16:00,IOT305,IoT Lab,20,Lab-304
+Building_D_Lab,2026-10-27,14:00,17:00,MAT315,Materials Lab,12,Lab-301
+Building_E_Lecture,2026-10-27,09:00,12:00,CS220,Operating Systems,67,Hall-304
+Building_E_Lecture,2026-10-27,13:00,15:00,CE210,Structural Engineering,43,Hall-305
+Building_A_Lecture,2026-10-28,15:00,18:00,ENG105,Technical Writing,19,Hall-102
+Building_C_Lecture,2026-10-28,15:00,18:00,ECON101,Microeconomics,68,Hall-202
+Building_D_Lab,2026-10-28,08:00,11:00,ROB301,Robotics Lab,17,Lab-304
+Building_D_Lab,2026-10-28,13:00,16:00,IOT305,IoT Lab,19,Lab-301
+Building_E_Lecture,2026-10-28,15:00,18:00,ME201,Thermodynamics,45,Hall-305
+Building_A_Lecture,2026-10-29,13:00,15:00,PHYS201,General Physics,36,Hall-103
+Building_B_Lab,2026-10-29,09:00,12:00,BIO210,Biology Lab,22,Lab-201
+Building_D_Lab,2026-10-29,09:00,12:00,DS330,Data Analytics Lab,23,Lab-302
+Building_D_Lab,2026-10-29,14:00,17:00,MAT315,Materials Lab,16,Lab-302
+Building_D_Lab,2026-10-29,15:00,18:00,ROB301,Robotics Lab,19,Lab-304
+Building_E_Lecture,2026-10-29,10:00,13:00,DS310,Applied Data Science,55,Hall-301
+Building_B_Lab,2026-10-30,13:00,17:00,PHY220,Physics Lab,17,Lab-202
+Building_B_Lab,2026-10-30,13:00,17:00,EE310,Electronics Lab,21,Lab-202
+Building_B_Lab,2026-10-30,14:00,18:00,BIO210,Biology Lab,25,Lab-201
+Building_C_Lecture,2026-10-30,08:00,10:00,STAT201,Statistics,52,Hall-204
+Building_C_Lecture,2026-10-30,13:00,15:00,ECON101,Microeconomics,74,Hall-202
+Building_D_Lab,2026-10-30,14:00,17:00,IOT305,IoT Lab,16,Lab-303
+Building_D_Lab,2026-10-30,15:00,18:00,ML320,Machine Learning Lab,20,Lab-303
+Building_E_Lecture,2026-10-30,15:00,18:00,CE210,Structural Engineering,38,Hall-304
+Building_A_Lecture,2026-11-02,14:00,17:00,PHYS201,General Physics,46,Hall-102
+Building_B_Lab,2026-11-02,08:00,11:00,EE310,Electronics Lab,21,Lab-201
+Building_C_Lecture,2026-11-02,08:00,10:00,STAT201,Statistics,60,Hall-202
+Building_C_Lecture,2026-11-02,10:00,12:00,AI105,AI Foundations,94,Hall-201
+Building_D_Lab,2026-11-02,08:00,11:00,DS330,Data Analytics Lab,19,Lab-302
+Building_A_Lecture,2026-11-03,09:00,12:00,DS202,Data Science,57,Hall-105
+Building_A_Lecture,2026-11-03,15:00,18:00,MATH301,Linear Algebra,55,Hall-100
+Building_B_Lab,2026-11-03,08:00,11:00,PHY220,Physics Lab,16,Lab-201
+Building_B_Lab,2026-11-03,08:00,11:00,EE310,Electronics Lab,17,Lab-202
+Building_C_Lecture,2026-11-03,13:00,15:00,STAT201,Statistics,67,Hall-201
+Building_C_Lecture,2026-11-03,13:00,15:00,STAT201,Statistics,54,Hall-204
+Building_D_Lab,2026-11-03,13:00,16:00,ROB301,Robotics Lab,13,Lab-301
+Building_E_Lecture,2026-11-03,10:00,13:00,CE210,Structural Engineering,35,Hall-302
+Building_A_Lecture,2026-11-04,13:00,15:00,DS202,Data Science,49,Hall-102
+Building_B_Lab,2026-11-04,08:00,11:00,PHY220,Physics Lab,18,Lab-201
+Building_B_Lab,2026-11-04,13:00,16:00,EE310,Electronics Lab,22,Lab-202
+Building_C_Lecture,2026-11-04,10:00,12:00,STAT201,Statistics,54,Hall-204
+Building_E_Lecture,2026-11-04,13:00,15:00,ME201,Thermodynamics,45,Hall-305
+Building_B_Lab,2026-11-05,13:00,17:00,BIO210,Biology Lab,21,Lab-204
+Building_D_Lab,2026-11-05,13:00,16:00,MAT315,Materials Lab,13,Lab-301
+Building_A_Lecture,2026-11-06,09:00,12:00,DS202,Data Science,48,Hall-103
+Building_A_Lecture,2026-11-06,14:00,17:00,EE204,Signals and Systems,37,Hall-104
+Building_B_Lab,2026-11-06,08:00,11:00,CS315,Systems Lab,22,Lab-203
+Building_B_Lab,2026-11-06,13:00,16:00,CS315,Systems Lab,20,Lab-203
+Building_C_Lecture,2026-11-06,10:00,12:00,AI105,AI Foundations,65,Hall-201
+Building_E_Lecture,2026-11-06,15:00,18:00,ME305,Fluid Mechanics,50,Hall-301
+Building_A_Lecture,2026-11-09,09:00,12:00,MATH301,Linear Algebra,54,Hall-105
+Building_B_Lab,2026-11-09,13:00,16:00,PHY220,Physics Lab,13,Lab-201
+Building_B_Lab,2026-11-09,13:00,17:00,PHY220,Physics Lab,16,Lab-205
+Building_C_Lecture,2026-11-09,13:00,15:00,AI105,AI Foundations,72,Hall-202
+Building_D_Lab,2026-11-09,08:00,11:00,ROB301,Robotics Lab,17,Lab-301
+Building_E_Lecture,2026-11-09,08:00,10:00,CS220,Operating Systems,62,Hall-301
+Building_A_Lecture,2026-11-10,08:00,10:00,ENG105,Technical Writing,24,Hall-102
+Building_A_Lecture,2026-11-10,10:00,13:00,AI201,Artificial Intelligence,61,Hall-103
+Building_B_Lab,2026-11-10,13:00,16:00,CHEM301,Organic Chem Lab,19,Lab-205
+Building_C_Lecture,2026-11-10,08:00,10:00,NET210,Computer Networks,59,Hall-202
+Building_C_Lecture,2026-11-10,10:00,12:00,NET210,Computer Networks,71,Hall-204
+Building_E_Lecture,2026-11-10,15:00,18:00,DS310,Applied Data Science,69,Hall-303
+Building_A_Lecture,2026-11-11,08:00,10:00,DS202,Data Science,40,Hall-100
+Building_B_Lab,2026-11-11,09:00,12:00,BIO210,Biology Lab,20,Lab-201
+Building_B_Lab,2026-11-11,13:00,17:00,EE310,Electronics Lab,20,Lab-201
+Building_C_Lecture,2026-11-11,15:00,18:00,NET210,Computer Networks,58,Hall-203
+Building_D_Lab,2026-11-11,15:00,18:00,DS330,Data Analytics Lab,18,Lab-302
+Building_E_Lecture,2026-11-11,09:00,12:00,ME305,Fluid Mechanics,53,Hall-302
+Building_B_Lab,2026-11-12,08:00,11:00,PHY220,Physics Lab,18,Lab-204
+Building_B_Lab,2026-11-12,09:00,12:00,CHEM301,Organic Chem Lab,18,Lab-201
+Building_C_Lecture,2026-11-12,11:00,14:00,NET210,Computer Networks,63,Hall-204
+Building_D_Lab,2026-11-12,08:00,11:00,ML320,Machine Learning Lab,20,Lab-301
+Building_D_Lab,2026-11-12,13:00,16:00,DS330,Data Analytics Lab,23,Lab-303
+Building_E_Lecture,2026-11-12,08:00,10:00,ME305,Fluid Mechanics,59,Hall-302
+Building_E_Lecture,2026-11-12,13:00,15:00,CE210,Structural Engineering,41,Hall-304
+Building_A_Lecture,2026-11-13,08:00,10:00,CHEM102,General Chem,28,Hall-104
+Building_A_Lecture,2026-11-13,09:00,12:00,CHEM102,General Chem,22,Hall-103
+Building_B_Lab,2026-11-13,13:00,16:00,CHEM301,Organic Chem Lab,14,Lab-205
+Building_C_Lecture,2026-11-13,13:00,15:00,HUM110,Humanities,46,Hall-203
+Building_D_Lab,2026-11-13,13:00,16:00,DS330,Data Analytics Lab,21,Lab-302
+Building_E_Lecture,2026-11-13,08:00,10:00,DS310,Applied Data Science,67,Hall-303
+Building_E_Lecture,2026-11-13,15:00,18:00,CS220,Operating Systems,80,Hall-302
+Building_E_Lecture,2026-11-13,15:00,18:00,CS220,Operating Systems,73,Hall-305
+Building_A_Lecture,2026-11-16,10:00,13:00,AI201,Artificial Intelligence,50,Hall-101
+Building_A_Lecture,2026-11-16,15:00,18:00,MATH301,Linear Algebra,61,Hall-104
+Building_B_Lab,2026-11-16,13:00,16:00,EE310,Electronics Lab,22,Lab-205
+Building_C_Lecture,2026-11-16,11:00,14:00,AI105,AI Foundations,91,Hall-202
+Building_D_Lab,2026-11-16,13:00,16:00,MAT315,Materials Lab,12,Lab-303
+Building_D_Lab,2026-11-16,14:00,17:00,IOT305,IoT Lab,18,Lab-304
+Building_E_Lecture,2026-11-16,10:00,13:00,ME201,Thermodynamics,43,Hall-303
+Building_B_Lab,2026-11-17,08:00,11:00,CS315,Systems Lab,23,Lab-202
+Building_C_Lecture,2026-11-17,15:00,18:00,DB205,Database Systems,63,Hall-203
+Building_C_Lecture,2026-11-17,15:00,18:00,NET210,Computer Networks,74,Hall-203
+Building_D_Lab,2026-11-17,08:00,11:00,DS330,Data Analytics Lab,21,Lab-304
+Building_D_Lab,2026-11-17,09:00,12:00,DS330,Data Analytics Lab,24,Lab-301
+Building_D_Lab,2026-11-17,15:00,18:00,DS330,Data Analytics Lab,19,Lab-301
+Building_E_Lecture,2026-11-17,09:00,12:00,AI310,Machine Learning,64,Hall-301
+Building_A_Lecture,2026-11-18,10:00,13:00,PHYS201,General Physics,37,Hall-105
+Building_A_Lecture,2026-11-18,14:00,17:00,EE204,Signals and Systems,47,Hall-104
+Building_B_Lab,2026-11-18,08:00,11:00,CS315,Systems Lab,29,Lab-204
+Building_B_Lab,2026-11-18,13:00,17:00,CHEM301,Organic Chem Lab,14,Lab-205
+Building_D_Lab,2026-11-18,08:00,11:00,IOT305,IoT Lab,16,Lab-301
+Building_D_Lab,2026-11-18,08:00,11:00,ML320,Machine Learning Lab,23,Lab-302
+Building_E_Lecture,2026-11-18,15:00,18:00,CS220,Operating Systems,76,Hall-303
+Building_A_Lecture,2026-11-19,14:00,17:00,DS202,Data Science,56,Hall-102
+Building_B_Lab,2026-11-19,09:00,12:00,PHY220,Physics Lab,17,Lab-202
+Building_B_Lab,2026-11-19,13:00,16:00,EE310,Electronics Lab,21,Lab-201
+Building_B_Lab,2026-11-19,13:00,16:00,CHEM301,Organic Chem Lab,18,Lab-205
+Building_C_Lecture,2026-11-19,10:00,12:00,ECON101,Microeconomics,56,Hall-203
+Building_D_Lab,2026-11-19,13:00,16:00,MAT315,Materials Lab,15,Lab-301
+Building_D_Lab,2026-11-19,14:00,17:00,ML320,Machine Learning Lab,24,Lab-302
+Building_E_Lecture,2026-11-19,10:00,13:00,DS310,Applied Data Science,53,Hall-303
+Building_E_Lecture,2026-11-19,13:00,15:00,AI310,Machine Learning,89,Hall-303
+Building_B_Lab,2026-11-20,13:00,17:00,CS315,Systems Lab,25,Lab-201
+Building_B_Lab,2026-11-20,14:00,18:00,EE310,Electronics Lab,22,Lab-203
+Building_C_Lecture,2026-11-20,10:00,12:00,NET210,Computer Networks,55,Hall-202
+Building_C_Lecture,2026-11-20,15:00,18:00,STAT201,Statistics,57,Hall-203
+Building_D_Lab,2026-11-20,08:00,11:00,ROB301,Robotics Lab,17,Lab-301
+Building_D_Lab,2026-11-20,08:00,11:00,ML320,Machine Learning Lab,21,Lab-304
+Building_A_Lecture,2026-11-23,10:00,13:00,MATH301,Linear Algebra,52,Hall-100
+Building_B_Lab,2026-11-23,13:00,16:00,PHY220,Physics Lab,13,Lab-205
+Building_C_Lecture,2026-11-23,10:00,12:00,ECON101,Microeconomics,70,Hall-201
+Building_C_Lecture,2026-11-23,10:00,12:00,NET210,Computer Networks,67,Hall-202
+Building_C_Lecture,2026-11-23,15:00,18:00,ECON101,Microeconomics,71,Hall-202
+Building_D_Lab,2026-11-23,13:00,16:00,MAT315,Materials Lab,14,Lab-303
+Building_D_Lab,2026-11-23,14:00,17:00,DS330,Data Analytics Lab,23,Lab-303
+Building_E_Lecture,2026-11-23,09:00,12:00,AI310,Machine Learning,78,Hall-304
+Building_A_Lecture,2026-11-24,09:00,12:00,EE204,Signals and Systems,40,Hall-100
+Building_A_Lecture,2026-11-24,13:00,15:00,DS202,Data Science,53,Hall-101
+Building_A_Lecture,2026-11-24,15:00,18:00,ENG105,Technical Writing,21,Hall-101
+Building_D_Lab,2026-11-24,14:00,17:00,MAT315,Materials Lab,13,Lab-304
+Building_E_Lecture,2026-11-24,09:00,12:00,ME305,Fluid Mechanics,47,Hall-301
+Building_E_Lecture,2026-11-24,10:00,13:00,AI310,Machine Learning,88,Hall-301
+Building_E_Lecture,2026-11-24,10:00,13:00,DS310,Applied Data Science,76,Hall-303
+Building_A_Lecture,2026-11-25,09:00,12:00,EE204,Signals and Systems,40,Hall-101
+Building_A_Lecture,2026-11-25,10:00,13:00,CHEM102,General Chem,26,Hall-100
+Building_A_Lecture,2026-11-25,15:00,18:00,MATH301,Linear Algebra,42,Hall-102
+Building_B_Lab,2026-11-25,09:00,12:00,BIO210,Biology Lab,22,Lab-202
+Building_B_Lab,2026-11-25,09:00,12:00,BIO210,Biology Lab,24,Lab-203
+Building_C_Lecture,2026-11-25,13:00,15:00,HUM110,Humanities,37,Hall-201
+Building_D_Lab,2026-11-25,15:00,18:00,DS330,Data Analytics Lab,21,Lab-303
+Building_E_Lecture,2026-11-25,09:00,12:00,CS220,Operating Systems,80,Hall-304
+Building_E_Lecture,2026-11-25,15:00,18:00,DS310,Applied Data Science,57,Hall-304
+Building_A_Lecture,2026-11-26,08:00,10:00,DS202,Data Science,50,Hall-105
+Building_B_Lab,2026-11-26,09:00,12:00,PHY220,Physics Lab,14,Lab-203
+Building_B_Lab,2026-11-26,13:00,16:00,CS315,Systems Lab,27,Lab-201
+Building_B_Lab,2026-11-26,13:00,16:00,PHY220,Physics Lab,13,Lab-203
+Building_C_Lecture,2026-11-26,08:00,10:00,STAT201,Statistics,50,Hall-204
+Building_D_Lab,2026-11-26,15:00,18:00,IOT305,IoT Lab,15,Lab-302
+Building_D_Lab,2026-11-26,15:00,18:00,ML320,Machine Learning Lab,19,Lab-303
+Building_E_Lecture,2026-11-26,15:00,18:00,ME201,Thermodynamics,47,Hall-303
+Building_A_Lecture,2026-11-27,14:00,17:00,EE204,Signals and Systems,39,Hall-103
+Building_D_Lab,2026-11-27,09:00,12:00,IOT305,IoT Lab,16,Lab-304
+Building_D_Lab,2026-11-27,14:00,17:00,ML320,Machine Learning Lab,23,Lab-301
+Building_E_Lecture,2026-11-27,08:00,10:00,AI310,Machine Learning,76,Hall-301
+Building_E_Lecture,2026-11-27,08:00,10:00,AI310,Machine Learning,69,Hall-303
+Building_E_Lecture,2026-11-27,10:00,13:00,CE210,Structural Engineering,36,Hall-302
+Building_C_Lecture,2026-11-28,10:00,12:00,AI105,AI Foundations,80,Hall-203
+Building_D_Lab,2026-11-28,08:00,11:00,ML320,Machine Learning Lab,20,Lab-304
+Building_E_Lecture,2026-11-28,09:00,12:00,CE210,Structural Engineering,35,Hall-303
+Building_A_Lecture,2026-11-30,14:00,17:00,EE204,Signals and Systems,45,Hall-100
+Building_B_Lab,2026-11-30,14:00,18:00,EE310,Electronics Lab,17,Lab-203
+Building_E_Lecture,2026-11-30,10:00,13:00,AI310,Machine Learning,78,Hall-305
+Building_E_Lecture,2026-11-30,15:00,18:00,ME201,Thermodynamics,48,Hall-304
+Building_A_Lecture,2026-12-01,14:00,17:00,DS202,Data Science,43,Hall-105
+Building_A_Lecture,2026-12-01,15:00,18:00,CS101,Intro to CS,116,Hall-104
+Building_B_Lab,2026-12-01,13:00,17:00,PHY220,Physics Lab,19,Lab-205
+Building_D_Lab,2026-12-01,08:00,11:00,ROB301,Robotics Lab,14,Lab-301
+Building_D_Lab,2026-12-01,09:00,12:00,ROB301,Robotics Lab,16,Lab-304
+Building_D_Lab,2026-12-01,14:00,17:00,DS330,Data Analytics Lab,20,Lab-303
+Building_E_Lecture,2026-12-01,09:00,12:00,DS310,Applied Data Science,66,Hall-301
+Building_E_Lecture,2026-12-01,15:00,18:00,DS310,Applied Data Science,58,Hall-304
+Building_A_Lecture,2026-12-02,08:00,10:00,EE204,Signals and Systems,37,Hall-102
+Building_A_Lecture,2026-12-02,09:00,12:00,PHYS201,General Physics,34,Hall-105
+Building_A_Lecture,2026-12-02,10:00,13:00,CHEM102,General Chem,24,Hall-102
+Building_D_Lab,2026-12-02,09:00,12:00,IOT305,IoT Lab,21,Lab-303
+Building_D_Lab,2026-12-02,15:00,18:00,DS330,Data Analytics Lab,26,Lab-303
+Building_E_Lecture,2026-12-02,13:00,15:00,ME201,Thermodynamics,57,Hall-305
+Building_A_Lecture,2026-12-03,13:00,15:00,PHYS201,General Physics,46,Hall-102
+Building_A_Lecture,2026-12-03,14:00,17:00,EE204,Signals and Systems,37,Hall-101
+Building_B_Lab,2026-12-03,13:00,17:00,EE310,Electronics Lab,16,Lab-202
+Building_C_Lecture,2026-12-03,13:00,15:00,STAT201,Statistics,46,Hall-202
+Building_D_Lab,2026-12-03,09:00,12:00,ROB301,Robotics Lab,14,Lab-302
+Building_E_Lecture,2026-12-03,08:00,10:00,ME201,Thermodynamics,51,Hall-301
+Building_A_Lecture,2026-12-04,15:00,18:00,CS101,Intro to CS,108,Hall-105
+Building_B_Lab,2026-12-04,09:00,12:00,CS315,Systems Lab,22,Lab-203
+Building_D_Lab,2026-12-04,14:00,17:00,ROB301,Robotics Lab,13,Lab-303
+Building_E_Lecture,2026-12-04,08:00,10:00,CE210,Structural Engineering,46,Hall-305
+Building_A_Lecture,2026-12-07,09:00,12:00,PHYS201,General Physics,42,Hall-102
+Building_C_Lecture,2026-12-07,10:00,12:00,AI105,AI Foundations,75,Hall-202
+Building_C_Lecture,2026-12-07,11:00,14:00,ECON101,Microeconomics,68,Hall-201
+Building_C_Lecture,2026-12-07,11:00,14:00,HUM110,Humanities,43,Hall-203
+Building_D_Lab,2026-12-07,09:00,12:00,MAT315,Materials Lab,15,Lab-301
+Building_D_Lab,2026-12-07,13:00,16:00,DS330,Data Analytics Lab,22,Lab-301
+Building_E_Lecture,2026-12-07,09:00,12:00,ME201,Thermodynamics,50,Hall-302
+Building_E_Lecture,2026-12-07,09:00,12:00,DS310,Applied Data Science,67,Hall-303
+Building_A_Lecture,2026-12-08,08:00,10:00,AI201,Artificial Intelligence,49,Hall-102
+Building_D_Lab,2026-12-08,13:00,16:00,MAT315,Materials Lab,16,Lab-301
+Building_D_Lab,2026-12-08,15:00,18:00,IOT305,IoT Lab,18,Lab-302
+Building_E_Lecture,2026-12-08,13:00,15:00,ME201,Thermodynamics,41,Hall-303
+Building_A_Lecture,2026-12-09,14:00,17:00,AI201,Artificial Intelligence,58,Hall-101
+Building_B_Lab,2026-12-09,14:00,18:00,PHY220,Physics Lab,18,Lab-203
+Building_D_Lab,2026-12-09,09:00,12:00,DS330,Data Analytics Lab,21,Lab-302
+Building_E_Lecture,2026-12-09,13:00,15:00,ME305,Fluid Mechanics,65,Hall-303
+Building_B_Lab,2026-12-10,13:00,16:00,CHEM301,Organic Chem Lab,20,Lab-201
+Building_B_Lab,2026-12-10,13:00,17:00,PHY220,Physics Lab,16,Lab-204
+Building_C_Lecture,2026-12-10,11:00,14:00,HUM110,Humanities,42,Hall-202
+Building_D_Lab,2026-12-10,13:00,16:00,IOT305,IoT Lab,15,Lab-301
+Building_A_Lecture,2026-12-11,13:00,15:00,EE204,Signals and Systems,36,Hall-104
+Building_B_Lab,2026-12-11,08:00,11:00,PHY220,Physics Lab,19,Lab-202
+Building_B_Lab,2026-12-11,09:00,12:00,BIO210,Biology Lab,23,Lab-203
+Building_D_Lab,2026-12-11,08:00,11:00,ROB301,Robotics Lab,19,Lab-301
+Building_D_Lab,2026-12-11,13:00,16:00,DS330,Data Analytics Lab,22,Lab-303
+Building_E_Lecture,2026-12-11,10:00,13:00,ME201,Thermodynamics,40,Hall-304
+Building_C_Lecture,2026-12-14,10:00,12:00,STAT201,Statistics,56,Hall-202
+Building_E_Lecture,2026-12-14,08:00,10:00,ME201,Thermodynamics,39,Hall-302
+Building_E_Lecture,2026-12-14,10:00,13:00,ME305,Fluid Mechanics,53,Hall-304
+Building_A_Lecture,2026-12-15,08:00,10:00,MATH301,Linear Algebra,49,Hall-103
+Building_A_Lecture,2026-12-15,14:00,17:00,EE204,Signals and Systems,39,Hall-105
+Building_C_Lecture,2026-12-15,08:00,10:00,AI105,AI Foundations,81,Hall-201
+Building_C_Lecture,2026-12-15,10:00,12:00,ECON101,Microeconomics,82,Hall-204
+Building_E_Lecture,2026-12-15,08:00,10:00,CE210,Structural Engineering,39,Hall-304
+Building_E_Lecture,2026-12-15,09:00,12:00,AI310,Machine Learning,93,Hall-304
+Building_A_Lecture,2026-12-16,13:00,15:00,EE204,Signals and Systems,41,Hall-102
+Building_A_Lecture,2026-12-16,13:00,15:00,AI201,Artificial Intelligence,61,Hall-103
+Building_B_Lab,2026-12-16,13:00,17:00,EE310,Electronics Lab,16,Lab-202
+Building_C_Lecture,2026-12-16,15:00,18:00,AI105,AI Foundations,89,Hall-202
+Building_C_Lecture,2026-12-16,15:00,18:00,HUM110,Humanities,34,Hall-203
+Building_D_Lab,2026-12-16,09:00,12:00,IOT305,IoT Lab,16,Lab-301
+Building_D_Lab,2026-12-16,09:00,12:00,ML320,Machine Learning Lab,25,Lab-301
+Building_E_Lecture,2026-12-16,08:00,10:00,AI310,Machine Learning,77,Hall-301
+Building_E_Lecture,2026-12-16,08:00,10:00,CE210,Structural Engineering,42,Hall-302
+Building_A_Lecture,2026-12-17,10:00,13:00,DS202,Data Science,52,Hall-102
+Building_A_Lecture,2026-12-17,15:00,18:00,DS202,Data Science,50,Hall-100
+Building_B_Lab,2026-12-17,13:00,17:00,PHY220,Physics Lab,13,Lab-205
+Building_B_Lab,2026-12-17,13:00,17:00,EE310,Electronics Lab,17,Lab-205
+Building_D_Lab,2026-12-17,08:00,11:00,ROB301,Robotics Lab,15,Lab-304
+Building_D_Lab,2026-12-17,13:00,16:00,ML320,Machine Learning Lab,23,Lab-302
+Building_E_Lecture,2026-12-17,09:00,12:00,ME305,Fluid Mechanics,67,Hall-303
+Building_A_Lecture,2026-12-18,13:00,15:00,PHYS201,General Physics,33,Hall-103
+Building_B_Lab,2026-12-18,13:00,16:00,CS315,Systems Lab,22,Lab-203
+Building_E_Lecture,2026-12-18,13:00,15:00,AI310,Machine Learning,79,Hall-305
+Building_A_Lecture,2026-12-21,15:00,18:00,CS101,Intro to CS,97,Hall-102
+Building_B_Lab,2026-12-21,13:00,16:00,CS315,Systems Lab,25,Lab-204
+Building_C_Lecture,2026-12-21,08:00,10:00,HUM110,Humanities,40,Hall-201
+Building_C_Lecture,2026-12-21,08:00,10:00,NET210,Computer Networks,73,Hall-204
+Building_D_Lab,2026-12-21,13:00,16:00,ROB301,Robotics Lab,16,Lab-302
+Building_D_Lab,2026-12-21,14:00,17:00,ML320,Machine Learning Lab,17,Lab-301
+Building_A_Lecture,2026-12-22,10:00,13:00,CS101,Intro to CS,104,Hall-101
+Building_A_Lecture,2026-12-22,10:00,13:00,AI201,Artificial Intelligence,49,Hall-103
+Building_D_Lab,2026-12-22,13:00,16:00,ML320,Machine Learning Lab,21,Lab-303
+Building_D_Lab,2026-12-22,15:00,18:00,MAT315,Materials Lab,17,Lab-301
+Building_E_Lecture,2026-12-22,10:00,13:00,ME305,Fluid Mechanics,68,Hall-304
+Building_A_Lecture,2026-12-23,14:00,17:00,ENG105,Technical Writing,25,Hall-105
+Building_B_Lab,2026-12-23,08:00,11:00,CS315,Systems Lab,20,Lab-201
+Building_D_Lab,2026-12-23,08:00,11:00,IOT305,IoT Lab,15,Lab-301
+Building_E_Lecture,2026-12-23,08:00,10:00,CS220,Operating Systems,82,Hall-301
+Building_E_Lecture,2026-12-23,10:00,13:00,ME305,Fluid Mechanics,61,Hall-304
+Building_E_Lecture,2026-12-23,13:00,15:00,CE210,Structural Engineering,36,Hall-301
+Building_A_Lecture,2026-12-24,09:00,12:00,CHEM102,General Chem,22,Hall-100
+Building_B_Lab,2026-12-24,13:00,16:00,PHY220,Physics Lab,17,Lab-201
+Building_C_Lecture,2026-12-24,13:00,15:00,HUM110,Humanities,32,Hall-201
+Building_D_Lab,2026-12-24,09:00,12:00,DS330,Data Analytics Lab,20,Lab-301
+Building_D_Lab,2026-12-24,13:00,16:00,MAT315,Materials Lab,12,Lab-303
+Building_D_Lab,2026-12-24,14:00,17:00,MAT315,Materials Lab,13,Lab-303
+Building_E_Lecture,2026-12-24,09:00,12:00,AI310,Machine Learning,68,Hall-304
+Building_A_Lecture,2026-12-25,13:00,15:00,AI201,Artificial Intelligence,68,Hall-103
+Building_A_Lecture,2026-12-25,15:00,18:00,DS202,Data Science,48,Hall-100
+Building_B_Lab,2026-12-25,09:00,12:00,BIO210,Biology Lab,18,Lab-201
+Building_C_Lecture,2026-12-25,15:00,18:00,ECON101,Microeconomics,60,Hall-202
+Building_D_Lab,2026-12-25,08:00,11:00,DS330,Data Analytics Lab,21,Lab-304
+Building_A_Lecture,2026-12-28,13:00,15:00,DS202,Data Science,58,Hall-100
+Building_A_Lecture,2026-12-28,14:00,17:00,DS202,Data Science,39,Hall-100
+Building_C_Lecture,2026-12-28,08:00,10:00,STAT201,Statistics,48,Hall-203
+Building_C_Lecture,2026-12-28,08:00,10:00,NET210,Computer Networks,76,Hall-204
+Building_C_Lecture,2026-12-28,11:00,14:00,DB205,Database Systems,58,Hall-204
+Building_D_Lab,2026-12-28,15:00,18:00,ML320,Machine Learning Lab,22,Lab-303
+Building_E_Lecture,2026-12-28,08:00,10:00,AI310,Machine Learning,89,Hall-303
+Building_B_Lab,2026-12-29,09:00,12:00,EE310,Electronics Lab,16,Lab-201
+Building_D_Lab,2026-12-29,09:00,12:00,ML320,Machine Learning Lab,17,Lab-304
+Building_D_Lab,2026-12-29,15:00,18:00,DS330,Data Analytics Lab,27,Lab-303
+Building_E_Lecture,2026-12-29,10:00,13:00,AI310,Machine Learning,69,Hall-301
+Building_E_Lecture,2026-12-29,10:00,13:00,AI310,Machine Learning,82,Hall-305
+Building_A_Lecture,2026-12-30,10:00,13:00,DS202,Data Science,40,Hall-101
+Building_A_Lecture,2026-12-30,13:00,15:00,CHEM102,General Chem,29,Hall-100
+Building_A_Lecture,2026-12-30,15:00,18:00,AI201,Artificial Intelligence,51,Hall-105
+Building_B_Lab,2026-12-30,08:00,11:00,PHY220,Physics Lab,13,Lab-205
+Building_B_Lab,2026-12-30,09:00,12:00,CHEM301,Organic Chem Lab,18,Lab-205
+Building_C_Lecture,2026-12-30,08:00,10:00,DB205,Database Systems,55,Hall-203
+Building_D_Lab,2026-12-30,13:00,16:00,MAT315,Materials Lab,16,Lab-303
+Building_D_Lab,2026-12-30,14:00,17:00,ML320,Machine Learning Lab,23,Lab-304
+Building_E_Lecture,2026-12-30,08:00,10:00,CS220,Operating Systems,86,Hall-301
+Building_E_Lecture,2026-12-30,10:00,13:00,CE210,Structural Engineering,46,Hall-305
+Building_A_Lecture,2026-12-31,14:00,17:00,DS202,Data Science,45,Hall-105
+Building_B_Lab,2026-12-31,13:00,16:00,EE310,Electronics Lab,17,Lab-204
+Building_B_Lab,2026-12-31,13:00,17:00,PHY220,Physics Lab,19,Lab-205
+Building_D_Lab,2026-12-31,13:00,16:00,DS330,Data Analytics Lab,24,Lab-301

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import {
   CheckCircle2,
@@ -21,10 +21,39 @@ export default function SettingsPage() {
   const [savedMsg, setSavedMsg] = useState<string | null>(null);
   const [resetting, setResetting] = useState(false);
 
-  const handleSave = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSavedMsg('System configuration parameters saved.');
-    setTimeout(() => setSavedMsg(null), 3000);
+  const [activePrompt, setActivePrompt] = useState('v2.1.0-grounded-safety');
+
+  useEffect(() => {
+    fetch('/api/settings')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.errorTolerance) setErrorTolerance(String(data.errorTolerance));
+        if (data.powerFactor) setPowerFactor(String(data.powerFactor));
+        if (data.anomalyThreshold) setAnomalyThreshold(String(data.anomalyThreshold));
+        if (data.activePrompt) setActivePrompt(data.activePrompt);
+      })
+      .catch((e) => console.error(e));
+  }, []);
+
+  const handleSaveSettings = async () => {
+    try {
+      const res = await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          errorTolerance: Number(errorTolerance),
+          powerFactor: Number(powerFactor),
+          anomalyThreshold: Number(anomalyThreshold),
+          activePrompt
+        }),
+      });
+      if (res.ok) {
+        setSavedMsg('Settings saved successfully.');
+        setTimeout(() => setSavedMsg(null), 3000);
+      }
+    } catch (e: any) {
+      alert(e.message);
+    }
   };
 
   const handleResetData = async () => {
@@ -33,10 +62,10 @@ export default function SettingsPage() {
       const res = await fetch('/api/scenarios/reset', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ seed: parseInt(seed, 10) || 42 }),
+        body: JSON.stringify({}),
       });
       if (res.ok) {
-        setSavedMsg(`Database successfully re-seeded with seed ${seed}. All 4 hackathon demo scenarios are active.`);
+        setSavedMsg(`Database successfully re-imported from CSV datasets.`);
         setTimeout(() => setSavedMsg(null), 4000);
       }
     } catch (e: any) {
@@ -72,7 +101,12 @@ export default function SettingsPage() {
           </div>
         )}
 
-        <form onSubmit={handleSave} className="space-y-6">
+        <div className="rounded-xl border border-blue-300 bg-blue-50 p-4 text-xs font-semibold text-blue-900 flex items-center gap-2">
+          <Shield className="h-4 w-4 text-blue-600" />
+          <span>System settings are unlocked. You can now modify the physics and anomaly configurations.</span>
+        </div>
+
+        <div className="space-y-6">
           {/* Physics Validation Thresholds */}
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-4">
             <div className="flex items-center gap-2 border-b border-slate-100 pb-3">
@@ -91,7 +125,7 @@ export default function SettingsPage() {
                   type="number"
                   value={errorTolerance}
                   onChange={(e) => setErrorTolerance(e.target.value)}
-                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900"
+                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900 bg-white focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                 />
                 <span className="text-[11px] text-slate-400 mt-1 block">
                   Relative error |Reported - Expected| / Expected &gt; 15% triggers safety quarantine.
@@ -107,7 +141,7 @@ export default function SettingsPage() {
                   step="0.01"
                   value={powerFactor}
                   onChange={(e) => setPowerFactor(e.target.value)}
-                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900"
+                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900 bg-white focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                 />
                 <span className="text-[11px] text-slate-400 mt-1 block">
                   Used when power factor is not telemetry-supplied on legacy branch submeters.
@@ -135,7 +169,7 @@ export default function SettingsPage() {
                   step="0.05"
                   value={anomalyThreshold}
                   onChange={(e) => setAnomalyThreshold(e.target.value)}
-                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900"
+                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900 bg-white focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                 />
                 <span className="text-[11px] text-slate-400 mt-1 block">
                   Scores &gt; 0.65 are dispatched to context retrieval and LLM triage.
@@ -148,9 +182,9 @@ export default function SettingsPage() {
                 </label>
                 <input
                   type="text"
-                  readOnly
-                  value="v2.1.0-grounded-safety"
-                  className="w-full p-2 rounded-lg border border-slate-200 bg-slate-50 font-mono text-slate-600"
+                  value={activePrompt}
+                  onChange={(e) => setActivePrompt(e.target.value)}
+                  className="w-full p-2 rounded-lg border border-slate-200 bg-white font-mono text-slate-900 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                 />
                 <span className="text-[11px] text-slate-400 mt-1 block">
                   Enforces evidence grounding, zero hallucination, and UNSURE fallback.
@@ -159,29 +193,17 @@ export default function SettingsPage() {
             </div>
           </div>
 
-          {/* Synthetic Data Management */}
+          {/* Data Management */}
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-4">
             <div className="flex items-center gap-2 border-b border-slate-100 pb-3">
               <Database className="h-4 w-4 text-slate-700" />
               <h2 className="text-base font-semibold text-slate-900">
-                Deterministic Synthetic Data Generator
+                Database Import Configuration
               </h2>
             </div>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 text-xs">
-              <div className="w-full sm:w-48">
-                <label className="block font-medium text-slate-700 mb-1">
-                  Random Seed:
-                </label>
-                <input
-                  type="number"
-                  value={seed}
-                  onChange={(e) => setSeed(e.target.value)}
-                  className="w-full p-2 rounded-lg border border-slate-200 font-mono text-slate-900"
-                />
-              </div>
-
-              <div className="pt-4 sm:pt-5 w-full sm:w-auto">
+              <div className="pt-2 sm:pt-2 w-full sm:w-auto">
                 <button
                   type="button"
                   onClick={handleResetData}
@@ -189,25 +211,26 @@ export default function SettingsPage() {
                   className="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-slate-950 hover:bg-slate-800 rounded-lg shadow-xs transition-colors"
                 >
                   <RotateCcw className={`h-3.5 w-3.5 ${resetting ? 'animate-spin' : ''}`} />
-                  <span>{resetting ? 'Re-seeding...' : 'Re-seed Synthetic Dataset'}</span>
+                  <span>{resetting ? 'Importing Datasets...' : 'Re-import CSV Datasets'}</span>
                 </button>
               </div>
             </div>
             <p className="text-[11px] text-slate-400">
-              Re-generates all 5 campus facilities, baseline readings, and the 4 challenge scenarios (telemetry fault, approved lab, energy waste, unsure).
+              Re-parses the 4 raw CSV files (schedules, equipment status, maintenance notes, meter readings) and overwrites the local database instance.
             </p>
           </div>
 
           <div className="flex justify-end gap-3">
             <button
-              type="submit"
-              className="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-emerald-700 hover:bg-emerald-800 rounded-lg shadow-xs transition-colors"
+              onClick={handleSaveSettings}
+              title="Save Configuration"
+              className="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-xs transition-colors"
             >
               <Save className="h-3.5 w-3.5" />
               <span>Save Configuration</span>
             </button>
           </div>
-        </form>
+        </div>
       </main>
     </div>
   );

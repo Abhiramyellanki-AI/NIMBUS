@@ -1,25 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { resetDatabase } from '@/lib/db/store';
+import { execSync } from 'child_process';
+import path from 'path';
+import { clearCache } from '@/lib/db/store';
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json().catch(() => ({}));
-    const seed = body.seed ? Number(body.seed) : 42;
-    const db = resetDatabase(seed);
+    const scriptPath = path.join(process.cwd(), 'scripts', 'import_datasets.py');
+    console.log("Running", scriptPath);
+    execSync(`python "${scriptPath}"`, { stdio: 'inherit' });
+    
+    const pipelinePath = path.join(process.cwd(), 'scripts', 'process_pipeline.py');
+    console.log("Running", pipelinePath);
+    execSync(`python "${pipelinePath}"`, { stdio: 'inherit' });
+    
+    // Clear the memory cache so the UI reads the newly imported database
+    clearCache();
+
     return NextResponse.json({
       success: true,
-      message: `Database re-seeded deterministically with seed ${seed}`,
-      seed,
-      anomalies_count: db.anomalies.length,
-      scenarios: [
-        { id: 'anomaly_scen_1_telemetry', type: 'SCENARIO_1_TELEMETRY', building: 'Equipment_Block' },
-        { id: 'anomaly_scen_2_authorized', type: 'SCENARIO_2_AUTHORIZED', building: 'Lab_A' },
-        { id: 'anomaly_scen_3_waste', type: 'SCENARIO_3_WASTE', building: 'Lecture_A' },
-        { id: 'anomaly_scen_4_unsure', type: 'SCENARIO_4_UNSURE', building: 'Lecture_B' },
-      ],
+      message: `Database re-imported from CSV datasets successfully.`
     });
   } catch (error: any) {
     console.error('Error in /api/scenarios/reset:', error);
-    return NextResponse.json({ error: error?.message || 'Failed to reset scenario database' }, { status: 500 });
+    return NextResponse.json({ error: error?.message || 'Failed to re-import datasets' }, { status: 500 });
   }
 }
